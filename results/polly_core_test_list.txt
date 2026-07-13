@@ -1,0 +1,706 @@
+﻿  Determinando os projetos a serem restaurados...
+  Todos os projetos est├úo atualizados para restaura├º├úo.
+  Polly.Core -> C:\Users\nns\flaky-csharp\repos\Polly\artifacts\bin\Polly.Core\debug_net8.0\Polly.Core.dll
+  Polly.TestUtils -> C:\Users\nns\flaky-csharp\repos\Polly\artifacts\bin\Polly.TestUtils\debug_net8.0\Polly.TestUtils.dll
+  Polly.Testing -> C:\Users\nns\flaky-csharp\repos\Polly\artifacts\bin\Polly.Testing\debug_net8.0\Polly.Testing.dll
+  Polly.Core.Tests -> C:\Users\nns\flaky-csharp\repos\Polly\artifacts\bin\Polly.Core.Tests\debug_net8.0\Polly.Core.Tests.dll
+Execu├º├úo de teste para C:\Users\nns\flaky-csharp\repos\Polly\artifacts\bin\Polly.Core.Tests\debug_net8.0\Polly.Core.Tests.dll (.NETCoreApp,Version=v8.0)
+Os Testes a seguir est├úo dispon├¡veis:
+    Polly.Tests.StrongNameTests.Tests_Are_Strong_Named
+    Polly.Core.Tests.ExecutionRejectedExceptionTests.Ctor_Ok
+    Polly.Core.Tests.GenericResiliencePipelineBuilderTests.Ctor_EnsureDefaults
+    Polly.Core.Tests.GenericResiliencePipelineBuilderTests.CopyCtor_Ok
+    Polly.Core.Tests.GenericResiliencePipelineBuilderTests.Properties_GetSet_Ok
+    Polly.Core.Tests.GenericResiliencePipelineBuilderTests.Build_Ok
+    Polly.Core.Tests.GenericResiliencePipelineBuilderTests.AddGenericStrategy_Ok
+    Polly.Core.Tests.GenericResiliencePipelineBuilderTests.AddStrategy_ExplicitInstance_Ok
+    Polly.Core.Tests.OutcomeTests.Ctor_Result_Ok
+    Polly.Core.Tests.OutcomeTests.Ctor_VoidResult_Ok
+    Polly.Core.Tests.OutcomeTests.Ctor_Exception_Ok
+    Polly.Core.Tests.OutcomeTests.ToString_NullResult_ShouldBeEmpty
+    Polly.Core.Tests.OutcomeTests.EnsureSuccess_Result
+    Polly.Core.Tests.OutcomeTests.EnsureSuccess_Exception
+    Polly.Core.Tests.OutcomeTests.FromException_Throws_If_Null
+    Polly.Core.Tests.OutcomeTests.FromExceptionAsValueTask_Throws_If_Null
+    Polly.Core.Tests.PredicateBuilderTests.Ctor_Ok
+    Polly.Core.Tests.PredicateBuilderTests.HandleResult_Ok
+    Polly.Core.Tests.PredicateBuilderTests.CreatePredicate_NotConfigured_Throws
+    Polly.Core.Tests.PredicateBuilderTests.Operator_RetryStrategyOptions_Ok
+    Polly.Core.Tests.PredicateBuilderTests.Operator_FallbackStrategyOptions_Ok
+    Polly.Core.Tests.PredicateBuilderTests.Operator_HedgingStrategyOptions_Ok
+    Polly.Core.Tests.PredicateBuilderTests.Operator_AdvancedCircuitBreakerStrategyOptions_Ok
+    Polly.Core.Tests.PredicateBuilderTests.Handle_Throws_If_Predicate_Null
+    Polly.Core.Tests.PredicateBuilderTests.HandleInner_Throws_If_Predicate_Null
+    Polly.Core.Tests.PredicateBuilderTests.Operators_Throw_If_Builder_Null
+    Polly.Core.Tests.PredicateResultTests.True_Ok
+    Polly.Core.Tests.PredicateResultTests.False_Ok
+    Polly.Core.Tests.ResilienceContextPoolTests.Shared_NotNull
+    Polly.Core.Tests.ResilienceContextPoolTests.Shared_SameInstance
+    Polly.Core.Tests.ResilienceContextPoolTests.Get_EnsureNotNull
+    Polly.Core.Tests.ResilienceContextPoolTests.Get_EnsureDefaults
+    Polly.Core.Tests.ResilienceContextPoolTests.Get_CancellationToken_Ok
+    Polly.Core.Tests.ResilienceContextPoolTests.Get_ContinueOnCapturedContextDefault_ShouldBeFalse
+    Polly.Core.Tests.ResilienceContextPoolTests.Get_ContinueOnCapturedContext_Ok
+    Polly.Core.Tests.ResilienceContextPoolTests.Get_OperationKeyContinueOnCapturedContext_Ok
+    Polly.Core.Tests.ResilienceContextPoolTests.Get_OperationKeyAndCancellationToken_Ok(key: null)
+    Polly.Core.Tests.ResilienceContextPoolTests.Get_OperationKeyAndCancellationToken_Ok(key: "")
+    Polly.Core.Tests.ResilienceContextPoolTests.Get_OperationKeyAndCancellationToken_Ok(key: "some-key")
+    Polly.Core.Tests.ResilienceContextPoolTests.Get_EnsurePooled
+    Polly.Core.Tests.ResilienceContextPoolTests.Return_Null_Throws
+    Polly.Core.Tests.ResilienceContextPoolTests.Return_EnsureDefaults
+    Polly.Core.Tests.ResilienceContextTests.Initialize_Typed_Ok(synchronous: True)
+    Polly.Core.Tests.ResilienceContextTests.Initialize_Typed_Ok(synchronous: False)
+    Polly.Core.Tests.ResilienceContextTests.Initialize_From_Ok(synchronous: True)
+    Polly.Core.Tests.ResilienceContextTests.Initialize_From_Ok(synchronous: False)
+    Polly.Core.Tests.ResilienceContextTests.Initialize_Void_Ok(synchronous: True)
+    Polly.Core.Tests.ResilienceContextTests.Initialize_Void_Ok(synchronous: False)
+    Polly.Core.Tests.ResiliencePipelineBuilderTests.Ctor_EnsureDefaults
+    Polly.Core.Tests.ResiliencePipelineBuilderTests.TimeProviderInternal_Ok
+    Polly.Core.Tests.ResiliencePipelineBuilderTests.CopyCtor_Ok
+    Polly.Core.Tests.ResiliencePipelineBuilderTests.CopyCtor_Reminder
+    Polly.Core.Tests.ResiliencePipelineBuilderTests.AddPipeline_Single_Ok
+    Polly.Core.Tests.ResiliencePipelineBuilderTests.AddPipeline_Multiple_Ok
+    Polly.Core.Tests.ResiliencePipelineBuilderTests.AddStrategy_ExplicitProactiveInstance_Ok
+    Polly.Core.Tests.ResiliencePipelineBuilderTests.AddStrategy_ExplicitReactiveInstance_Ok
+    Polly.Core.Tests.ResiliencePipelineBuilderTests.Validator_Ok
+    Polly.Core.Tests.ResiliencePipelineBuilderTests.AddPipeline_MultipleNonDelegating_Ok
+    Polly.Core.Tests.ResiliencePipelineBuilderTests.Build_Empty_ReturnsNullResiliencePipeline
+    Polly.Core.Tests.ResiliencePipelineBuilderTests.AddPipeline_AfterUsed_Throws
+    Polly.Core.Tests.ResiliencePipelineBuilderTests.Build_InvalidBuilderOptions_Throw
+    Polly.Core.Tests.ResiliencePipelineBuilderTests.AddPipeline_InvalidOptions_Throws
+    Polly.Core.Tests.ResiliencePipelineBuilderTests.AddPipeline_NullFactory_Throws
+    Polly.Core.Tests.ResiliencePipelineBuilderTests.AddPipeline_EnsureNotDisposed
+    Polly.Core.Tests.ResiliencePipelineBuilderTests.AddPipeline_Generic_EnsureNotDisposed
+    Polly.Core.Tests.ResiliencePipelineBuilderTests.AddPipeline_CombinePipelines_Ok
+    Polly.Core.Tests.ResiliencePipelineBuilderTests.Build_EnsureCorrectContext
+    Polly.Core.Tests.ResiliencePipelineBuilderTests.EmptyOptions_Ok
+    Polly.Core.Tests.ResiliencePipelineBuilderTests.ExecuteAsync_EnsureReceivedCallbackExecutesNextStrategy
+    Polly.Core.Tests.ResiliencePipelineTests.ExecuteAsync_Ok
+    Polly.Core.Tests.ResiliencePipelineTests.ExecuteAsync_EnsureCallStackPreserved
+    Polly.Core.Tests.ResiliencePipelineTests.ExecuteAsyncT_Ok
+    Polly.Core.Tests.ResiliencePipelineTests.ExecuteAsync_T_EnsureCallStackPreserved
+    Polly.Core.Tests.ResiliencePipelineTests.ExecuteOutcomeAsync_Ok
+    Polly.Core.Tests.ResiliencePipelineTests.DisposeAsync_NullPipeline_OK
+    Polly.Core.Tests.ResiliencePipelineTests.DisposeAsync_NullGenericPipeline_OK
+    Polly.Core.Tests.ResiliencePipelineTests.DisposeAsync_Reject_Throws
+    Polly.Core.Tests.ResiliencePipelineTests.DisposeAsync_Allowed_Disposed
+    Polly.Core.Tests.ResiliencePipelineTests.Null_Ok
+    Polly.Core.Tests.ResiliencePipelineTests.DebuggerProxy_Ok
+    Polly.Core.Tests.ResiliencePipelineTests.Pool_IsSharedPool
+    Polly.Core.Tests.ResiliencePipelineTests.Pool_IsPool
+    Polly.Core.Tests.ResiliencePipelineTests.Execute_Ok
+    Polly.Core.Tests.ResiliencePipelineTests.Execute_EnsureCallStackPreserved
+    Polly.Core.Tests.ResiliencePipelineTests.ExecuteT_Ok
+    Polly.Core.Tests.ResiliencePipelineTests.Execute_T_EnsureCallStackPreserved
+    Polly.Core.Tests.ResiliencePipelineTests.ExecuteAsync_GenericStrategy_Ok
+    Polly.Core.Tests.ResiliencePipelineTests.ExecuteOutcomeAsync_GenericStrategy_Ok
+    Polly.Core.Tests.ResiliencePipelineTests.Execute_GenericStrategy_Ok
+    Polly.Core.Tests.ResiliencePipelineTests.Execute_GenericStrategy_NullArgument_Throws
+    Polly.Core.Tests.ResiliencePipelineTests.ExecuteAsync_GenericStrategy_NullArgument_Throws
+    Polly.Core.Tests.ResiliencePipelineTests.Execute_Strategy_NullArgument_Throws
+    Polly.Core.Tests.ResiliencePipelineTests.ExecuteAsync_Strategy_NullArgument_Throws
+    Polly.Core.Tests.ResiliencePropertiesTests.TryGetValue_Ok
+    Polly.Core.Tests.ResiliencePropertiesTests.TryGetValue_ValueIsNull_Ok
+    Polly.Core.Tests.ResiliencePropertiesTests.TryGetValue_NotFound_Ok
+    Polly.Core.Tests.ResiliencePropertiesTests.GetValue_Ok
+    Polly.Core.Tests.ResiliencePropertiesTests.GetValue_ValueIsNull_Ok
+    Polly.Core.Tests.ResiliencePropertiesTests.GetValue_NotFound_EnsureDefault
+    Polly.Core.Tests.ResiliencePropertiesTests.TryGetValue_IncorrectType_NotFound
+    Polly.Core.Tests.ResiliencePropertiesTests.AddOrReplaceProperties_Ok(isRawDictionary: True)
+    Polly.Core.Tests.ResiliencePropertiesTests.AddOrReplaceProperties_Ok(isRawDictionary: False)
+    Polly.Core.Tests.ResiliencePropertyKeyTests.Ctor_Ok
+    Polly.Core.Tests.ResiliencePropertyKeyTests.Ctor_Null_Throws
+    Polly.Core.Tests.ResilienceStrategyOptionsTests.Ctor_EnsureDefaults
+    Polly.Core.Tests.ChaosStrategyConstantsTests.EnsureDefaults
+    Polly.Core.Tests.StrategyBuilderContextTests.Ctor_EnsureDefaults
+    Polly.Core.Tests.Utils.CancellationTokenSourcePoolTests.ArgValidation_Ok
+    Polly.Core.Tests.Utils.CancellationTokenSourcePoolTests.RentReturn_Reusable_EnsureProperBehavior
+    Polly.Core.Tests.Utils.CancellationTokenSourcePoolTests.RentReturn_NotReusable_EnsureProperBehavior
+    Polly.Core.Tests.Utils.CancellationTokenSourcePoolTests.Rent_Cancellable_EnsureCancelled
+    Polly.Core.Tests.Utils.CancellationTokenSourcePoolTests.Rent_NotCancellable_EnsureNotCancelled
+    Polly.Core.Tests.Utils.DisposeHelperTests.Dispose_Object_Ok(synchronous: True)
+    Polly.Core.Tests.Utils.DisposeHelperTests.Dispose_Object_Ok(synchronous: False)
+    Polly.Core.Tests.Utils.DisposeHelperTests.Dispose_Disposable_Ok(synchronous: True)
+    Polly.Core.Tests.Utils.DisposeHelperTests.Dispose_Disposable_Ok(synchronous: False)
+    Polly.Core.Tests.Utils.DisposeHelperTests.Dispose_AsyncDisposable_Ok(synchronous: True)
+    Polly.Core.Tests.Utils.DisposeHelperTests.Dispose_AsyncDisposable_Ok(synchronous: False)
+    Polly.Core.Tests.Utils.DisposeHelperTests.Dispose_DisposeThrows_ExceptionHandled(synchronous: True)
+    Polly.Core.Tests.Utils.DisposeHelperTests.Dispose_DisposeThrows_ExceptionHandled(synchronous: False)
+    Polly.Core.Tests.Utils.DisposeHelperTests.Dispose_EnsureCorrectOrder(synchronous: True)
+    Polly.Core.Tests.Utils.DisposeHelperTests.Dispose_EnsureCorrectOrder(synchronous: False)
+    Polly.Core.Tests.Utils.ExceptionUtilitiesTests.TrySetStackTrace_Ok
+    Polly.Core.Tests.Utils.ExceptionUtilitiesTests.TrySetStackTrace_AlreadySet_NotOverwritten
+    Polly.Core.Tests.Utils.LegacySupportTests.SetProperties_Ok
+    Polly.Core.Tests.Utils.LegacySupportTests.SetProperties_Throws_Arguments_Null
+    Polly.Core.Tests.Utils.ObjectPoolTests.GetAnd_ReturnObject_SameInstance
+    Polly.Core.Tests.Utils.ObjectPoolTests.MaxCapacity_Ok
+    Polly.Core.Tests.Utils.ObjectPoolTests.MaxCapacity_Respected
+    Polly.Core.Tests.Utils.ObjectPoolTests.MaxCapacityOverflow_Respected
+    Polly.Core.Tests.Utils.ObjectPoolTests.CreatedByPolicy
+    Polly.Core.Tests.Utils.ObjectPoolTests.Return_RejectedByPolicy
+    Polly.Core.Tests.Utils.OutcomeUtilitiesTests.WithCallerCancellation_CallerCancelled_DifferentToken_RewritesToCallerToken
+    Polly.Core.Tests.Utils.OutcomeUtilitiesTests.WithCallerCancellation_CallerCancelled_SameToken_ReturnsOriginal
+    Polly.Core.Tests.Utils.OutcomeUtilitiesTests.WithCallerCancellation_CallerCancelled_NonCancellationException_ReturnsOriginal
+    Polly.Core.Tests.Utils.OutcomeUtilitiesTests.WithCallerCancellation_CallerCancelled_SuccessOutcome_ReturnsOriginal
+    Polly.Core.Tests.Utils.OutcomeUtilitiesTests.WithCallerCancellation_CallerNotCancelled_ReturnsOriginal
+    Polly.Core.Tests.Utils.RandomUtilTests.NextDouble_Ok
+    Polly.Core.Tests.Utils.RandomUtilTests.Next_Ok
+    Polly.Core.Tests.Utils.TaskHelperTests.GetResult_ValueTaskT_Ok
+    Polly.Core.Tests.Utils.TimeProviderExtensionsTests.DelayAsync_System_Ok(synchronous: False, hasCancellation: False)
+    Polly.Core.Tests.Utils.TimeProviderExtensionsTests.DelayAsync_System_Ok(synchronous: False, hasCancellation: True)
+    Polly.Core.Tests.Utils.TimeProviderExtensionsTests.DelayAsync_System_Ok(synchronous: True, hasCancellation: False)
+    Polly.Core.Tests.Utils.TimeProviderExtensionsTests.DelayAsync_System_Ok(synchronous: True, hasCancellation: True)
+    Polly.Core.Tests.Utils.TimeProviderExtensionsTests.DelayAsync_SystemSynchronous_Ok
+    Polly.Core.Tests.Utils.TimeProviderExtensionsTests.DelayAsync_SystemSynchronousWhenCancelled_Ok
+    Polly.Core.Tests.Utils.TimeProviderExtensionsTests.DelayAsync_CancellationRequestedBefore_Throws(synchronous: False)
+    Polly.Core.Tests.Utils.TimeProviderExtensionsTests.DelayAsync_CancellationRequestedBefore_Throws(synchronous: True)
+    Polly.Core.Tests.Utils.TimeProviderExtensionsTests.DelayAsync_CancellationAfter_Throws(synchronous: False)
+    Polly.Core.Tests.Utils.TimeProviderExtensionsTests.DelayAsync_CancellationAfter_Throws(synchronous: True)
+    Polly.Core.Tests.Utils.TimeProviderExtensionsTests.DelayAsync_MaxTimeSpan_DoesNotThrow
+    Polly.Core.Tests.Utils.TypeNameFormatterTests.AsString_Ok
+    Polly.Core.Tests.Utils.ValidationHelperTests.GetMemberName_Ok
+    Polly.Core.Tests.Utils.ValidationHelperTests.GetDisplayName_Ok
+    Polly.Core.Tests.Utils.ValidationHelperTests.ValidateObject_SynchronizesValidation
+    Polly.Core.Tests.Utils.Pipeline.BridgePipelineComponentTests.Ctor_Ok
+    Polly.Core.Tests.Utils.Pipeline.BridgePipelineComponentTests.Execute_NonGeneric_Ok
+    Polly.Core.Tests.Utils.Pipeline.BridgePipelineComponentTests.Execute_Generic_Ok
+    Polly.Core.Tests.Utils.Pipeline.BridgePipelineComponentTests.Pipeline_TypeCheck_Ok
+    Polly.Core.Tests.Utils.Pipeline.BridgePipelineComponentTests.Dispose_EnsureStrategyDisposed
+    Polly.Core.Tests.Utils.Pipeline.BridgePipelineComponentTests.Dispose_Generic_EnsureStrategyDisposed
+    Polly.Core.Tests.Utils.Pipeline.ComponentWithDisposeCallbacksTests.Dispose_Ok
+    Polly.Core.Tests.Utils.Pipeline.CompositePipelineComponentTests.Create_EnsureOriginalStrategiesPreserved
+    Polly.Core.Tests.Utils.Pipeline.CompositePipelineComponentTests.Create_EnsureExceptionsNotWrapped
+    Polly.Core.Tests.Utils.Pipeline.CompositePipelineComponentTests.Create_EnsurePipelineReusableAcrossDifferentPipelines
+    Polly.Core.Tests.Utils.Pipeline.CompositePipelineComponentTests.Create_Cancelled_EnsureNoExecution
+    Polly.Core.Tests.Utils.Pipeline.CompositePipelineComponentTests.Create_CancelledLater_EnsureNoExecution
+    Polly.Core.Tests.Utils.Pipeline.CompositePipelineComponentTests.ExecutePipeline_EnsureTelemetryArgumentsReported
+    Polly.Core.Tests.Utils.Pipeline.CompositePipelineComponentTests.DisposeAsync_EnsureInnerComponentsDisposed
+    Polly.Core.Tests.Utils.Pipeline.DelegatingComponentTests.ExecuteComponent_ReturnsCorrectResult
+    Polly.Core.Tests.Utils.Pipeline.DelegatingComponentTests.ExecuteComponentAot_ReturnsCorrectResult
+    Polly.Core.Tests.Utils.Pipeline.ExecutionTrackingComponentTests.DisposeAsync_PendingOperations_Delayed
+    Polly.Core.Tests.Utils.Pipeline.ExecutionTrackingComponentTests.HasPendingExecutions_Ok
+    Polly.Core.Tests.Utils.Pipeline.ExecutionTrackingComponentTests.DisposeAsync_Timeout_Ok
+    Polly.Core.Tests.Utils.Pipeline.ExecutionTrackingComponentTests.DisposeAsync_WhenRunningMultipleTasks_Ok
+    Polly.Core.Tests.Utils.Pipeline.PipelineComponentFactoryTests.WithDisposableCallbacks_NoCallbacks_ReturnsOriginalComponent
+    Polly.Core.Tests.Utils.Pipeline.PipelineComponentFactoryTests.PipelineComponentFactory_Should_Return_WrapperComponent_With_Callbacks
+    Polly.Core.Tests.Utils.Pipeline.PipelineComponentTests.Dispose_Ok
+    Polly.Core.Tests.Utils.Pipeline.ReloadablePipelineComponentTests.Ctor_Ok
+    Polly.Core.Tests.Utils.Pipeline.ReloadablePipelineComponentTests.DisposeAsync_ComponentDisposed
+    Polly.Core.Tests.Utils.Pipeline.ReloadablePipelineComponentTests.ChangeTriggered_StrategyReloaded
+    Polly.Core.Tests.Utils.Pipeline.ReloadablePipelineComponentTests.ChangeTriggered_EnsureOldStrategyDisposed
+    Polly.Core.Tests.Utils.Pipeline.ReloadablePipelineComponentTests.ChangeTriggered_FactoryError_LastStrategyUsedAndErrorReported
+    Polly.Core.Tests.Utils.Pipeline.ReloadablePipelineComponentTests.DisposeError_EnsureReported
+    Polly.Core.Tests.Timeout.TimeoutConstantsTests.EnsureDefaultValues
+    Polly.Core.Tests.Timeout.TimeoutRejectedExceptionTests.Ctor_Ok
+    Polly.Core.Tests.Timeout.TimeoutResiliencePipelineBuilderExtensionsTests.AddTimeout_InvalidTimeout_EnsureValidated(timeout: -10675199.02:48:05.4775808)
+    Polly.Core.Tests.Timeout.TimeoutResiliencePipelineBuilderExtensionsTests.AddTimeout_InvalidTimeout_EnsureValidated(timeout: 00:00:00)
+    Polly.Core.Tests.Timeout.TimeoutResiliencePipelineBuilderExtensionsTests.AddTimeout_InvalidTimeout_EnsureValidated(timeout: -00:00:01)
+    Polly.Core.Tests.Timeout.TimeoutResiliencePipelineBuilderExtensionsTests.AddTimeout_InvalidTimeout_EnsureValidated(timeout: 1.01:00:00)
+    Polly.Core.Tests.Timeout.TimeoutResiliencePipelineBuilderExtensionsTests.AddTimeout_InvalidTimeout_EnsureValidated(timeout: 00:00:00.0090000)
+    Polly.Core.Tests.Timeout.TimeoutResiliencePipelineBuilderExtensionsTests.AddTimeout_Ok
+    Polly.Core.Tests.Timeout.TimeoutResiliencePipelineBuilderExtensionsTests.AddTimeout_Options_Ok
+    Polly.Core.Tests.Timeout.TimeoutResiliencePipelineBuilderExtensionsTests.AddTimeout_InvalidOptions_Throws
+    Polly.Core.Tests.Timeout.TimeoutResilienceStrategyTests.Execute_EnsureTimeoutGeneratorCalled
+    Polly.Core.Tests.Timeout.TimeoutResilienceStrategyTests.Execute_EnsureOnTimeoutCalled
+    Polly.Core.Tests.Timeout.TimeoutResilienceStrategyTests.Execute_NoTimeout
+    Polly.Core.Tests.Timeout.TimeoutResilienceStrategyTests.Execute_Timeout(defaultCancellationToken: True)
+    Polly.Core.Tests.Timeout.TimeoutResilienceStrategyTests.Execute_Timeout(defaultCancellationToken: False)
+    Polly.Core.Tests.Timeout.TimeoutResilienceStrategyTests.Execute_TimeoutGeneratorIsNull_FallsBackToTimeout
+    Polly.Core.Tests.Timeout.TimeoutResilienceStrategyTests.Execute_Timeout_EnsureStackTrace
+    Polly.Core.Tests.Timeout.TimeoutResilienceStrategyTests.Execute_Timeout_EnsureTelemetrySource
+    Polly.Core.Tests.Timeout.TimeoutResilienceStrategyTests.Execute_Cancelled_EnsureNoTimeout
+    Polly.Core.Tests.Timeout.TimeoutResilienceStrategyTests.Execute_CallerCancellation_EnsureExceptionCarriesCallerToken
+    Polly.Core.Tests.Timeout.TimeoutResilienceStrategyTests.Execute_NoTimeoutOrCancellation_EnsureCancellationTokenRestored
+    Polly.Core.Tests.Timeout.TimeoutResilienceStrategyTests.Execute_EnsureCancellationTokenRegistrationNotExecutedOnSynchronizationContext
+    Polly.Core.Tests.Timeout.TimeoutStrategyOptionsTests.Ctor_EnsureDefaultValues
+    Polly.Core.Tests.Timeout.TimeoutStrategyOptionsTests.Timeout_Invalid_EnsureValidationError(value: -10675199.02:48:05.4775808)
+    Polly.Core.Tests.Timeout.TimeoutStrategyOptionsTests.Timeout_Invalid_EnsureValidationError(value: 00:00:00)
+    Polly.Core.Tests.Timeout.TimeoutStrategyOptionsTests.Timeout_Invalid_EnsureValidationError(value: -00:00:01)
+    Polly.Core.Tests.Timeout.TimeoutStrategyOptionsTests.Timeout_Invalid_EnsureValidationError(value: 1.01:00:00)
+    Polly.Core.Tests.Timeout.TimeoutStrategyOptionsTests.Timeout_Invalid_EnsureValidationError(value: 00:00:00.0090000)
+    Polly.Core.Tests.Timeout.TimeoutStrategyOptionsTests.Timeout_Valid(value: 00:00:01)
+    Polly.Core.Tests.Timeout.TimeoutStrategyOptionsTests.Timeout_Valid(value: 01:00:00)
+    Polly.Core.Tests.Timeout.TimeoutStrategyOptionsTests.Timeout_Valid(value: 00:00:00.0100000)
+    Polly.Core.Tests.Timeout.TimeoutUtilTests.ShouldApplyTimeout_Ok(timeSpan: -00:00:01, result: False)
+    Polly.Core.Tests.Timeout.TimeoutUtilTests.ShouldApplyTimeout_Ok(timeSpan: 00:00:00, result: False)
+    Polly.Core.Tests.Timeout.TimeoutUtilTests.ShouldApplyTimeout_Ok(timeSpan: 00:00:01, result: True)
+    Polly.Core.Tests.Timeout.TimeoutUtilTests.ShouldApplyTimeout_Ok(timeSpan: -00:00:00.0010000, result: False)
+    Polly.Core.Tests.Telemetry.ExecutionAttemptArgumentsTests.Ctor_Ok
+    Polly.Core.Tests.Telemetry.PipelineExecutedArgumentsTests.Ctor_Ok
+    Polly.Core.Tests.Telemetry.ResilienceEventTests.Ctor_Ok
+    Polly.Core.Tests.Telemetry.ResilienceStrategyTelemetryTests.Ctor_Ok
+    Polly.Core.Tests.Telemetry.ResilienceStrategyTelemetryTests.Enabled_Ok
+    Polly.Core.Tests.Telemetry.ResilienceStrategyTelemetryTests.Report_NoOutcome_OK
+    Polly.Core.Tests.Telemetry.ResilienceStrategyTelemetryTests.ResiliencePipelineTelemetry_NoDiagnosticSource_Ok
+    Polly.Core.Tests.Telemetry.ResilienceStrategyTelemetryTests.Report_Outcome_OK
+    Polly.Core.Tests.Telemetry.ResilienceStrategyTelemetryTests.Report_SeverityNone_Skipped
+    Polly.Core.Tests.Telemetry.ResilienceStrategyTelemetryTests.Report_NoListener_ShouldNotThrow
+    Polly.Core.Tests.Telemetry.ResilienceStrategyTelemetryTests.SetTelemetrySource_Ok
+    Polly.Core.Tests.Telemetry.ResilienceStrategyTelemetryTests.SetTelemetrySource_ShouldThrow
+    Polly.Core.Tests.Telemetry.ResilienceStrategyTelemetryTests.Report_ShouldThrow
+    Polly.Core.Tests.Telemetry.TelemetryEventArgumentsTests.Ctor_Ok
+    Polly.Core.Tests.Telemetry.TelemetryUtilTests.ReportExecutionAttempt_Ok(handled: True, severity: Warning)
+    Polly.Core.Tests.Telemetry.TelemetryUtilTests.ReportExecutionAttempt_Ok(handled: False, severity: Information)
+    Polly.Core.Tests.Telemetry.TelemetryUtilTests.ReportFinalExecutionAttempt_Ok(handled: True, severity: Error)
+    Polly.Core.Tests.Telemetry.TelemetryUtilTests.ReportFinalExecutionAttempt_Ok(handled: False, severity: Information)
+    Polly.Core.Tests.Simmy.ChaosStrategyOptionsTests.Ctor_Ok
+    Polly.Core.Tests.Simmy.ChaosStrategyOptionsTests.InvalidThreshold(injectionRate: -1)
+    Polly.Core.Tests.Simmy.ChaosStrategyOptionsTests.InvalidThreshold(injectionRate: 1,1000000000000001)
+    Polly.Core.Tests.Simmy.ChaosStrategyOptionsTTests.Ctor_Ok
+    Polly.Core.Tests.Simmy.ChaosStrategyOptionsTTests.InvalidThreshold(injectionRate: -1)
+    Polly.Core.Tests.Simmy.ChaosStrategyOptionsTTests.InvalidThreshold(injectionRate: 1,1000000000000001)
+    Polly.Core.Tests.Simmy.ChaosStrategyTests.InvalidCtor
+    Polly.Core.Tests.Simmy.ChaosStrategyTests.Ctor_Ok
+    Polly.Core.Tests.Simmy.ChaosStrategyTests.Should_coerce_injection_rate_generator_result_is_not_valid(injectionRateGeneratorResult: 0, shouldBeInjected: False)
+    Polly.Core.Tests.Simmy.ChaosStrategyTests.Should_coerce_injection_rate_generator_result_is_not_valid(injectionRateGeneratorResult: 0,5, shouldBeInjected: False)
+    Polly.Core.Tests.Simmy.ChaosStrategyTests.Should_coerce_injection_rate_generator_result_is_not_valid(injectionRateGeneratorResult: -1, shouldBeInjected: False)
+    Polly.Core.Tests.Simmy.ChaosStrategyTests.Should_coerce_injection_rate_generator_result_is_not_valid(injectionRateGeneratorResult: 1, shouldBeInjected: True)
+    Polly.Core.Tests.Simmy.ChaosStrategyTests.Should_coerce_injection_rate_generator_result_is_not_valid(injectionRateGeneratorResult: 1,1000000000000001, shouldBeInjected: True)
+    Polly.Core.Tests.Simmy.ChaosStrategyTests.Should_not_inject_chaos_when_it_was_cancelled_before_evaluating_strategy
+    Polly.Core.Tests.Simmy.ChaosStrategyTests.Should_not_inject_chaos_when_it_was_cancelled_on_enable_generator
+    Polly.Core.Tests.Simmy.ChaosStrategyTests.Should_not_inject_chaos_when_it_was_cancelled_on_injection_rate_generator
+    Polly.Core.Tests.Simmy.ChaosStrategyTests.Should_inject_chaos
+    Polly.Core.Tests.Simmy.ChaosStrategyTTests.InvalidCtor
+    Polly.Core.Tests.Simmy.ChaosStrategyTTests.Ctor_Ok
+    Polly.Core.Tests.Simmy.ChaosStrategyTTests.Should_coerce_injection_rate_generator_result_is_not_valid(injectionRateGeneratorResult: 0, shouldBeInjected: False)
+    Polly.Core.Tests.Simmy.ChaosStrategyTTests.Should_coerce_injection_rate_generator_result_is_not_valid(injectionRateGeneratorResult: 0,5, shouldBeInjected: False)
+    Polly.Core.Tests.Simmy.ChaosStrategyTTests.Should_coerce_injection_rate_generator_result_is_not_valid(injectionRateGeneratorResult: -1, shouldBeInjected: False)
+    Polly.Core.Tests.Simmy.ChaosStrategyTTests.Should_coerce_injection_rate_generator_result_is_not_valid(injectionRateGeneratorResult: 1, shouldBeInjected: True)
+    Polly.Core.Tests.Simmy.ChaosStrategyTTests.Should_coerce_injection_rate_generator_result_is_not_valid(injectionRateGeneratorResult: 1,1000000000000001, shouldBeInjected: True)
+    Polly.Core.Tests.Simmy.ChaosStrategyTTests.Should_not_inject_chaos_when_it_was_cancelled_before_evaluating_strategy
+    Polly.Core.Tests.Simmy.ChaosStrategyTTests.Should_not_inject_chaos_when_it_was_cancelled_on_enable_generator
+    Polly.Core.Tests.Simmy.ChaosStrategyTTests.Should_not_inject_chaos_when_it_was_cancelled_on_injection_rate_generator
+    Polly.Core.Tests.Simmy.ChaosStrategyTTests.Should_inject_chaos
+    Polly.Core.Tests.Simmy.Utils.GeneratorHelperTests.CreateGenerator_NoGenerators_Ok
+    Polly.Core.Tests.Simmy.Utils.GeneratorHelperTests.AddOutcome_EnsureWeightRespected
+    Polly.Core.Tests.Simmy.Utils.GeneratorHelperTests.Generator_OutsideRange_ReturnsNull
+    Polly.Core.Tests.Simmy.Latency.ChaosLatencyConstantsTests.EnsureDefaults
+    Polly.Core.Tests.Simmy.Latency.ChaosLatencyPipelineBuilderExtensionsTests.AddLatency_Shortcut_Option_Ok
+    Polly.Core.Tests.Simmy.Latency.ChaosLatencyPipelineBuilderExtensionsTests.AddLatency_Options_Ok
+    Polly.Core.Tests.Simmy.Latency.ChaosLatencyPipelineBuilderExtensionsTests.AddLatency_Generic_Options_Ok
+    Polly.Core.Tests.Simmy.Latency.ChaosLatencyStrategyOptionsTests.Ctor_Ok
+    Polly.Core.Tests.Simmy.Latency.ChaosLatencyStrategyTests.Given_enabled_and_randomly_within_threshold_should_inject_latency
+    Polly.Core.Tests.Simmy.Latency.ChaosLatencyStrategyTests.Given_not_enabled_should_not_inject_latency
+    Polly.Core.Tests.Simmy.Latency.ChaosLatencyStrategyTests.Given_enabled_and_randomly_not_within_threshold_should_not_inject_latency
+    Polly.Core.Tests.Simmy.Latency.ChaosLatencyStrategyTests.Given_latency_is_negative_should_not_inject_latency(latency: -1000)
+    Polly.Core.Tests.Simmy.Latency.ChaosLatencyStrategyTests.Given_latency_is_negative_should_not_inject_latency(latency: 0)
+    Polly.Core.Tests.Simmy.Latency.ChaosLatencyStrategyTests.Should_not_execute_user_delegate_when_it_was_cancelled_running_the_strategy
+    Polly.Core.Tests.Simmy.Latency.LatencyGeneratorArgumentsTests.Ctor_Ok
+    Polly.Core.Tests.Simmy.Latency.OnLatencyInjectedArgumentsTests.Ctor_Ok
+    Polly.Core.Tests.Simmy.Fault.ChaosFaultConstantsTests.EnsureDefaults
+    Polly.Core.Tests.Simmy.Fault.ChaosFaultPipelineBuilderExtensionsTests.AddFault_Options_Ok
+    Polly.Core.Tests.Simmy.Fault.ChaosFaultPipelineBuilderExtensionsTests.AddFault_Generic_Shortcut_Generator_Option_Throws
+    Polly.Core.Tests.Simmy.Fault.ChaosFaultPipelineBuilderExtensionsTests.AddFault_Shortcut_Generator_Option_Throws
+    Polly.Core.Tests.Simmy.Fault.ChaosFaultPipelineBuilderExtensionsTests.AddFault_Shortcut_Generator_Option_Ok
+    Polly.Core.Tests.Simmy.Fault.ChaosFaultPipelineBuilderExtensionsTests.AddFault_Generic_Shortcut_Generator_Option_Ok
+    Polly.Core.Tests.Simmy.Fault.ChaosFaultStrategyOptionsTests.Ctor_Ok
+    Polly.Core.Tests.Simmy.Fault.ChaosFaultStrategyOptionsTests.InvalidOptions
+    Polly.Core.Tests.Simmy.Fault.ChaosFaultStrategyTests.FaultInvalidCtor
+    Polly.Core.Tests.Simmy.Fault.ChaosFaultStrategyTests.Given_not_enabled_should_not_inject_fault
+    Polly.Core.Tests.Simmy.Fault.ChaosFaultStrategyTests.Given_not_enabled_should_not_inject_fault_and_return_outcome
+    Polly.Core.Tests.Simmy.Fault.ChaosFaultStrategyTests.Given_enabled_and_randomly_within_threshold_should_inject_fault_instead_returning_outcome
+    Polly.Core.Tests.Simmy.Fault.ChaosFaultStrategyTests.Given_enabled_and_randomly_within_threshold_should_inject_fault
+    Polly.Core.Tests.Simmy.Fault.ChaosFaultStrategyTests.Given_enabled_and_randomly_not_within_threshold_should_not_inject_fault
+    Polly.Core.Tests.Simmy.Fault.ChaosFaultStrategyTests.Given_enabled_and_randomly_within_threshold_should_not_inject_fault_when_exception_is_null
+    Polly.Core.Tests.Simmy.Fault.ChaosFaultStrategyTests.Should_not_execute_user_delegate_when_it_was_cancelled_running_the_strategy
+    Polly.Core.Tests.Simmy.Fault.FaultGeneratorArgumentsTests.Ctor_Ok
+    Polly.Core.Tests.Simmy.Fault.FaultGeneratorTests.AddException_Generic_Ok
+    Polly.Core.Tests.Simmy.Fault.FaultGeneratorTests.AddException_Factory_Ok
+    Polly.Core.Tests.Simmy.Fault.FaultGeneratorTests.AddException_FactoryWithResilienceContext_Ok
+    Polly.Core.Tests.Simmy.Fault.OnFaultInjectedArgumentsTests.Ctor_Ok
+    Polly.Core.Tests.Simmy.Outcomes.EnabledGeneratorArgumentsTests.Ctor_Ok
+    Polly.Core.Tests.Simmy.Outcomes.InjectionRateGeneratorArgumentsTests.Ctor_Ok
+    Polly.Core.Tests.Simmy.Outcomes.ChaosOutcomeConstantsTests.EnsureDefaults
+    Polly.Core.Tests.Simmy.Outcomes.ChaosOutcomePipelineBuilderExtensionsTests.AddResult_Options_Ok
+    Polly.Core.Tests.Simmy.Outcomes.ChaosOutcomePipelineBuilderExtensionsTests.AddResult_Shortcut_Generator_Option_Ok
+    Polly.Core.Tests.Simmy.Outcomes.ChaosOutcomePipelineBuilderExtensionsTests.AddResult_Shortcut_Option_Throws
+    Polly.Core.Tests.Simmy.Outcomes.ChaosOutcomeStrategyOptionsTests.Ctor_Ok
+    Polly.Core.Tests.Simmy.Outcomes.ChaosOutcomeStrategyTests.ResultInvalidCtor
+    Polly.Core.Tests.Simmy.Outcomes.ChaosOutcomeStrategyTests.Given_not_enabled_should_not_inject_result
+    Polly.Core.Tests.Simmy.Outcomes.ChaosOutcomeStrategyTests.Given_enabled_and_randomly_within_threshold_should_inject_result
+    Polly.Core.Tests.Simmy.Outcomes.ChaosOutcomeStrategyTests.Given_enabled_and_randomly_not_within_threshold_should_not_inject_result
+    Polly.Core.Tests.Simmy.Outcomes.ChaosOutcomeStrategyTests.Given_enabled_and_randomly_within_threshold_should_inject_result_if_it_is_null
+    Polly.Core.Tests.Simmy.Outcomes.ChaosOutcomeStrategyTests.Given_enabled_and_randomly_within_threshold_should_not_inject_if_generator_returns_null
+    Polly.Core.Tests.Simmy.Outcomes.ChaosOutcomeStrategyTests.Given_enabled_and_randomly_within_threshold_should_inject_exception
+    Polly.Core.Tests.Simmy.Outcomes.ChaosOutcomeStrategyTests.Should_not_execute_user_delegate_when_it_was_cancelled_running_the_strategy
+    Polly.Core.Tests.Simmy.Outcomes.OnOutcomeInjectedArgumentsTests.Ctor_Ok
+    Polly.Core.Tests.Simmy.Outcomes.OutcomeGeneratorArgumentsTests.Ctor_Ok
+    Polly.Core.Tests.Simmy.Outcomes.OutcomeGeneratorTests.AddException_Generic_Ok
+    Polly.Core.Tests.Simmy.Outcomes.OutcomeGeneratorTests.AddException_Factory_Ok
+    Polly.Core.Tests.Simmy.Outcomes.OutcomeGeneratorTests.AddException_FactoryWithResilienceContext_Ok
+    Polly.Core.Tests.Simmy.Outcomes.OutcomeGeneratorTests.AddResult_Factory_Ok
+    Polly.Core.Tests.Simmy.Outcomes.OutcomeGeneratorTests.AddResult_FactoryWithResilienceContext_Ok
+    Polly.Core.Tests.Simmy.Behavior.BehaviorGeneratorArgumentsTests.Ctor_Ok
+    Polly.Core.Tests.Simmy.Behavior.ChaosBehaviorConstantsTests.EnsureDefaults
+    Polly.Core.Tests.Simmy.Behavior.ChaosBehaviorPipelineBuilderExtensionsTests.AddBehavior_Shortcut_Option_Ok
+    Polly.Core.Tests.Simmy.Behavior.ChaosBehaviorPipelineBuilderExtensionsTests.AddBehavior_Shortcut_Option_Throws
+    Polly.Core.Tests.Simmy.Behavior.ChaosBehaviorPipelineBuilderExtensionsTests.AddBehavior_InvalidOptions_Throws
+    Polly.Core.Tests.Simmy.Behavior.ChaosBehaviorPipelineBuilderExtensionsTests.AddBehavior_Options_Ok
+    Polly.Core.Tests.Simmy.Behavior.ChaosBehaviorPipelineBuilderExtensionsTests.AddBehavior_Generic_Options_Ok
+    Polly.Core.Tests.Simmy.Behavior.ChaosBehaviorStrategyOptionsTests.Ctor_Ok
+    Polly.Core.Tests.Simmy.Behavior.ChaosBehaviorStrategyOptionsTests.InvalidOptions
+    Polly.Core.Tests.Simmy.Behavior.ChaosBehaviorStrategyTests.Given_not_enabled_should_not_inject_behavior
+    Polly.Core.Tests.Simmy.Behavior.ChaosBehaviorStrategyTests.Given_enabled_and_randomly_within_threshold_should_inject_behavior
+    Polly.Core.Tests.Simmy.Behavior.ChaosBehaviorStrategyTests.Given_enabled_and_randomly_within_threshold_ensure_on_behavior_injected_called
+    Polly.Core.Tests.Simmy.Behavior.ChaosBehaviorStrategyTests.Given_enabled_and_randomly_not_within_threshold_should_not_inject_behavior
+    Polly.Core.Tests.Simmy.Behavior.ChaosBehaviorStrategyTests.Should_inject_behavior_before_executing_user_delegate
+    Polly.Core.Tests.Simmy.Behavior.ChaosBehaviorStrategyTests.Should_not_execute_user_delegate_when_it_was_cancelled_running_the_injected_behavior
+    Polly.Core.Tests.Simmy.Behavior.ChaosBehaviorStrategyTests.Should_not_execute_user_delegate_when_it_was_cancelled_running_the_strategy
+    Polly.Core.Tests.Simmy.Behavior.OnBehaviorInjectedArgumentsTests.Ctor_Ok
+    Polly.Core.Tests.Retry.OnRetryArgumentsTests.Ctor_Ok
+    Polly.Core.Tests.Retry.RetryConstantsTests.EnsureDefaults
+    Polly.Core.Tests.Retry.RetryDelayGeneratorArgumentsTests.Ctor_Ok
+    Polly.Core.Tests.Retry.RetryHelperTests.IsValidDelay_Ok
+    Polly.Core.Tests.Retry.RetryHelperTests.UnsupportedRetryBackoffType_Throws(jitter: True)
+    Polly.Core.Tests.Retry.RetryHelperTests.UnsupportedRetryBackoffType_Throws(jitter: False)
+    Polly.Core.Tests.Retry.RetryHelperTests.Constant_Ok
+    Polly.Core.Tests.Retry.RetryHelperTests.Constant_Jitter_Ok
+    Polly.Core.Tests.Retry.RetryHelperTests.Linear_Ok
+    Polly.Core.Tests.Retry.RetryHelperTests.Linear_Jitter_Ok
+    Polly.Core.Tests.Retry.RetryHelperTests.Exponential_Ok
+    Polly.Core.Tests.Retry.RetryHelperTests.MaxDelay_Ok(type: Linear, jitter: False)
+    Polly.Core.Tests.Retry.RetryHelperTests.MaxDelay_Ok(type: Exponential, jitter: False)
+    Polly.Core.Tests.Retry.RetryHelperTests.MaxDelay_Ok(type: Constant, jitter: False)
+    Polly.Core.Tests.Retry.RetryHelperTests.MaxDelay_Ok(type: Linear, jitter: True)
+    Polly.Core.Tests.Retry.RetryHelperTests.MaxDelay_Ok(type: Exponential, jitter: True)
+    Polly.Core.Tests.Retry.RetryHelperTests.MaxDelay_Ok(type: Constant, jitter: True)
+    Polly.Core.Tests.Retry.RetryHelperTests.MaxDelay_DelayLessThanMaxDelay_Respected
+    Polly.Core.Tests.Retry.RetryHelperTests.GetRetryDelay_Overflow_ReturnsMaxTimeSpan
+    Polly.Core.Tests.Retry.RetryHelperTests.GetRetryDelay_OverflowWithMaxDelay_ReturnsMaxDelay
+    Polly.Core.Tests.Retry.RetryHelperTests.GetRetryDelay_Exponential_Is_Positive_When_No_Maximum_Delay(attempt: 1)
+    Polly.Core.Tests.Retry.RetryHelperTests.GetRetryDelay_Exponential_Is_Positive_When_No_Maximum_Delay(attempt: 2)
+    Polly.Core.Tests.Retry.RetryHelperTests.GetRetryDelay_Exponential_Is_Positive_When_No_Maximum_Delay(attempt: 3)
+    Polly.Core.Tests.Retry.RetryHelperTests.GetRetryDelay_Exponential_Is_Positive_When_No_Maximum_Delay(attempt: 4)
+    Polly.Core.Tests.Retry.RetryHelperTests.GetRetryDelay_Exponential_Is_Positive_When_No_Maximum_Delay(attempt: 10)
+    Polly.Core.Tests.Retry.RetryHelperTests.GetRetryDelay_Exponential_Is_Positive_When_No_Maximum_Delay(attempt: 100)
+    Polly.Core.Tests.Retry.RetryHelperTests.GetRetryDelay_Exponential_Is_Positive_When_No_Maximum_Delay(attempt: 1000)
+    Polly.Core.Tests.Retry.RetryHelperTests.GetRetryDelay_Exponential_Is_Positive_When_No_Maximum_Delay(attempt: 1024)
+    Polly.Core.Tests.Retry.RetryHelperTests.GetRetryDelay_Exponential_Is_Positive_When_No_Maximum_Delay(attempt: 1025)
+    Polly.Core.Tests.Retry.RetryHelperTests.GetRetryDelay_Exponential_Does_Not_Exceed_MaxDelay(attempt: 1)
+    Polly.Core.Tests.Retry.RetryHelperTests.GetRetryDelay_Exponential_Does_Not_Exceed_MaxDelay(attempt: 2)
+    Polly.Core.Tests.Retry.RetryHelperTests.GetRetryDelay_Exponential_Does_Not_Exceed_MaxDelay(attempt: 3)
+    Polly.Core.Tests.Retry.RetryHelperTests.GetRetryDelay_Exponential_Does_Not_Exceed_MaxDelay(attempt: 4)
+    Polly.Core.Tests.Retry.RetryHelperTests.GetRetryDelay_Exponential_Does_Not_Exceed_MaxDelay(attempt: 10)
+    Polly.Core.Tests.Retry.RetryHelperTests.GetRetryDelay_Exponential_Does_Not_Exceed_MaxDelay(attempt: 100)
+    Polly.Core.Tests.Retry.RetryHelperTests.GetRetryDelay_Exponential_Does_Not_Exceed_MaxDelay(attempt: 1000)
+    Polly.Core.Tests.Retry.RetryHelperTests.GetRetryDelay_Exponential_Does_Not_Exceed_MaxDelay(attempt: 1024)
+    Polly.Core.Tests.Retry.RetryHelperTests.GetRetryDelay_Exponential_Does_Not_Exceed_MaxDelay(attempt: 1025)
+    Polly.Core.Tests.Retry.RetryHelperTests.ExponentialWithJitter_Ok(count: 1)
+    Polly.Core.Tests.Retry.RetryHelperTests.ExponentialWithJitter_Ok(count: 2)
+    Polly.Core.Tests.Retry.RetryHelperTests.ExponentialWithJitter_Ok(count: 3)
+    Polly.Core.Tests.Retry.RetryHelperTests.ExponentialWithJitter_Ok(count: 4)
+    Polly.Core.Tests.Retry.RetryHelperTests.ExponentialWithJitter_Ok(count: 10)
+    Polly.Core.Tests.Retry.RetryHelperTests.ExponentialWithJitter_Ok(count: 100)
+    Polly.Core.Tests.Retry.RetryHelperTests.ExponentialWithJitter_Ok(count: 1000)
+    Polly.Core.Tests.Retry.RetryHelperTests.ExponentialWithJitter_Ok(count: 1024)
+    Polly.Core.Tests.Retry.RetryHelperTests.ExponentialWithJitter_Ok(count: 1025)
+    Polly.Core.Tests.Retry.RetryHelperTests.ExponentialWithJitter_EnsureRandomness
+    Polly.Core.Tests.Retry.RetryHelperTests.ApplyJitter_Meets_Specification
+    Polly.Core.Tests.Retry.RetryHelperTests.DecorrelatedJitterBackoffV2_Meets_Specification
+    Polly.Core.Tests.Retry.RetryResiliencePipelineBuilderExtensionsTests.AddRetry_Overloads_Ok
+    Polly.Core.Tests.Retry.RetryResiliencePipelineBuilderExtensionsTests.AddRetry_GenericOverloads_Ok
+    Polly.Core.Tests.Retry.RetryResiliencePipelineBuilderExtensionsTests.AddRetry_DefaultOptions_Ok
+    Polly.Core.Tests.Retry.RetryResiliencePipelineBuilderExtensionsTests.AddRetry_InvalidOptions_Throws
+    Polly.Core.Tests.Retry.RetryResiliencePipelineBuilderExtensionsTests.GetAggregatedDelay_ShouldReturnTheSameValue
+    Polly.Core.Tests.Retry.RetryResiliencePipelineBuilderExtensionsTests.GetAggregatedDelay_EnsureCorrectValue
+    Polly.Core.Tests.Retry.RetryResilienceStrategyTests.ExecuteAsync_EnsureResultNotDisposed
+    Polly.Core.Tests.Retry.RetryResilienceStrategyTests.ExecuteAsync_CanceledBeforeExecution_EnsureNotExecuted
+    Polly.Core.Tests.Retry.RetryResilienceStrategyTests.ExecuteAsync_CanceledDuringExecution_EnsureResultReturned
+    Polly.Core.Tests.Retry.RetryResilienceStrategyTests.ExecuteAsync_ExceptionInExecution_EnsureResultReturned
+    Polly.Core.Tests.Retry.RetryResilienceStrategyTests.ExecuteAsync_CanceledDuringExecution_EnsureNotExecutedAgain
+    Polly.Core.Tests.Retry.RetryResilienceStrategyTests.ExecuteAsync_CanceledAfterExecution_EnsureNotExecutedAgain
+    Polly.Core.Tests.Retry.RetryResilienceStrategyTests.ExecuteAsync_CanceledDuringDelay_EnsureNotExecutedAgain
+    Polly.Core.Tests.Retry.RetryResilienceStrategyTests.ExecuteAsync_MultipleRetries_EnsureDiscardedResultsDisposed
+    Polly.Core.Tests.Retry.RetryResilienceStrategyTests.Retry_RetryCount_Respected
+    Polly.Core.Tests.Retry.RetryResilienceStrategyTests.RetryException_RetryCount_Respected
+    Polly.Core.Tests.Retry.RetryResilienceStrategyTests.RetryDelayGenerator_Respected
+    Polly.Core.Tests.Retry.RetryResilienceStrategyTests.RetryDelayGenerator_ZeroDelay_NoTimeProviderCalls
+    Polly.Core.Tests.Retry.RetryResilienceStrategyTests.IsLastAttempt_Ok
+    Polly.Core.Tests.Retry.RetryResilienceStrategyTests.OnRetry_EnsureCorrectArguments
+    Polly.Core.Tests.Retry.RetryResilienceStrategyTests.MaxDelay_EnsureRespected
+    Polly.Core.Tests.Retry.RetryResilienceStrategyTests.OnRetry_EnsureExecutionTime
+    Polly.Core.Tests.Retry.RetryResilienceStrategyTests.Execute_NotHandledOriginalAttempt_EnsureAttemptReported
+    Polly.Core.Tests.Retry.RetryResilienceStrategyTests.Execute_NotHandledFinalAttempt_EnsureAttemptReported
+    Polly.Core.Tests.Retry.RetryResilienceStrategyTests.Execute_HandledFinalAttempt_EnsureAttemptReported
+    Polly.Core.Tests.Retry.RetryResilienceStrategyTests.OnRetry_EnsureTelemetry
+    Polly.Core.Tests.Retry.RetryResilienceStrategyTests.RetryDelayGenerator_EnsureCorrectArguments
+    Polly.Core.Tests.Retry.RetryResilienceStrategyTests.RetryDelayGenerator_ReturnsNull_EnsureDefaultRetry
+    Polly.Core.Tests.Retry.RetryStrategyOptionsTests.Ctor_Ok
+    Polly.Core.Tests.Retry.RetryStrategyOptionsTests.ShouldHandle_EnsureDefaults
+    Polly.Core.Tests.Retry.RetryStrategyOptionsTests.InvalidOptions
+    Polly.Core.Tests.Retry.ShouldRetryArgumentsTests.Ctor_Ok
+    Polly.Core.Tests.Registry.ConfigureBuilderContextTests.AddReloadToken_Ok
+    Polly.Core.Tests.Registry.ResiliencePipelineProviderTests.Get_DoesNotExist_Throws
+    Polly.Core.Tests.Registry.ResiliencePipelineProviderTests.Get_GenericDoesNotExist_Throws
+    Polly.Core.Tests.Registry.ResiliencePipelineProviderTests.Get_Exist_Ok
+    Polly.Core.Tests.Registry.ResiliencePipelineProviderTests.Get_GenericExist_Ok
+    Polly.Core.Tests.Registry.ResiliencePipelineRegistryOptionsTests.Ctor_EnsureDefaults
+    Polly.Core.Tests.Registry.ResiliencePipelineRegistryTests.Ctor_Default_Ok
+    Polly.Core.Tests.Registry.ResiliencePipelineRegistryTests.Ctor_InvalidOptions_Throws
+    Polly.Core.Tests.Registry.ResiliencePipelineRegistryTests.GetPipeline_BuilderMultiInstance_EnsureMultipleInstances
+    Polly.Core.Tests.Registry.ResiliencePipelineRegistryTests.GetPipeline_GenericBuilderMultiInstance_EnsureMultipleInstances
+    Polly.Core.Tests.Registry.ResiliencePipelineRegistryTests.TryAddBuilder_GetPipeline_EnsureCalled
+    Polly.Core.Tests.Registry.ResiliencePipelineRegistryTests.TryAddBuilder_GenericGetPipeline_EnsureCalled
+    Polly.Core.Tests.Registry.ResiliencePipelineRegistryTests.TryAddBuilder_EnsurePipelineKey
+    Polly.Core.Tests.Registry.ResiliencePipelineRegistryTests.TryAddBuilder_Twice_EnsureCorrectBehavior(generic: False)
+    Polly.Core.Tests.Registry.ResiliencePipelineRegistryTests.TryAddBuilder_Twice_EnsureCorrectBehavior(generic: True)
+    Polly.Core.Tests.Registry.ResiliencePipelineRegistryTests.TryAddBuilder_MultipleGeneric_EnsureDistinctInstances
+    Polly.Core.Tests.Registry.ResiliencePipelineRegistryTests.TryAddBuilder_Generic_EnsurePipelineKey
+    Polly.Core.Tests.Registry.ResiliencePipelineRegistryTests.TryGet_NoBuilder_Null
+    Polly.Core.Tests.Registry.ResiliencePipelineRegistryTests.TryGet_GenericNoBuilder_Null
+    Polly.Core.Tests.Registry.ResiliencePipelineRegistryTests.EnableReloads_Ok(firstOne: True)
+    Polly.Core.Tests.Registry.ResiliencePipelineRegistryTests.EnableReloads_Ok(firstOne: False)
+    Polly.Core.Tests.Registry.ResiliencePipelineRegistryTests.EnableReloads_EnsureDisposedCallbackCalled
+    Polly.Core.Tests.Registry.ResiliencePipelineRegistryTests.EnableReloads_Generic_Ok
+    Polly.Core.Tests.Registry.ResiliencePipelineRegistryTests.GetOrAddPipeline_Ok
+    Polly.Core.Tests.Registry.ResiliencePipelineRegistryTests.GetOrAddPipeline_EnsureCorrectComponents
+    Polly.Core.Tests.Registry.ResiliencePipelineRegistryTests.GetOrAddPipeline_Generic_Ok
+    Polly.Core.Tests.Registry.ResiliencePipelineRegistryTests.Dispose_EnsureDisposed(isAsync: True)
+    Polly.Core.Tests.Registry.ResiliencePipelineRegistryTests.Dispose_EnsureDisposed(isAsync: False)
+    Polly.Core.Tests.Registry.ResiliencePipelineRegistryTests.DisposePipeline_NotAllowed
+    Polly.Core.Tests.Registry.ResiliencePipelineRegistryTests.Dispose_EnsureNotUsableAnymore(isAsync: True)
+    Polly.Core.Tests.Registry.ResiliencePipelineRegistryTests.Dispose_EnsureNotUsableAnymore(isAsync: False)
+    Polly.Core.Tests.Issues.IssuesTests.OnRetry_Contains_User_Context_2597
+    Polly.Core.Tests.Issues.IssuesTests.Timeout_CallerCancellation_ExceptionCarriesCallerToken_3086
+    Polly.Core.Tests.Issues.IssuesTests.TimeoutThenRetry_CallerCancellation_ExceptionCarriesCallerToken_3086
+    Polly.Core.Tests.Issues.IssuesTests.RetryThenTimeout_CallerCancellation_ExceptionCarriesCallerToken_3086
+    Polly.Core.Tests.Issues.IssuesTests.NestedTimeouts_CallerCancellation_ExceptionCarriesCallerToken_3086
+    Polly.Core.Tests.Issues.IssuesTests.Hedging_CallerCancellation_ExceptionCarriesCallerToken_3086
+    Polly.Core.Tests.Issues.IssuesTests.WithoutTokenSubstitution_CallerCancellation_ExceptionCarriesCallerToken_3086
+    Polly.Core.Tests.Issues.IssuesTests.Timeout_RealTimeout_StillThrowsTimeoutRejectedException_3086
+    Polly.Core.Tests.Issues.IssuesTests.Timeout_UnrelatedCancellation_ExceptionPreserved_3086
+    Polly.Core.Tests.Issues.IssuesTests.CircuitBreakerStateRegistry_1828
+    Polly.Core.Tests.Issues.IssuesTests.CircuitBreakerStateSharing_959
+    Polly.Core.Tests.Issues.IssuesTests.FlowingContext_849
+    Polly.Core.Tests.Issues.IssuesTests.HandleMultipleResults_898
+    Polly.Core.Tests.Issues.IssuesTests.InfiniteRetry_Delay_Does_Not_Overflow_2163
+    Polly.Core.Tests.Hedging.HedgingActionGeneratorArgumentsTests.Ctor_Ok
+    Polly.Core.Tests.Hedging.HedgingDelayGeneratorArgumentsTests.Ctor_Ok
+    Polly.Core.Tests.Hedging.HedgingPredicateArgumentsTests.Ctor_Ok
+    Polly.Core.Tests.Hedging.HedgingPredicateArgumentsTests.Ctor_With_AttemptNumber_Ok
+    Polly.Core.Tests.Hedging.HedgingResiliencePipelineBuilderExtensionsTests.AddHedging_Generic_Ok
+    Polly.Core.Tests.Hedging.HedgingResiliencePipelineBuilderExtensionsTests.AddHedgingT_InvalidOptions_Throws
+    Polly.Core.Tests.Hedging.HedgingResiliencePipelineBuilderExtensionsTests.AddHedging_IntegrationTest
+    Polly.Core.Tests.Hedging.HedgingResiliencePipelineBuilderExtensionsTests.AddHedging_IntegrationTestWithRealDelay
+    Polly.Core.Tests.Hedging.HedgingResiliencePipelineBuilderExtensionsTests.AddHedging_AttemptNumbers_Are_Incremented
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.Ctor_EnsureDefaults
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.Execute_CancellationRequested_Throws
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.ExecutePrimaryAndSecondary_EnsureAttemptReported
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.ExecutePrimary_Cancelled_SecondaryShouldBeExecuted
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.GetHedgingDelayAsync_GeneratorSet_EnsureCorrectGeneratedValue(seconds: -1)
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.GetHedgingDelayAsync_GeneratorSet_EnsureCorrectGeneratedValue(seconds: -1000)
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.GetHedgingDelayAsync_GeneratorSet_EnsureCorrectGeneratedValue(seconds: 0)
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.GetHedgingDelayAsync_GeneratorSet_EnsureCorrectGeneratedValue(seconds: 1)
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.GetHedgingDelayAsync_GeneratorSet_EnsureCorrectGeneratedValue(seconds: 1000)
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.GetHedgingDelayAsync_NoGeneratorSet_EnsureCorrectValue
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.ExecuteAsync_ShouldReturnAnyPossibleResult
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.ExecuteAsync_EnsurePrimaryContextFlows
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.ExecuteAsync_EnsureHedgedTasksCancelled_Ok
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.ExecuteAsync_EnsurePrimaryTaskCancelled_Ok
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.ExecuteAsync_EnsureDiscardedResultDisposed
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.ExecuteAsync_EveryHedgedTaskShouldHaveDifferentContexts
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.ExecuteAsync_EnsureOriginalCancellationTokenRestored
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.ExecuteAsync_EnsurePropertiesConsistency(primaryFails: True)
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.ExecuteAsync_EnsurePropertiesConsistency(primaryFails: False)
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.ExecuteAsync_Primary_CustomPropertiesAvailable
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.ExecuteAsync_Secondary_CustomPropertiesAvailable
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.ExecuteAsync_OnHedgingEventThrows_EnsureExceptionRethrown
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.ExecuteAsync_AllAttemptsFailAndTheOriginalCallIsTheSlowest_EnsureOriginalCallsResultReturned(delaySeconds: -1)
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.ExecuteAsync_AllAttemptsFailAndTheOriginalCallIsTheSlowest_EnsureOriginalCallsResultReturned(delaySeconds: 0)
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.ExecuteAsync_AllAttemptsFailAndTheOriginalCallIsTheSlowest_EnsureOriginalCallsResultReturned(delaySeconds: 1)
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.ExecuteAsync_CancellationLinking_Ok
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.ExecuteAsync_EnsureBackgroundWorkInSuccessfulCallNotCancelled
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.ExecuteAsync_ZeroHedgingDelay_EnsureAllTasksSpawnedAtOnce
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.ExecuteAsync_InfiniteHedgingDelay_EnsureNoConcurrentExecutions
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.ExecuteAsync_ExceptionsHandled_ShouldThrowAnyException
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.ExecuteAsync_ExceptionsHandled_ShouldThrowLastException
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.ExecuteAsync_PrimaryExceptionNotHandled_Rethrow
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.ExecuteAsync_ExceptionsHandled_ShouldReturnLastResult
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.ExecuteAsync_EnsureHedgingDelayGeneratorRespected
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.ExecuteAsync_EnsureExceptionStackTracePreserved
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.ExecuteAsync_EnsureOnHedgingCalled
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.ExecuteAsync_EnsureOnHedgingTelemetry
+    Polly.Core.Tests.Hedging.HedgingResilienceStrategyTests.ExecuteCore_CallerCancellation_EnsureExceptionCarriesCallerToken
+    Polly.Core.Tests.Hedging.HedgingStrategyOptionsTests.Ctor_EnsureDefaults
+    Polly.Core.Tests.Hedging.HedgingStrategyOptionsTests.HedgingActionGenerator_EnsureDefaults(synchronous: True)
+    Polly.Core.Tests.Hedging.HedgingStrategyOptionsTests.HedgingActionGenerator_EnsureDefaults(synchronous: False)
+    Polly.Core.Tests.Hedging.HedgingStrategyOptionsTests.ShouldHandle_EnsureDefaults
+    Polly.Core.Tests.Hedging.HedgingStrategyOptionsTests.Validation
+    Polly.Core.Tests.Hedging.OnHedgingArgumentsTests.Ctor_Ok
+    Polly.Core.Tests.Hedging.Controller.HedgingControllerTests.Pooling_Ok
+    Polly.Core.Tests.Hedging.Controller.HedgingExecutionContextTests.Ctor_Ok
+    Polly.Core.Tests.Hedging.Controller.HedgingExecutionContextTests.Initialize_Ok
+    Polly.Core.Tests.Hedging.Controller.HedgingExecutionContextTests.TryWaitForCompletedExecutionAsync_Initialized_Ok(delay: 0)
+    Polly.Core.Tests.Hedging.Controller.HedgingExecutionContextTests.TryWaitForCompletedExecutionAsync_Initialized_Ok(delay: 1)
+    Polly.Core.Tests.Hedging.Controller.HedgingExecutionContextTests.TryWaitForCompletedExecutionAsync_Initialized_Ok(delay: -1)
+    Polly.Core.Tests.Hedging.Controller.HedgingExecutionContextTests.TryWaitForCompletedExecutionAsync_FinishedTask_Ok
+    Polly.Core.Tests.Hedging.Controller.HedgingExecutionContextTests.TryWaitForCompletedExecutionAsync_ConcurrentExecution_Ok
+    Polly.Core.Tests.Hedging.Controller.HedgingExecutionContextTests.TryWaitForCompletedExecutionAsync_SynchronousExecution_Ok
+    Polly.Core.Tests.Hedging.Controller.HedgingExecutionContextTests.TryWaitForCompletedExecutionAsync_HedgedExecution_DelayFiresFirst_ReturnsNull(continueOnCapturedContext: False)
+    Polly.Core.Tests.Hedging.Controller.HedgingExecutionContextTests.TryWaitForCompletedExecutionAsync_HedgedExecution_DelayFiresFirst_ReturnsNull(continueOnCapturedContext: True)
+    Polly.Core.Tests.Hedging.Controller.HedgingExecutionContextTests.TryWaitForCompletedExecutionAsync_HedgedExecution_TaskCompletesBeforeDelay_ReturnsTask(continueOnCapturedContext: False)
+    Polly.Core.Tests.Hedging.Controller.HedgingExecutionContextTests.TryWaitForCompletedExecutionAsync_HedgedExecution_TaskCompletesBeforeDelay_ReturnsTask(continueOnCapturedContext: True)
+    Polly.Core.Tests.Hedging.Controller.HedgingExecutionContextTests.TryWaitForCompletedExecutionAsync_TwiceWhenSecondaryGeneratorNotRegistered_Ok
+    Polly.Core.Tests.Hedging.Controller.HedgingExecutionContextTests.TryWaitForCompletedExecutionAsync_TwiceWhenSecondaryGeneratorRegistered_Ok
+    Polly.Core.Tests.Hedging.Controller.HedgingExecutionContextTests.LoadExecutionAsync_MaxTasks_NoMoreTasksAdded
+    Polly.Core.Tests.Hedging.Controller.HedgingExecutionContextTests.LoadExecutionAsync_EnsureCorrectAttemptNumber
+    Polly.Core.Tests.Hedging.Controller.HedgingExecutionContextTests.LoadExecutionAsync_NoMoreSecondaryTasks_AcceptFinishedOutcome(allExecuted: True)
+    Polly.Core.Tests.Hedging.Controller.HedgingExecutionContextTests.LoadExecutionAsync_NoMoreSecondaryTasks_AcceptFinishedOutcome(allExecuted: False)
+    Polly.Core.Tests.Hedging.Controller.HedgingExecutionContextTests.LoadExecution_NoMoreTasks_Throws
+    Polly.Core.Tests.Hedging.Controller.HedgingExecutionContextTests.Complete_EnsureOriginalContextPreparedWithAcceptedOutcome(primary: True)
+    Polly.Core.Tests.Hedging.Controller.HedgingExecutionContextTests.Complete_EnsureOriginalContextPreparedWithAcceptedOutcome(primary: False)
+    Polly.Core.Tests.Hedging.Controller.HedgingExecutionContextTests.Complete_NoTasks_EnsureCleaned
+    Polly.Core.Tests.Hedging.Controller.HedgingExecutionContextTests.Complete_NoAcceptedTasks_ShouldNotThrow
+    Polly.Core.Tests.Hedging.Controller.HedgingExecutionContextTests.Complete_MultipleAcceptedTasks_ShouldNotThrow
+    Polly.Core.Tests.Hedging.Controller.HedgingExecutionContextTests.Complete_EnsurePendingTasksCleaned
+    Polly.Core.Tests.Hedging.Controller.HedgingExecutionContextTests.Complete_EnsureCleaned
+    Polly.Core.Tests.Hedging.Controller.TaskExecutionTests.Initialize_Primary_Ok(value: "Handled", handled: True)
+    Polly.Core.Tests.Hedging.Controller.TaskExecutionTests.Initialize_Primary_Ok(value: "Unhandled", handled: False)
+    Polly.Core.Tests.Hedging.Controller.TaskExecutionTests.Initialize_PrimaryCallbackThrows_EnsureExceptionHandled
+    Polly.Core.Tests.Hedging.Controller.TaskExecutionTests.Initialize_Secondary_Ok(value: "Handled", handled: True)
+    Polly.Core.Tests.Hedging.Controller.TaskExecutionTests.Initialize_Secondary_Ok(value: "Unhandled", handled: False)
+    Polly.Core.Tests.Hedging.Controller.TaskExecutionTests.Initialize_Secondary_DefaultHandler_Ok(sync: False)
+    Polly.Core.Tests.Hedging.Controller.TaskExecutionTests.Initialize_Secondary_DefaultHandler_Ok(sync: True)
+    Polly.Core.Tests.Hedging.Controller.TaskExecutionTests.Initialize_SecondaryWhenTaskGeneratorReturnsNull_Ok
+    Polly.Core.Tests.Hedging.Controller.TaskExecutionTests.Cancel_Accepted_NoEffect
+    Polly.Core.Tests.Hedging.Controller.TaskExecutionTests.Cancel_NotAccepted_Cancelled
+    Polly.Core.Tests.Hedging.Controller.TaskExecutionTests.Initialize_SecondaryWhenTaskGeneratorThrows_EnsureOutcome
+    Polly.Core.Tests.Hedging.Controller.TaskExecutionTests.Initialize_ExecutionTaskDoesNotThrows
+    Polly.Core.Tests.Hedging.Controller.TaskExecutionTests.Initialize_Cancelled_EnsureRespected(primary: True)
+    Polly.Core.Tests.Hedging.Controller.TaskExecutionTests.Initialize_Cancelled_EnsureRespected(primary: False)
+    Polly.Core.Tests.Hedging.Controller.TaskExecutionTests.AcceptOutcome_NotInitialized_Throws
+    Polly.Core.Tests.Hedging.Controller.TaskExecutionTests.ResetAsync_Ok(accept: True)
+    Polly.Core.Tests.Hedging.Controller.TaskExecutionTests.ResetAsync_Ok(accept: False)
+    Polly.Core.Tests.Fallback.FallbackHandlerTests.GenerateAction_Generic_Ok
+    Polly.Core.Tests.Fallback.FallbackResiliencePipelineBuilderExtensionsTests.AddFallback_Generic_Ok
+    Polly.Core.Tests.Fallback.FallbackResiliencePipelineBuilderExtensionsTests.AddFallbackT_InvalidOptions_Throws
+    Polly.Core.Tests.Fallback.FallbackResilienceStrategyTests.Ctor_Ok
+    Polly.Core.Tests.Fallback.FallbackResilienceStrategyTests.Handle_Result_Ok
+    Polly.Core.Tests.Fallback.FallbackResilienceStrategyTests.ShouldHandle_ArgumentsSetCorrectly(handle: True)
+    Polly.Core.Tests.Fallback.FallbackResilienceStrategyTests.ShouldHandle_ArgumentsSetCorrectly(handle: False)
+    Polly.Core.Tests.Fallback.FallbackResilienceStrategyTests.Handle_Result_FallbackActionThrows
+    Polly.Core.Tests.Fallback.FallbackResilienceStrategyTests.Handle_Exception_Ok
+    Polly.Core.Tests.Fallback.FallbackResilienceStrategyTests.Handle_UnhandledException_Ok
+    Polly.Core.Tests.Fallback.FallbackResilienceStrategyTests.Handle_UnhandledResult_Ok
+    Polly.Core.Tests.Fallback.FallbackResilienceStrategyTests.ExecuteOutcomeAsync_UnhandledException_Ok
+    Polly.Core.Tests.Fallback.FallbackStrategyOptionsTests.Ctor_EnsureDefaults
+    Polly.Core.Tests.Fallback.FallbackStrategyOptionsTests.ShouldHandle_EnsureDefaults
+    Polly.Core.Tests.Fallback.FallbackStrategyOptionsTests.Validation
+    Polly.Core.Tests.CircuitBreaker.BreakDurationGeneratorArgumentsTests.Constructor_Old_Ok
+    Polly.Core.Tests.CircuitBreaker.BreakDurationGeneratorArgumentsTests.Constructor_Ok
+    Polly.Core.Tests.CircuitBreaker.BrokenCircuitExceptionTests.Ctor_Default_Ok
+    Polly.Core.Tests.CircuitBreaker.BrokenCircuitExceptionTests.Ctor_Message_Ok
+    Polly.Core.Tests.CircuitBreaker.BrokenCircuitExceptionTests.Ctor_RetryAfter_Ok
+    Polly.Core.Tests.CircuitBreaker.BrokenCircuitExceptionTests.Ctor_Message_RetryAfter_Ok
+    Polly.Core.Tests.CircuitBreaker.BrokenCircuitExceptionTests.Ctor_Message_InnerException_Ok
+    Polly.Core.Tests.CircuitBreaker.BrokenCircuitExceptionTests.Ctor_Message_RetryAfter_InnerException_Ok
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerManualControlTests.Ctor_Isolated(isolated: True)
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerManualControlTests.Ctor_Isolated(isolated: False)
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerManualControlTests.IsolateAsync_NotInitialized_Ok(closedAfter: True)
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerManualControlTests.IsolateAsync_NotInitialized_Ok(closedAfter: False)
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerManualControlTests.ResetAsync_NotInitialized_Ok
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerManualControlTests.Initialize_Twice_Ok
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerManualControlTests.Initialize_DisposeRegistration_ShuldBeCancelled
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerManualControlTests.Initialize_Ok
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerOptionsTests.ShouldHandle_EnsureDefaults
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerOptionsTests.Ctor_Defaults
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerOptionsTests.InvalidOptions_Validate
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerPredicateArgumentsTests.Ctor_Ok
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerResiliencePipelineBuilderTests.AddCircuitBreaker_Configure
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerResiliencePipelineBuilderTests.AddCircuitBreaker_Generic_Configure
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerResiliencePipelineBuilderTests.AddCircuitBreaker_Validation
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerResiliencePipelineBuilderTests.AddCircuitBreaker_IntegrationTest
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerResiliencePipelineBuilderTests.AddCircuitBreaker_IntegrationTest_WithBreakDurationGenerator
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerResiliencePipelineBuilderTests.AddCircuitBreakers_WithIsolatedManualControl_ShouldBeIsolated
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerResiliencePipelineBuilderTests.DisposePipeline_EnsureCircuitBreakerDisposed(attachManualControl: False)
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerResiliencePipelineBuilderTests.DisposePipeline_EnsureCircuitBreakerDisposed(attachManualControl: True)
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerResilienceStrategyTests.Ctor_Ok
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerResilienceStrategyTests.Ctor_StateProvider_EnsureAttached
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerResilienceStrategyTests.Ctor_ManualControl_EnsureAttached
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerResilienceStrategyTests.Execute_HandledResult_OnFailureCalled
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerResilienceStrategyTests.Execute_UnhandledResult_OnActionSuccess
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerResilienceStrategyTests.Execute_HandledException_OnFailureCalled
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerResilienceStrategyTests.Execute_UnhandledException_OnActionSuccess
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerResilienceStrategyTests.ExecuteOutcomeAsync_UnhandledException_OnActionSuccess
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerResilienceStrategyTests.Execute_Ok
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerStateProviderTests.Ctor_Ok
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerStateProviderTests.NotInitialized_EnsureDefaults
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerStateProviderTests.ResetAsync_NotInitialized_Throws
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerStateProviderTests.Initialize_Twice_Throws
+    Polly.Core.Tests.CircuitBreaker.CircuitBreakerStateProviderTests.Initialize_Ok
+    Polly.Core.Tests.CircuitBreaker.IsolatedCircuitExceptionTests.Ctor_Default_Ok
+    Polly.Core.Tests.CircuitBreaker.IsolatedCircuitExceptionTests.Ctor_Message_Ok
+    Polly.Core.Tests.CircuitBreaker.IsolatedCircuitExceptionTests.Ctor_Message_InnerException_Ok
+    Polly.Core.Tests.CircuitBreaker.OnCircuitClosedArgumentsTests.Ctor_Ok
+    Polly.Core.Tests.CircuitBreaker.OnCircuitHalfOpenedArgumentsTests.Ctor_Ok
+    Polly.Core.Tests.CircuitBreaker.OnCircuitOpenedArgumentsTests.Ctor_Ok
+    Polly.Core.Tests.CircuitBreaker.Health.HealthMetricsTests.Create_Ok(samplingDurationMs: 100, expectedType: typeof(Polly.CircuitBreaker.Health.SingleHealthMetrics))
+    Polly.Core.Tests.CircuitBreaker.Health.HealthMetricsTests.Create_Ok(samplingDurationMs: 199, expectedType: typeof(Polly.CircuitBreaker.Health.SingleHealthMetrics))
+    Polly.Core.Tests.CircuitBreaker.Health.HealthMetricsTests.Create_Ok(samplingDurationMs: 200, expectedType: typeof(Polly.CircuitBreaker.Health.RollingHealthMetrics))
+    Polly.Core.Tests.CircuitBreaker.Health.HealthMetricsTests.Create_Ok(samplingDurationMs: 201, expectedType: typeof(Polly.CircuitBreaker.Health.RollingHealthMetrics))
+    Polly.Core.Tests.CircuitBreaker.Health.HealthMetricsTests.HealthInfo_WithZeroTotal_ShouldSetValuesCorrectly
+    Polly.Core.Tests.CircuitBreaker.Health.HealthMetricsTests.HealthInfo_ParameterizedConstructor_ShouldSetProperties
+    Polly.Core.Tests.CircuitBreaker.Health.HealthMetricsTests.HealthInfo_Constructor_ShouldSetValuesCorrectly
+    Polly.Core.Tests.CircuitBreaker.Health.RollingHealthMetricsTests.Ctor_EnsureDefaults
+    Polly.Core.Tests.CircuitBreaker.Health.RollingHealthMetricsTests.Increment_Ok
+    Polly.Core.Tests.CircuitBreaker.Health.RollingHealthMetricsTests.GetHealthInfo_EnsureWindowRespected
+    Polly.Core.Tests.CircuitBreaker.Health.RollingHealthMetricsTests.GetHealthInfo_EnsureWindowCapacityRespected
+    Polly.Core.Tests.CircuitBreaker.Health.RollingHealthMetricsTests.Reset_Ok
+    Polly.Core.Tests.CircuitBreaker.Health.RollingHealthMetricsTests.GetHealthInfo_SamplingDurationRespected(variance: True)
+    Polly.Core.Tests.CircuitBreaker.Health.RollingHealthMetricsTests.GetHealthInfo_SamplingDurationRespected(variance: False)
+    Polly.Core.Tests.CircuitBreaker.Health.SingleHealthMetricsTests.Ctor_EnsureDefaults
+    Polly.Core.Tests.CircuitBreaker.Health.SingleHealthMetricsTests.Increment_Ok
+    Polly.Core.Tests.CircuitBreaker.Health.SingleHealthMetricsTests.Reset_Ok
+    Polly.Core.Tests.CircuitBreaker.Health.SingleHealthMetricsTests.SamplingDurationRespected_Ok
+    Polly.Core.Tests.CircuitBreaker.Controller.AdvancedCircuitBehaviorTests.OnActionFailure_WhenClosed_EnsureCorrectBehavior(throughput: 10, minimumThruput: 10, failureRate: 0, failureThreshold: 0,10000000000000001, failureCount: 0, expectedShouldBreak: False)
+    Polly.Core.Tests.CircuitBreaker.Controller.AdvancedCircuitBehaviorTests.OnActionFailure_WhenClosed_EnsureCorrectBehavior(throughput: 10, minimumThruput: 10, failureRate: 0,10000000000000001, failureThreshold: 0,10000000000000001, failureCount: 1, expectedShouldBreak: True)
+    Polly.Core.Tests.CircuitBreaker.Controller.AdvancedCircuitBehaviorTests.OnActionFailure_WhenClosed_EnsureCorrectBehavior(throughput: 10, minimumThruput: 10, failureRate: 0,20000000000000001, failureThreshold: 0,10000000000000001, failureCount: 2, expectedShouldBreak: True)
+    Polly.Core.Tests.CircuitBreaker.Controller.AdvancedCircuitBehaviorTests.OnActionFailure_WhenClosed_EnsureCorrectBehavior(throughput: 11, minimumThruput: 10, failureRate: 0,20000000000000001, failureThreshold: 0,10000000000000001, failureCount: 3, expectedShouldBreak: True)
+    Polly.Core.Tests.CircuitBreaker.Controller.AdvancedCircuitBehaviorTests.OnActionFailure_WhenClosed_EnsureCorrectBehavior(throughput: 9, minimumThruput: 10, failureRate: 0,10000000000000001, failureThreshold: 0,10000000000000001, failureCount: 4, expectedShouldBreak: False)
+    Polly.Core.Tests.CircuitBreaker.Controller.AdvancedCircuitBehaviorTests.OnActionFailure_State_EnsureCorrectCalls(state: Closed, shouldIncrementFailure: True)
+    Polly.Core.Tests.CircuitBreaker.Controller.AdvancedCircuitBehaviorTests.OnActionFailure_State_EnsureCorrectCalls(state: Open, shouldIncrementFailure: True)
+    Polly.Core.Tests.CircuitBreaker.Controller.AdvancedCircuitBehaviorTests.OnActionFailure_State_EnsureCorrectCalls(state: Isolated, shouldIncrementFailure: True)
+    Polly.Core.Tests.CircuitBreaker.Controller.AdvancedCircuitBehaviorTests.OnActionFailure_State_EnsureCorrectCalls(state: HalfOpen, shouldIncrementFailure: False)
+    Polly.Core.Tests.CircuitBreaker.Controller.AdvancedCircuitBehaviorTests.OnCircuitClosed_Ok
+    Polly.Core.Tests.CircuitBreaker.Controller.AdvancedCircuitBehaviorTests.BehaviorProperties_ShouldReflectHealthInfoValues(throughput: 10, failureRate: 0, failureCount: 0)
+    Polly.Core.Tests.CircuitBreaker.Controller.AdvancedCircuitBehaviorTests.BehaviorProperties_ShouldReflectHealthInfoValues(throughput: 10, failureRate: 0,10000000000000001, failureCount: 1)
+    Polly.Core.Tests.CircuitBreaker.Controller.AdvancedCircuitBehaviorTests.BehaviorProperties_ShouldReflectHealthInfoValues(throughput: 10, failureRate: 0,20000000000000001, failureCount: 2)
+    Polly.Core.Tests.CircuitBreaker.Controller.AdvancedCircuitBehaviorTests.BehaviorProperties_ShouldReflectHealthInfoValues(throughput: 11, failureRate: 0,20000000000000001, failureCount: 3)
+    Polly.Core.Tests.CircuitBreaker.Controller.AdvancedCircuitBehaviorTests.BehaviorProperties_ShouldReflectHealthInfoValues(throughput: 9, failureRate: 0,10000000000000001, failureCount: 4)
+    Polly.Core.Tests.CircuitBreaker.Controller.CircuitStateControllerTests.Ctor_EnsureDefaults
+    Polly.Core.Tests.CircuitBreaker.Controller.CircuitStateControllerTests.IsolateAsync_Ok
+    Polly.Core.Tests.CircuitBreaker.Controller.CircuitStateControllerTests.BreakAsync_Ok
+    Polly.Core.Tests.CircuitBreaker.Controller.CircuitStateControllerTests.Disposed_EnsureThrows
+    Polly.Core.Tests.CircuitBreaker.Controller.CircuitStateControllerTests.OnActionPreExecute_CircuitOpenedByValue
+    Polly.Core.Tests.CircuitBreaker.Controller.CircuitStateControllerTests.OnActionPreExecute_CircuitOpened_EnsureExceptionStackTraceDoesNotGrow(innerException: True)
+    Polly.Core.Tests.CircuitBreaker.Controller.CircuitStateControllerTests.OnActionPreExecute_CircuitOpened_EnsureExceptionStackTraceDoesNotGrow(innerException: False)
+    Polly.Core.Tests.CircuitBreaker.Controller.CircuitStateControllerTests.HalfOpen_EnsureBreakDuration
+    Polly.Core.Tests.CircuitBreaker.Controller.CircuitStateControllerTests.HalfOpen_EnsureCorrectStateTransitionAfterExecution(success: True)
+    Polly.Core.Tests.CircuitBreaker.Controller.CircuitStateControllerTests.HalfOpen_EnsureCorrectStateTransitionAfterExecution(success: False)
+    Polly.Core.Tests.CircuitBreaker.Controller.CircuitStateControllerTests.OnActionPreExecute_CircuitOpenedByException
+    Polly.Core.Tests.CircuitBreaker.Controller.CircuitStateControllerTests.OnActionFailure_EnsureLock
+    Polly.Core.Tests.CircuitBreaker.Controller.CircuitStateControllerTests.OnActionPreExecute_HalfOpen
+    Polly.Core.Tests.CircuitBreaker.Controller.CircuitStateControllerTests.OnActionSuccess_EnsureCorrectBehavior(state: HalfOpen, expectedState: Closed)
+    Polly.Core.Tests.CircuitBreaker.Controller.CircuitStateControllerTests.OnActionSuccess_EnsureCorrectBehavior(state: Isolated, expectedState: Isolated)
+    Polly.Core.Tests.CircuitBreaker.Controller.CircuitStateControllerTests.OnActionSuccess_EnsureCorrectBehavior(state: Closed, expectedState: Closed)
+    Polly.Core.Tests.CircuitBreaker.Controller.CircuitStateControllerTests.OnActionFailureAsync_EnsureCorrectBehavior(state: HalfOpen, expectedState: Open, shouldBreak: True)
+    Polly.Core.Tests.CircuitBreaker.Controller.CircuitStateControllerTests.OnActionFailureAsync_EnsureCorrectBehavior(state: Closed, expectedState: Open, shouldBreak: True)
+    Polly.Core.Tests.CircuitBreaker.Controller.CircuitStateControllerTests.OnActionFailureAsync_EnsureCorrectBehavior(state: Closed, expectedState: Closed, shouldBreak: False)
+    Polly.Core.Tests.CircuitBreaker.Controller.CircuitStateControllerTests.OnActionFailureAsync_EnsureCorrectBehavior(state: Open, expectedState: Open, shouldBreak: False)
+    Polly.Core.Tests.CircuitBreaker.Controller.CircuitStateControllerTests.OnActionFailureAsync_EnsureCorrectBehavior(state: Isolated, expectedState: Isolated, shouldBreak: False)
+    Polly.Core.Tests.CircuitBreaker.Controller.CircuitStateControllerTests.OnActionFailureAsync_EnsureBreakDurationGeneration
+    Polly.Core.Tests.CircuitBreaker.Controller.CircuitStateControllerTests.BreakDurationGenerator_EnsureHalfOpenAttempts
+    Polly.Core.Tests.CircuitBreaker.Controller.CircuitStateControllerTests.OnActionFailureAsync_EnsureBreakDurationNotOverflow(overflow: True)
+    Polly.Core.Tests.CircuitBreaker.Controller.CircuitStateControllerTests.OnActionFailureAsync_EnsureBreakDurationNotOverflow(overflow: False)
+    Polly.Core.Tests.CircuitBreaker.Controller.CircuitStateControllerTests.OnActionFailureAsync_VoidResult_EnsureBreakingExceptionNotSet
+    Polly.Core.Tests.CircuitBreaker.Controller.CircuitStateControllerTests.Flow_Closed_HalfOpen_Closed
+    Polly.Core.Tests.CircuitBreaker.Controller.CircuitStateControllerTests.Flow_Closed_HalfOpen_Open_HalfOpen_Closed
+    Polly.Core.Tests.CircuitBreaker.Controller.CircuitStateControllerTests.ExecuteScheduledTask_Async_Ok
+    Polly.Core.Tests.CircuitBreaker.Controller.ScheduledTaskExecutorTests.ScheduleTask_Success_EnsureExecuted
+    Polly.Core.Tests.CircuitBreaker.Controller.ScheduledTaskExecutorTests.ScheduleTask_OperationCanceledException_EnsureExecuted
+    Polly.Core.Tests.CircuitBreaker.Controller.ScheduledTaskExecutorTests.ScheduleTask_Exception_EnsureExecuted
+    Polly.Core.Tests.CircuitBreaker.Controller.ScheduledTaskExecutorTests.ScheduleTask_Multiple_EnsureExecutionSerialized
+    Polly.Core.Tests.CircuitBreaker.Controller.ScheduledTaskExecutorTests.Dispose_ScheduledTaskCancelled
+    Polly.Core.Tests.CircuitBreaker.Controller.ScheduledTaskExecutorTests.Dispose_WhenScheduledTaskExecuting
+    Polly.Core.Tests.CircuitBreaker.Controller.ScheduledTaskExecutorTests.ScheduleTask_InlineContinuationDoesNotDeadlock
+    Polly.Core.Tests.CircuitBreaker.Controller.ScheduledTaskExecutorTests.Dispose_EnsureNoBackgroundProcessing

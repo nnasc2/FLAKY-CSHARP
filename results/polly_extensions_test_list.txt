@@ -1,0 +1,116 @@
+﻿  Determinando os projetos a serem restaurados...
+  Todos os projetos est├úo atualizados para restaura├º├úo.
+  Polly.Core -> C:\Users\nns\flaky-csharp\repos\Polly\artifacts\bin\Polly.Core\debug_net8.0\Polly.Core.dll
+  Polly.TestUtils -> C:\Users\nns\flaky-csharp\repos\Polly\artifacts\bin\Polly.TestUtils\debug_net8.0\Polly.TestUtils.dll
+  Polly.RateLimiting -> C:\Users\nns\flaky-csharp\repos\Polly\artifacts\bin\Polly.RateLimiting\debug_net8.0\Polly.RateLimiting.dll
+  Polly.Extensions -> C:\Users\nns\flaky-csharp\repos\Polly\artifacts\bin\Polly.Extensions\debug_net8.0\Polly.Extensions.dll
+  Polly.Extensions.Tests -> C:\Users\nns\flaky-csharp\repos\Polly\artifacts\bin\Polly.Extensions.Tests\debug_net8.0\Polly.Extensions.Tests.dll
+Execu├º├úo de teste para C:\Users\nns\flaky-csharp\repos\Polly\artifacts\bin\Polly.Extensions.Tests\debug_net8.0\Polly.Extensions.Tests.dll (.NETCoreApp,Version=v8.0)
+Os Testes a seguir est├úo dispon├¡veis:
+    Polly.Core.Tests.Utils.ObjectPoolTests.GetAnd_ReturnObject_SameInstance
+    Polly.Core.Tests.Utils.ObjectPoolTests.MaxCapacity_Ok
+    Polly.Core.Tests.Utils.ObjectPoolTests.MaxCapacity_Respected
+    Polly.Core.Tests.Utils.ObjectPoolTests.MaxCapacityOverflow_Respected
+    Polly.Core.Tests.Utils.ObjectPoolTests.CreatedByPolicy
+    Polly.Core.Tests.Utils.ObjectPoolTests.Return_RejectedByPolicy
+    Polly.Tests.StrongNameTests.Tests_Are_Strong_Named
+    Polly.Extensions.Tests.DisposablePipelineTests.DisposePipeline_EnsureLinkedResourcesDisposedToo
+    Polly.Extensions.Tests.DisposablePipelineTests.DisposePipeline_EnsureExternalPipelineNotDisposed
+    Polly.Extensions.Tests.DisposablePipelineTests.DisposePipeline_OnPipelineDisposed_Throws_NullArg
+    Polly.Extensions.Tests.ReloadableResiliencePipelineTests.AddResiliencePipeline_EnsureReloadable(name: null)
+    Polly.Extensions.Tests.ReloadableResiliencePipelineTests.AddResiliencePipeline_EnsureReloadable(name: "custom-name")
+    Polly.Extensions.Tests.ReloadableResiliencePipelineTests.AddResiliencePipeline_EnsureReloadable(name: "")
+    Polly.Extensions.Tests.Utils.TelemetryUtilTests.AsBoxedPool_Ok
+    Polly.Extensions.Tests.Utils.TelemetryUtilTests.AsBoxedInt_Ok
+    Polly.Extensions.Tests.Utils.TelemetryUtilTests.GetValueOrPlaceholder_Ok
+    Polly.Extensions.Tests.Telemetry.TagsListTests.Pooling_OK
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.Meter_Ok
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.WriteEvent_LoggingWithOutcome_Ok(noOutcome: True)
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.WriteEvent_LoggingWithOutcome_Ok(noOutcome: False)
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.WriteEvent_LoggingWithException_Ok(noOutcome: True)
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.WriteEvent_LoggingWithException_Ok(noOutcome: False)
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.WriteEvent_LoggingWithoutInstanceName_Ok
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.WriteEvent_EnsureSeverityRespected(severity: Error, logLevel: Error)
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.WriteEvent_EnsureSeverityRespected(severity: Warning, logLevel: Warning)
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.WriteEvent_EnsureSeverityRespected(severity: Information, logLevel: Information)
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.WriteEvent_EnsureSeverityRespected(severity: Debug, logLevel: Debug)
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.WriteEvent_EnsureSeverityRespected(severity: Critical, logLevel: Critical)
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.WriteEvent_EnsureSeverityRespected(severity: None, logLevel: None)
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.WriteEvent_EnsureSeverityRespected(severity: 99, logLevel: None)
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.WriteExecutionAttempt_LoggingWithException_Ok
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.WriteExecutionAttempt_LoggingWithOutcome_Ok(noOutcome: True, handled: True)
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.WriteExecutionAttempt_LoggingWithOutcome_Ok(noOutcome: False, handled: True)
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.WriteExecutionAttempt_LoggingWithOutcome_Ok(noOutcome: True, handled: False)
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.WriteExecutionAttempt_LoggingWithOutcome_Ok(noOutcome: False, handled: False)
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.WriteExecutionAttempt_NotEnabled_EnsureNotLogged
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.WriteEvent_MeteringWithoutEnrichers_Ok(noOutcome: True, exception: False)
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.WriteEvent_MeteringWithoutEnrichers_Ok(noOutcome: False, exception: False)
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.WriteEvent_MeteringWithoutEnrichers_Ok(noOutcome: True, exception: True)
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.WriteEvent_MeteringWithoutEnrichers_Ok(noOutcome: False, exception: True)
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.WriteExecutionAttemptEvent_Metering_Ok(noOutcome: True, exception: False)
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.WriteExecutionAttemptEvent_Metering_Ok(noOutcome: False, exception: False)
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.WriteExecutionAttemptEvent_Metering_Ok(noOutcome: True, exception: True)
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.WriteExecutionAttemptEvent_Metering_Ok(noOutcome: False, exception: True)
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.WriteExecutionAttemptEvent_ShouldBeSkipped
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.WriteEvent_MeteringWithEnrichers_Ok(count: 1)
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.WriteEvent_MeteringWithEnrichers_Ok(count: 100)
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.WriteEvent_MeteringWithoutBuilderInstance_Ok
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.OnTelemetryEvent_Ok(hasCallback: True)
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.OnTelemetryEvent_Ok(hasCallback: False)
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.PipelineExecution_Logged(exception: True)
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.PipelineExecution_Logged(exception: False)
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.PipelineExecution_VoidResult_Ok
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.PipelineExecution_NoOutcome_Logged
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.PipelineExecution_Metered(exception: False)
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.PipelineExecution_Metered(exception: True)
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.PipelineExecuted_ShouldBeSkipped
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.SeverityProvider_NotSet_SeverityRespected
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.SeverityProvider_EnsureRespected
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.SeverityProvider_EnsureRespected_For_PipelineEvents
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.SeverityProvider_EnsureLogLevelChecked(severity: -1)
+    Polly.Extensions.Tests.Telemetry.TelemetryListenerImplTests.SeverityProvider_EnsureLogLevelChecked(severity: 6)
+    Polly.Extensions.Tests.Telemetry.TelemetryOptionsTests.Ctor_EnsureDefaults
+    Polly.Extensions.Tests.Telemetry.TelemetryOptionsTests.CopyCtor_OtherNull_Throws
+    Polly.Extensions.Tests.Telemetry.TelemetryOptionsTests.CopyCtor_Ok
+    Polly.Extensions.Tests.Telemetry.TelemetryOptionsTests.CopyCtor_Reminder
+    Polly.Extensions.Tests.Telemetry.TelemetryResiliencePipelineBuilderExtensionsTests.ConfigureTelemetry_EnsureDiagnosticSourceUpdated
+    Polly.Extensions.Tests.Telemetry.TelemetryResiliencePipelineBuilderExtensionsTests.ConfigureTelemetry_EnsureLogging
+    Polly.Extensions.Tests.Telemetry.TelemetryResiliencePipelineBuilderExtensionsTests.ConfigureTelemetry_NullArguments_Throws
+    Polly.Extensions.Tests.Telemetry.TelemetryResiliencePipelineBuilderExtensionsTests.ConfigureTelemetry_InvalidOptions_Throws
+    Polly.Extensions.Tests.Telemetry.TelemetrySourceTests.TelemetrySource_CreatesMeter
+    Polly.Extensions.Tests.Registry.ConfigureBuilderContextExtensionsTests.ConfigureReloads_NullArguments_Throws
+    Polly.Extensions.Tests.Registry.ConfigureBuilderContextExtensionsTests.ConfigureReloads_MonitorRegistrationReturnsNull_DoesNotThrow
+    Polly.Extensions.Tests.Issues.IssuesTests.DynamicContextPool_1687
+    Polly.Extensions.Tests.Issues.IssuesTests.OnCircuitBreakWithServiceProvider_796
+    Polly.Extensions.Tests.Issues.IssuesTests.OverrideLibraryStrategies_1072(overrideStrategy: True)
+    Polly.Extensions.Tests.Issues.IssuesTests.OverrideLibraryStrategies_1072(overrideStrategy: False)
+    Polly.Extensions.Tests.Issues.IssuesTests.OverrideLoggerFactory_ByExplicitConfigureTelemetryCall_1783
+    Polly.Extensions.Tests.Issues.IssuesTests.PartitionedRateLimiter_EnsureUserLimited_1365
+    Polly.Extensions.Tests.Issues.IssuesTests.StrategiesPerEndpoint_1365
+    Polly.Extensions.Tests.DependencyInjection.PollyServiceCollectionExtensionTests.AddResiliencePipeline_ArgValidation
+    Polly.Extensions.Tests.DependencyInjection.PollyServiceCollectionExtensionTests.AddResiliencePipeline_EnsureRegisteredServices(generic: True)
+    Polly.Extensions.Tests.DependencyInjection.PollyServiceCollectionExtensionTests.AddResiliencePipeline_EnsureRegisteredServices(generic: False)
+    Polly.Extensions.Tests.DependencyInjection.PollyServiceCollectionExtensionTests.AddResiliencePipeline_MultipleRegistries_Ok
+    Polly.Extensions.Tests.DependencyInjection.PollyServiceCollectionExtensionTests.AddResiliencePipeline_EnsureContextFilled(generic: True)
+    Polly.Extensions.Tests.DependencyInjection.PollyServiceCollectionExtensionTests.AddResiliencePipeline_EnsureContextFilled(generic: False)
+    Polly.Extensions.Tests.DependencyInjection.PollyServiceCollectionExtensionTests.AddResiliencePipeline_EnsureTelemetryEnabled(hasLogging: True)
+    Polly.Extensions.Tests.DependencyInjection.PollyServiceCollectionExtensionTests.AddResiliencePipeline_EnsureTelemetryEnabled(hasLogging: False)
+    Polly.Extensions.Tests.DependencyInjection.PollyServiceCollectionExtensionTests.AddResiliencePipeline_EnsureResiliencePipelineBuilderResolvedCorrectly
+    Polly.Extensions.Tests.DependencyInjection.PollyServiceCollectionExtensionTests.AddResiliencePipeline_EnsureServicesNotAddedTwice
+    Polly.Extensions.Tests.DependencyInjection.PollyServiceCollectionExtensionTests.AddResiliencePipeline_Single_Ok
+    Polly.Extensions.Tests.DependencyInjection.PollyServiceCollectionExtensionTests.AddResiliencePipeline_KeyedSingleton_Ok
+    Polly.Extensions.Tests.DependencyInjection.PollyServiceCollectionExtensionTests.AddResiliencePipeline_GenericKeyedSingleton_Ok
+    Polly.Extensions.Tests.DependencyInjection.PollyServiceCollectionExtensionTests.AddResiliencePipeline_KeyedSingletonOverride_Ok
+    Polly.Extensions.Tests.DependencyInjection.PollyServiceCollectionExtensionTests.AddResiliencePipeline_GenericKeyedSingletonOverride_Ok
+    Polly.Extensions.Tests.DependencyInjection.PollyServiceCollectionExtensionTests.AddResiliencePipeline_Twice_FirstOneWins(generic: True)
+    Polly.Extensions.Tests.DependencyInjection.PollyServiceCollectionExtensionTests.AddResiliencePipeline_Twice_FirstOneWins(generic: False)
+    Polly.Extensions.Tests.DependencyInjection.PollyServiceCollectionExtensionTests.AddResiliencePipeline_Multiple_Ok
+    Polly.Extensions.Tests.DependencyInjection.PollyServiceCollectionExtensionTests.AddResiliencePipeline_EnsureTimeProvider(timeProviderRegistered: True)
+    Polly.Extensions.Tests.DependencyInjection.PollyServiceCollectionExtensionTests.AddResiliencePipeline_EnsureTimeProvider(timeProviderRegistered: False)
+    Polly.Extensions.Tests.DependencyInjection.PollyServiceCollectionExtensionTests.AddResiliencePipelineRegistry_Throws_If_Services_Null
+    Polly.Extensions.Tests.DependencyInjection.PollyServiceCollectionExtensionTests.AddResiliencePipelineRegistry_Ok
+    Polly.Extensions.Tests.DependencyInjection.PollyServiceCollectionExtensionTests.AddResiliencePipelineRegistry_ConfigureCallback_Ok
+    Polly.Extensions.Tests.DependencyInjection.PollyServiceCollectionExtensionTests.AddResiliencePipeline_CustomInstanceName_EnsureReported(usingBuilder: True)
+    Polly.Extensions.Tests.DependencyInjection.PollyServiceCollectionExtensionTests.AddResiliencePipeline_CustomInstanceName_EnsureReported(usingBuilder: False)
+    Polly.Extensions.Tests.DependencyInjection.PollyServiceCollectionExtensionTests.AddResiliencePipelines_Multiple_Ok
+    Polly.Extensions.Tests.DependencyInjection.PollyServiceCollectionExtensionTests.AddResiliencePipelines_MultipleRegistries_Ok

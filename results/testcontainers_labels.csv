@@ -1,0 +1,508 @@
+test_name,total_runs,passed,failed,label
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerHostCustomConfiguration(configuration: ""docker.host=tcp://127.0.0.1:2375/"", expected: ""tcp://127.0.0.1:2375/"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerContextCustomConfiguration(propertyName: ""DOCKER_CONTEXT"", propertyValue: ""default"", expected: ""default"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest.GetHostnameFromDockerImage(dockerImageName: ""myregistry.azurecr.io/baz/foo/bar:latest"", hostname: ""myregistry.azurecr.io"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerEndpointAuthenticationProviderTest.AuthProviderShouldBeApplicable(authProvider: MTlsEndpointAuthenticationProvider { LastException = null }, isApplicable: True)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.ResourcePropertiesTest.QueryNotExistingDockerNetworkById,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerAuthConfigCustomConfiguration(configuration: ""docker.auth.config="", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetRyukDisabledCustomConfiguration(propertyName: ""TESTCONTAINERS_RYUK_DISABLED"", propertyValue: """", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerTlsVerifyCustomConfiguration(configuration: ""docker.tls.verify=1"", expected: True)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainerNetworkBuilderTest.CreateNetworkAssignsOptions,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetHubImageNamePrefixCustomConfiguration(propertyName: ""TESTCONTAINERS_HUB_IMAGE_NAME_PREFIX"", propertyValue: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.WhenImageNameGetsAssigned(serializable: DockerImageFixtureSerializable { Image = DockerImage { Digest = null, FullName = ""bar/baz:latest"", Platform = null, Registry = null, Repository = ""bar/baz"", ··· } }, image: ""bar/baz"", fullName: ""bar/baz:latest"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.AppendEnumerableCompose(oldValue: [""old""], newValue: [], expected: [""old""])",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: ""temp"", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.AppendEnumerableCompose(oldValue: [], newValue: [], expected: [])",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerTlsVerifyCustomConfiguration(propertyName: ""DOCKER_TLS_VERIFY"", propertyValue: ""TRUE"", expected: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+CredsHelperProviderTest.ShouldGetNull(jsonDocument: ""{\""credHelpers\"":{\""https://index.docker.io/v1/\"":""···, isApplicable: True)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.ResourcePropertiesTest.QueryVolumeInformationOfNotCreatedVolume,100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.ImageFromDockerfileTest.BuildTargetBuildsUpToExpectedTarget,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+Base64ProviderTest.ResolvePartialDockerRegistry(jsonDocument: ""{\""auths\"":{\""docker.io\"":{}}}"", hostname: ""index.docker.io"", expectedResult: False)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.DockerConfigTests+DockerContextConfigurationTests.ReturnsConfiguredEndpointWhenDockerContextIsCustomFromConfigFile,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+Base64ProviderTest.ShouldGetNull(jsonDocument: ""{\""auths\"":{\""https://index.docker.io/v1/\"":{\""aut""···, isApplicable: True, logMessage: ""The \""auth\"" property value kind for https://index""···)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.GuardTest+NullPreconditions+ThrowArgumentException.IfNull,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+Base64ProviderTest.ResolvePartialDockerRegistry(jsonDocument: ""{\""auths\"":{\""https://ghcr.io\"":{}}}"", hostname: ""ghcr.io"", expectedResult: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.CombineReadOnlyLists(oldValue: null, newValue: null, expected: [])",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: ""bin/Debug"", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetWaitStrategyIntervalCustomConfiguration(propertyName: ""TESTCONTAINERS_WAIT_STRATEGY_INTERVAL"", propertyValue: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetRyukDisabledCustomConfiguration(configuration: ""ryuk.disabled=false"", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetWaitStrategyIntervalCustomConfiguration(configuration: """", expected: null)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersWaitStrategyTest+Rethrow.RethrowWhile,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.CombineEnumerables(oldValue: null, newValue: [""2""], expected: [""2""])",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetWaitStrategyIntervalCustomConfiguration(configuration: ""wait.strategy.interval="", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.OverwriteEnumerableCompose(oldValue: [""A"", ""B"", ""C""], newValue: [""X"", ""Y"", ""Z""], expected: [""X"", ""Y"", ""Z""])",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerApiVersionCustomConfiguration(propertyName: ""DOCKER_API_VERSION"", propertyValue: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.ShouldThrowArgumentExceptionIfImageIsInvalidReferenceFormat(image: ""baz/.foo/bar:1.0.0"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerSocketOverrideCustomConfiguration(configuration: ""docker.socket.override="", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.OverwriteEnumerableCompose(oldValue: [""1"", ""2""], newValue: [""3"", ""4""], expected: [""3"", ""4""])",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.WaitUntilExternalTcpPortIsAvailable.SucceedsWhenPortIsMappedAndListening,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerImageNameSubstitutionTest+HubImageNamePrefixIsSet.PrependForObjectConfiguration(hubImageNamePrefix: ""my.proxy.com"", imageName: ""bar:latest"", expectedFullName: ""my.proxy.com/bar:latest"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetWaitStrategyTimeoutCustomConfiguration(configuration: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: ""lipsum/lorem/temp.txt"", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerTlsCustomConfiguration(configuration: ""docker.tls=true"", expected: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerHostOverrideCustomConfiguration(configuration: ""host.override="", expected: null)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.ComposableEnumerableHandlesNullCollection,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.ContainerConfigurationConverterTest+ExposedPorts.ShouldKeepPortSuffix(portSuffix: ""UDP"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerImageNameSubstitutionTest+HubImageNamePrefixIsSet.PrependForObjectConfiguration(hubImageNamePrefix: ""my.proxy.com:443"", imageName: ""foo/bar:1.0.0"", expectedFullName: ""my.proxy.com:443/foo/bar:1.0.0"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.ShouldThrowArgumentExceptionIfImageNameHasUppercaseCharacters(image: ""Bar"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerConfigCustomConfiguration(configuration: ""docker.config=~/.docker/"", expected: ""~/.docker/"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerHostOverrideCustomConfiguration(propertyName: """", propertyValue: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.HostnameShouldMatchDockerGatewayAddress(expectedHostname: ""127.0.0.1"", endpoint: ""unix:/var/run/docker.sock"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerTlsCustomConfiguration(propertyName: ""DOCKER_TLS"", propertyValue: ""0"", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: ""src/lorem/lipsum.config"", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.MatchVersion_ReturnsTrue_WhenVersionMatchesPredicate(image: ""foo:2.3.4-variant"", major: 2, minor: 3, build: 4, revision: -1)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest.GetHostnameFromDockerImage(dockerImageName: ""fedora/httpd:version1.0"", hostname: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+Base64ProviderTest.ResolvePartialDockerRegistry(jsonDocument: ""{\""auths\"":{\""quay.io\"":{}}}"", hostname: ""quay.io"", expectedResult: True)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.CommonDirectoryPathTest.CommonDirectoryPathExists(commonDirectoryPath: DotNet.Testcontainers.Builders.CommonDirectoryPath),100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+Base64ProviderTest.ShouldGetNull(jsonDocument: ""{\""auths\"":{\""https://index.docker.io/v1/\"":{\""aut""···, isApplicable: True, logMessage: ""The \""auth\"" property value for https://index.dock""···)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.ImageFromDockerfileTest.BuildsDockerAlpineImage(dockerfile: ""Dockerfile"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerImageNameSubstitutionTest+HubImageNamePrefixIsSet.PrependForObjectConfiguration(hubImageNamePrefix: ""my.proxy.com"", imageName: ""myregistry.azurecr.io:443/foo/bar:1.0.0"", expectedFullName: ""myregistry.azurecr.io:443/foo/bar:1.0.0"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.WhenImageNameGetsAssigned(serializable: DockerImageFixtureSerializable { Image = DockerImage { Digest = null, FullName = ""fedora/httpd:version1.0.test"", Platform = null, Registry = null, Repository = ""fedora/httpd"", ··· } }, image: ""fedora/httpd:version1.0.test"", fullName: ""fedora/httpd:version1.0.test"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerConfigCustomConfiguration(configuration: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerAuthConfigCustomConfiguration(propertyName: ""DOCKER_AUTH_CONFIG"", propertyValue: ""{\""auths\"":{}}"", expected: ""{\""auths\"":{}}"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetNamedPipeConnectionTimeoutCustomConfiguration(configuration: ""named.pipe.connection.timeout=00:00:01"", expected: ""00:00:01"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.WhenImageNameGetsAssigned(serializable: DockerImageFixtureSerializable { Image = DockerImage { Digest = null, FullName = ""baz:1.0.0"", Platform = null, Registry = null, Repository = ""baz"", ··· } }, image: ""baz:1.0.0"", fullName: ""baz:1.0.0"")",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersWaitStrategyTest+Finish.ImmediatelyUntil,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerHostCustomConfiguration(configuration: ""docker.host="", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+Base64ProviderTest.ResolvePartialDockerRegistry(jsonDocument: ""{\""auths\"":{\""localhost:5000\"":{}}}"", hostname: ""localhost"", expectedResult: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.WhenImageNameGetsAssigned(serializable: DockerImageFixtureSerializable { Image = DockerImage { Digest = null, FullName = ""myregistry.azurecr.io/bar/baz:latest"", Platform = null, Registry = ""myregistry.azurecr.io"", Repository = ""bar/baz"", ··· } }, image: ""myregistry.azurecr.io/bar/baz"", fullName: ""myregistry.azurecr.io/bar/baz:latest"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: ""lipsum.txt"", expected: False)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.MatchLatestOrNightly_TagIsLatest_ReturnsTrue,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+Base64ProviderTest.ResolvePartialDockerRegistry(jsonDocument: ""{\""auths\"":{\""index.docker.io\"":{}}}"", hostname: ""docker.io"", expectedResult: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerApiVersionCustomConfiguration(configuration: """", expected: null)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.WaitUntilHttpRequestIsSucceededTest.HttpWaitStrategyReusesCustomHttpClientHandler,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.CombineReadOnlyLists(oldValue: [""1""], newValue: [""2""], expected: [""1"", ""2""])",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: ""CODE_OF_CONDUCT.md"", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerHostOverrideCustomConfiguration(configuration: ""host.override=docker.svc.local"", expected: ""docker.svc.local"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerContextCustomConfiguration(propertyName: """", propertyValue: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.MatchVersion_ReturnsTrue_WhenVersionMatchesPredicate(image: ""foo:2.3.4"", major: 2, minor: 3, build: 4, revision: -1)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetWaitStrategyRetriesCustomConfiguration(propertyName: ""TESTCONTAINERS_WAIT_STRATEGY_RETRIES"", propertyValue: ""1"", expected: 1)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.MatchLatestOrNightly_TagIsNightly_ReturnsTrue,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.CombineEnumerables(oldValue: [""1"", ""2"", ""3""], newValue: [""2"", ""3"", ""4""], expected: [""1"", ""2"", ""2"", ""3"", ""3"", ···])",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest.GetHostnameFromDockerImage(dockerImageName: ""baz/foo/bar:latest"", hostname: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest.GetHostnameFromDockerImage(dockerImageName: ""baz/foo/bar"", hostname: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerCertPathCustomConfiguration(configuration: ""docker.cert.path="", expected: null)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.GuardTest+StringPreconditions+DoNotThrowException.IfNotEmpty,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerImageNameSubstitutionTest+HubImageNamePrefixIsSet.PrependForStringConfiguration(hubImageNamePrefix: ""my.proxy.com:443"", imageName: ""foo/bar:1.0.0"", expectedFullName: ""my.proxy.com:443/foo/bar:1.0.0"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerConfigCustomConfiguration(propertyName: ""DOCKER_CONFIG"", propertyValue: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerCertPathCustomConfiguration(propertyName: ""DOCKER_CERT_PATH"", propertyValue: ""/home/docker/.docker/certs"", expected: ""/home/docker/.docker/certs"")",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.DockerConfigTests+DockerContextConfigurationTests.ReturnsDefaultEndpointWhenDockerContextIsDefault,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerTlsVerifyCustomConfiguration(propertyName: ""DOCKER_TLS_VERIFY"", propertyValue: ""0"", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.Platform_PlatformSpecified_ReturnsPlatform(platform: ""linux/arm/v6"")",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.BindMountAndEnvironment,100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.GetContainerLogsTest.GetLogsShouldBeEmptyWhenSinceIsOutOfDateRage,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerConfigCustomConfiguration(configuration: ""docker.config="", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.ShouldThrowArgumentExceptionIfImageNameHasUppercaseCharacters(image: ""Bar:latest"")",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.ComposableDictionaryHandlesNullDictionary,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.WhenImageNameGetsAssigned(serializable: DockerImageFixtureSerializable { Image = DockerImage { Digest = ""sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa""···, FullName = ""myregistry.azurecr.io/foo/bar/baz:1.0.0@sha256:aaa""···, Platform = null, Registry = ""myregistry.azurecr.io"", Repository = ""foo/bar/baz"", ··· } }, image: ""myregistry.azurecr.io/foo/bar/baz:1.0.0@sha256:aaa""···, fullName: ""myregistry.azurecr.io/foo/bar/baz:1.0.0@sha256:aaa""···)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.ReadFileFromContainerTest.AccessNotExistingFileThrowsFileNotFoundException,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: "".git/HEAD"", expected: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+CredsHelperProviderTest.ShouldGetAuthConfig(credHelperName: ""password"", expectedUsername: ""username"", expectedPassword: ""password"", expectedIdentityToken: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerHostCustomConfiguration(propertyName: ""DOCKER_HOST"", propertyValue: ""tcp://127.0.0.1:2375/"", expected: ""tcp://127.0.0.1:2375/"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.AppendDictionaryCompose(oldValue: [], newValue: [], expected: [])",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.ShouldThrowArgumentExceptionWhenContainerBuilderHasNoImage(image: null),100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.OverwriteEnumerableCompose(oldValue: [""old""], newValue: [""new""], expected: [""new""])",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: ""lipsum/temp"", expected: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerEndpointAuthenticationProviderTest.AuthProviderShouldBeApplicable(authProvider: EnvironmentEndpointAuthenticationProvider { LastException = null }, isApplicable: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.WhenImageNameGetsAssigned(serializable: DockerImageFixtureSerializable { Image = DockerImage { Digest = null, FullName = ""baz:latest"", Platform = null, Registry = null, Repository = ""baz"", ··· } }, image: ""baz:latest"", fullName: ""baz:latest"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerAuthConfigCustomConfiguration(configuration: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: ""README.md"", expected: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.CombineReadOnlyLists(oldValue: [""1"", ""2"", ""3""], newValue: [""2"", ""3"", ""4""], expected: [""1"", ""2"", ""3"", ""2"", ""3"", ···])",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetRyukContainerImageCustomConfiguration(propertyName: ""TESTCONTAINERS_RYUK_CONTAINER_IMAGE"", propertyValue: ""alpine:latest"", expected: ""alpine:latest"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest.GetHostnameFromHubImageNamePrefix(repository: ""baz/foo/bar"", tag: """")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+Base64ProviderTest.ShouldGetNull(jsonDocument: ""{\""auths\"":{\""https://index.docker.io/v1/\"":{\""ide""···, isApplicable: True, logMessage: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerTlsVerifyCustomConfiguration(configuration: ""docker.tls.verify=FALSE"", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerEndpointAuthenticationProviderTest.AuthProviderShouldBeApplicable(authProvider: MTlsEndpointAuthenticationProvider { LastException = null }, isApplicable: False)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersWaitStrategyTest+Timeout.After100MsWhile,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetRyukContainerImageCustomConfiguration(propertyName: ""TESTCONTAINERS_RYUK_CONTAINER_IMAGE"", propertyValue: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerTlsVerifyCustomConfiguration(configuration: ""docker.tls.verify=true"", expected: True)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.PullDigest,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.CombineReferenceTypes(oldValue: null, newValue: ""B"", expected: ""B"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerAuthConfigCustomConfiguration(configuration: ""docker.auth.config={\""auths\"":null}"", expected: ""{\""auths\"":null}"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest.GetHostnameFromHubImageNamePrefix(repository: ""baz/foo/bar"", tag: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.WhenImageNameGetsAssigned(serializable: DockerImageFixtureSerializable { Image = DockerImage { Digest = null, FullName = ""myregistry.azurecr.io/foo/bar/baz:1.0.0"", Platform = null, Registry = ""myregistry.azurecr.io"", Repository = ""foo/bar/baz"", ··· } }, image: ""myregistry.azurecr.io/foo/bar/baz:1.0.0"", fullName: ""myregistry.azurecr.io/foo/bar/baz:1.0.0"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerEndpointAuthenticationProviderTest.AuthConfigShouldGetDockerClientEndpoint(authConfig: DotNet.Testcontainers.Configurations.DockerEndpointAuthenticationConfiguration, dockerClientEndpoint: unix:///var/run/docker.sock)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: ""lipsum/lorem/lipsum/temp"", expected: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: "".git/refs/heads/main"", expected: True)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.GuardTest+StringPreconditions+ThrowArgumentException.IfNotEmpty,100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.WaitUntilMessageIsLoggedTest.ContainerIsRunning,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetRyukContainerPrivilegedCustomConfiguration(configuration: """", expected: null)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersVolumeTest.WithVolumeMount,100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.BindMountAndCommand,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerAuthConfigCustomConfiguration(configuration: ""docker.auth.config={}"", expected: ""{}"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerTlsCustomConfiguration(propertyName: """", propertyValue: """", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerTlsVerifyCustomConfiguration(propertyName: ""DOCKER_TLS_VERIFY"", propertyValue: ""true"", expected: True)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.GuardTest+StringPreconditions+ThrowArgumentException.IfEmpty,100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.DockerConfigTests+DockerContextConfigurationTests.ReturnsConfiguredEndpointWhenDockerContextIsCustomFromPropertiesFile,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetWaitStrategyTimeoutCustomConfiguration(propertyName: ""TESTCONTAINERS_WAIT_STRATEGY_TIMEOUT"", propertyValue: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest.GetHostnameFromDockerImage(dockerImageName: ""bar:latest"", hostname: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.CombineReadOnlyLists(oldValue: null, newValue: [""2""], expected: [""2""])",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetRyukContainerPrivilegedCustomConfiguration(configuration: ""ryuk.container.privileged=false"", expected: False)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.WaitUntilFileExistsInContainerTest.ContainerIsRunning,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.HostnameShouldMatchDockerGatewayAddress(expectedHostname: ""docker"", endpoint: ""http://docker"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerTlsVerifyCustomConfiguration(configuration: ""docker.tls.verify=0"", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: ""lipsum/temp"", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetNamedPipeConnectionTimeoutCustomConfiguration(propertyName: ""TESTCONTAINERS_NAMED_PIPE_CONNECTION_TIMEOUT"", propertyValue: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerTlsCustomConfiguration(propertyName: ""DOCKER_TLS"", propertyValue: """", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetWaitStrategyRetriesCustomConfiguration(propertyName: ""TESTCONTAINERS_WAIT_STRATEGY_RETRIES"", propertyValue: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerApiVersionCustomConfiguration(propertyName: ""DOCKER_API_VERSION"", propertyValue: ""version"", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetNamedPipeConnectionTimeoutCustomConfiguration(configuration: ""named.pipe.connection.timeout="", expected: null)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.WaitUntilHttpRequestIsSucceededTest.HttpWaitStrategyReceivesStatusCode(httpWaitStrategy: HttpWaitStrategy { }),100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.WaitUntilHttpRequestIsSucceededTest.HttpWaitStrategyUsesCustomHttpClientHandler,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerTlsVerifyCustomConfiguration(configuration: ""docker.tls.verify="", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: ""obj/Debug"", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+Base64ProviderTest.ResolvePartialDockerRegistry(jsonDocument: ""{\""auths\"":{\""localhost\"":{}}}"", hostname: ""localhost"", expectedResult: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerTlsCustomConfiguration(configuration: ""docker.tls=false"", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetRyukContainerPrivilegedCustomConfiguration(propertyName: ""TESTCONTAINERS_RYUK_CONTAINER_PRIVILEGED"", propertyValue: ""true"", expected: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetRyukContainerPrivilegedCustomConfiguration(propertyName: ""TESTCONTAINERS_RYUK_CONTAINER_PRIVILEGED"", propertyValue: ""false"", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+Base64ProviderTest.ShouldGetNull(jsonDocument: ""{}"", isApplicable: False, logMessage: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.CombineReadOnlyDictionaries(oldValue: null, newValue: [[""B""] = ""B""], expected: [[""B""] = ""B""])",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerAuthConfigCustomConfiguration(configuration: ""docker.auth.config={\""auths\"":{\""ghcr.io\"":{}}}"", expected: ""{\""auths\"":{\""ghcr.io\"":{}}}"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerHostOverrideCustomConfiguration(propertyName: ""TESTCONTAINERS_HOST_OVERRIDE"", propertyValue: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerTlsCustomConfiguration(configuration: ""docker.tls="", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest.GetHostnameFromDockerImage(dockerImageName: ""baz/foo/bar:1.0.0"", hostname: null)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.DockerImageNameSubstitutionTest+ImageNameSubstitutionIsSet.SubstitutesImageNameForObjectConfiguration,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: "".git/refs/heads/bugfix/gh-1119"", expected: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+Base64ProviderTest.ResolvePartialDockerRegistry(jsonDocument: ""{\""auths\"":{\""[::1]:5000\"":{}}}"", hostname: ""[::1]:5000"", expectedResult: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerTlsCustomConfiguration(configuration: """", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.OverwriteDictionaryCompose(oldValue: [[""A""] = ""old""], newValue: [[""B""] = ""new""], expected: [[""B""] = ""new""])",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerTlsVerifyCustomConfiguration(configuration: ""docker.tls.verify=TRUE"", expected: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: ""lipsum/temp.txt"", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetRyukContainerPrivilegedCustomConfiguration(configuration: ""ryuk.container.privileged=true"", expected: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.CombineReferenceTypes(oldValue: null, newValue: null, expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.CombineComposableEnumerables(oldValue: null, newValue: null, expected: [])",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetWaitStrategyIntervalCustomConfiguration(configuration: ""wait.strategy.interval=00:00:01"", expected: ""00:00:01"")",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainerNetworkBuilderTest.GetNameThrowsInvalidOperationException,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+CredsStoreProviderTest.ShouldGetNull(jsonDocument: ""{\""credsStore\"":null}"", isApplicable: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.WhenImageNameGetsAssigned(serializable: DockerImageFixtureSerializable { Image = DockerImage { Digest = null, FullName = ""bar/baz:1.0.0"", Platform = null, Registry = null, Repository = ""bar/baz"", ··· } }, image: ""bar/baz:1.0.0"", fullName: ""bar/baz:1.0.0"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+Base64ProviderTest.ResolvePartialDockerRegistry(jsonDocument: ""{\""auths\"":{\""127.0.0.1:5000\"":{}}}"", hostname: ""127.0.0.1:5000"", expectedResult: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.AppendEnumerableCompose(oldValue: [""old""], newValue: [""new""], expected: [""old"", ""new""])",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetHubImageNamePrefixCustomConfiguration(configuration: ""hub.image.name.prefix=my.proxy.com"", expected: ""my.proxy.com"")",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.DockerConfigTests+DockerHostConfigurationTests.ReturnsConfiguredEndpointWhenDockerHostIsSet,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerTlsCustomConfiguration(configuration: ""docker.tls=1"", expected: True)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.Hostname,100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+CredsStoreProviderTest.ShouldGetAuthConfig,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest.GetHostnameFromDockerImage(dockerImageName: ""myregistry.azurecr.io/baz/foo/bar:1.0.0"", hostname: ""myregistry.azurecr.io"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerApiVersionCustomConfiguration(propertyName: ""DOCKER_API_VERSION"", propertyValue: ""1.52"", expected: ""1.52"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.HostnameShouldMatchDockerGatewayAddress(expectedHostname: ""docker"", endpoint: ""tcp://docker"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.MatchVersion_ReturnsTrue_WhenVersionMatchesPredicate(image: ""foo:2.3"", major: 2, minor: 3, build: -1, revision: -1)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.AppendEnumerableCompose(oldValue: [""A"", ""B"", ""C""], newValue: [""X"", ""Y""], expected: [""A"", ""B"", ""C"", ""X"", ""Y""])",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetRyukContainerPrivilegedCustomConfiguration(propertyName: """", propertyValue: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerImageNameSubstitutionTest+HubImageNamePrefixIsSet.PrependForStringConfiguration(hubImageNamePrefix: ""my.proxy.com/my-path"", imageName: ""foo/bar:1.0.0"", expectedFullName: ""my.proxy.com/my-path/foo/bar:1.0.0"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerEndpointAuthenticationProviderTest.AuthConfigShouldGetDockerClientEndpoint(authConfig: DotNet.Testcontainers.Configurations.DockerEndpointAuthenticationConfiguration, dockerClientEndpoint: tcp://127.0.0.1:2375/)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.AppendEnumerableCompose(oldValue: [], newValue: [""new""], expected: [""new""])",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.ProtectDockerDaemonSocketTest+MTlsOpenSsl1_1_1.GetVersionReturnsVersion,100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.DockerImageNameSubstitutionTest+HubImageNamePrefixIsNotSet.DoNotPrependForObjectConfiguration,100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.ReadFileFromContainerTest.ReadExistingFile,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetWaitStrategyIntervalCustomConfiguration(propertyName: ""TESTCONTAINERS_WAIT_STRATEGY_INTERVAL"", propertyValue: ""-00:00:00.001"", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerTlsVerifyCustomConfiguration(propertyName: ""DOCKER_TLS_VERIFY"", propertyValue: ""FALSE"", expected: False)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersVolumeBuilderTest.GetNameThrowsInvalidOperationException,100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.Entrypoint,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.CombineComposableEnumerables(oldValue: [···], newValue: [···], expected: [""1"", ""2""])",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerEndpointAuthenticationProviderTest.AuthProviderShouldBeApplicable(authProvider: TestcontainersEndpointAuthenticationProvider { LastException = null }, isApplicable: True)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.DockerEndpointAuthenticationProviderTest+TestcontainersHostEndpointAuthenticationProviderTest.GetDockerSocketOverrideReturnsNull,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest.GetHostnameFromDockerImage(dockerImageName: ""myregistry.azurecr.io/bar:1.0.0"", hostname: ""myregistry.azurecr.io"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetWaitStrategyIntervalCustomConfiguration(propertyName: """", propertyValue: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.Platform_PlatformSpecified_ReturnsPlatform(platform: ""linux/arm/v7"")",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.ResourcePropertiesTest.QueryNotExistingDockerVolumeById,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.WhenImageNameGetsAssigned(serializable: DockerImageFixtureSerializable { Image = DockerImage { Digest = null, FullName = ""foo/bar/baz:1.0.0"", Platform = null, Registry = null, Repository = ""foo/bar/baz"", ··· } }, image: ""foo/bar/baz:1.0.0"", fullName: ""foo/bar/baz:1.0.0"")",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.ImageFromDockerfileTest.ThrowsDockerfileDirectoryDoesNotExist,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.HostnameShouldMatchDockerGatewayAddress(expectedHostname: ""1.1.1.1"", endpoint: ""https://1.1.1.1"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerEndpointAuthenticationProviderTest.AuthProviderShouldBeApplicable(authProvider: NpipeEndpointAuthenticationProvider { LastException = null }, isApplicable: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest.GetHostnameFromDockerImage(dockerImageName: ""foo/bar:1.0.0"", hostname: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.AppendDictionaryCompose(oldValue: [[""A""] = ""old"", [""B""] = ""keep""], newValue: [[""A""] = ""new""], expected: [[""A""] = ""new"", [""B""] = ""keep""])",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest.ShouldGetDefaultDockerRegistryAuthenticationConfiguration,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerAuthConfigCustomConfiguration(configuration: ""docker.auth.config={\""auths\"":{}}"", expected: ""{\""auths\"":{}}"")",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.GuardTest+NullPreconditions+DoNotThrowException.IfNotNull,100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.MatchLatestOrNightly_TagIsNeither_ReturnsFalse,100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.WaitUntilContainerIsHealthyTest.ContainerHealthCheckShouldBeHealthy,100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.ProtectDockerDaemonSocketTest+Tls.GetVersionReturnsVersion,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.ContainerConfigurationConverterTest+PortBindings.ShouldKeepPortSuffix(portSuffix: ""TCP"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetRyukContainerPrivilegedCustomConfiguration(propertyName: ""TESTCONTAINERS_RYUK_CONTAINER_PRIVILEGED"", propertyValue: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetWaitStrategyTimeoutCustomConfiguration(configuration: ""wait.strategy.timeout="", expected: null)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersVolumeBuilderTest.GetNameReturnsVolumeName,100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.GuardTest+NullPreconditions+DoNotThrowException.IfNull,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerImageNameSubstitutionTest+HubImageNamePrefixIsSet.PrependForStringConfiguration(hubImageNamePrefix: ""my.proxy.com"", imageName: ""myregistry.azurecr.io/foo/bar:1.0.0"", expectedFullName: ""myregistry.azurecr.io/foo/bar:1.0.0"")",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.ShouldThrowArgumentExceptionWhenInstantiateDockerImage,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: ""src/.idea/../v17/../lipsum.log"", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+Base64ProviderTest.ShouldGetNull(jsonDocument: ""{\""auths\"":null}"", isApplicable: False, logMessage: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerHostCustomConfiguration(configuration: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.OverwriteDictionaryCompose(oldValue: [], newValue: [[""B""] = ""new""], expected: [[""B""] = ""new""])",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerTlsCustomConfiguration(propertyName: ""DOCKER_TLS"", propertyValue: ""FALSE"", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerAuthConfigCustomConfiguration(propertyName: ""DOCKER_AUTH_CONFIG"", propertyValue: ""{}"", expected: ""{}"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: "".git/logs"", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.OverwriteDictionaryCompose(oldValue: [], newValue: [], expected: [])",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.WhenImageNameGetsAssigned(serializable: DockerImageFixtureSerializable { Image = DockerImage { Digest = ""sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa""···, FullName = ""myregistry.azurecr.io/foo/bar/baz@sha256:aaaaaaaaa""···, Platform = null, Registry = ""myregistry.azurecr.io"", Repository = ""foo/bar/baz"", ··· } }, image: ""myregistry.azurecr.io/foo/bar/baz@sha256:aaaaaaaaa""···, fullName: ""myregistry.azurecr.io/foo/bar/baz@sha256:aaaaaaaaa""···)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetRyukDisabledCustomConfiguration(configuration: ""ryuk.disabled=true"", expected: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.CombineReadOnlyDictionaries(oldValue: [[""A""] = ""A""], newValue: null, expected: [[""A""] = ""A""])",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerEndpointAuthenticationProviderTest.AuthProviderShouldBeApplicable(authProvider: TlsEndpointAuthenticationProvider { LastException = null }, isApplicable: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest.GetHostnameFromDockerImage(dockerImageName: ""myregistry.azurecr.io/baz/foo/bar"", hostname: ""myregistry.azurecr.io"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest.GetHostnameFromDockerImage(dockerImageName: ""myregistryhost:5000/fedora/httpd:version1.0"", hostname: ""myregistryhost:5000"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerImageNameSubstitutionTest+HubImageNamePrefixIsSet.PrependForObjectConfiguration(hubImageNamePrefix: ""my.proxy.com/my-path"", imageName: ""foo/bar:1.0.0"", expectedFullName: ""my.proxy.com/my-path/foo/bar:1.0.0"")",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.ProtectDockerDaemonSocketTest+MTlsOpenSsl3_1.GetVersionReturnsVersion,100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.WaitUntilExternalTcpPortIsAvailable.SucceedsWhenPortIsMappedButNotListening,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.CombineEnumerables(oldValue: [""1""], newValue: null, expected: [""1""])",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerContextCustomConfiguration(propertyName: ""DOCKER_CONTEXT"", propertyValue: """", expected: null)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.GeneratedContainerName,100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.DockerEndpointAuthenticationProviderTest+TestcontainersHostEndpointAuthenticationProviderTest.GetDockerHostOverrideReturnsNull,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.CombineComposableEnumerables(oldValue: [···], newValue: null, expected: [""1""])",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.CombineReferenceTypes(oldValue: ""A"", newValue: null, expected: ""A"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.ShouldThrowArgumentExceptionIfImageNameHasUppercaseCharacters(image: ""Foo/bar:latest"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.WhenImageNameGetsAssigned(serializable: DockerImageFixtureSerializable { Image = DockerImage { Digest = null, FullName = ""bar/baz:latest"", Platform = null, Registry = null, Repository = ""bar/baz"", ··· } }, image: ""bar/baz:latest"", fullName: ""bar/baz:latest"")",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.DockerConfigTests+DockerContextConfigurationTests.ReturnsActiveEndpointWhenDockerContextIsUnset,100,0,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetNamedPipeConnectionTimeoutCustomConfiguration(propertyName: """", propertyValue: """", expected: null)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.WaitUntilExternalTcpPortIsAvailable.ThrowsWhenPortIsNotMapped,100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.CommonDirectoryPathTest.CommonDirectoryPathNotExists,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetRyukDisabledCustomConfiguration(propertyName: ""TESTCONTAINERS_RYUK_DISABLED"", propertyValue: ""false"", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest.GetHostnameFromDockerImage(dockerImageName: ""myregistry.azurecr.io/baz.foo/bar:1.0.0"", hostname: ""myregistry.azurecr.io"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerTlsCustomConfiguration(configuration: ""docker.tls=FALSE"", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerTlsCustomConfiguration(propertyName: ""DOCKER_TLS"", propertyValue: ""TRUE"", expected: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.ShouldThrowArgumentExceptionWhenContainerBuilderHasNoImage(image: """")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+CredsHelperProviderTest.ShouldGetNull(jsonDocument: ""{}"", isApplicable: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerImageNameSubstitutionTest+HubImageNamePrefixIsSet.PrependForObjectConfiguration(hubImageNamePrefix: ""my.proxy.com:443/my-path"", imageName: ""foo/bar:1.0.0"", expectedFullName: ""my.proxy.com:443/my-path/foo/bar:1.0.0"")",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainerNetworkBuilderTest.GetNameReturnsNetworkName,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+CredsHelperProviderTest.ShouldGetNull(jsonDocument: ""{\""credHelpers\"":{}}"", isApplicable: False)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.DockerConfigTests+DockerContextConfigurationTests.ReturnsActiveEndpointWhenDockerContextIsEmpty,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerAuthConfigCustomConfiguration(propertyName: ""DOCKER_AUTH_CONFIG"", propertyValue: ""{\""auths\"":{\""ghcr.io\"":{}}}"", expected: ""{\""auths\"":{\""ghcr.io\"":{}}}"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.WhenImageNameGetsAssigned(serializable: DockerImageFixtureSerializable { Image = DockerImage { Digest = null, FullName = ""myregistry.azurecr.io/library/bar/baz:latest"", Platform = null, Registry = ""myregistry.azurecr.io"", Repository = ""library/bar/baz"", ··· } }, image: ""myregistry.azurecr.io/library/bar/baz"", fullName: ""myregistry.azurecr.io/library/bar/baz:latest"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.CombineComposableEnumerables(oldValue: [···], newValue: [···], expected: [""3"", ""4""])",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.ContainerConfigurationConverterTest+PortBindings.ShouldKeepPortSuffix(portSuffix: ""SCTP"")",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.GetContainerLogsTest.GetLogsShouldNotBeEmpty,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerEndpointAuthenticationProviderTest.AuthConfigShouldGetDockerClientEndpoint(authConfig: DotNet.Testcontainers.Configurations.DockerEndpointAuthenticationConfiguration, dockerClientEndpoint: tcp://127.0.0.1:2376/)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.AppendDictionaryCompose(oldValue: [[""A""] = ""old""], newValue: [], expected: [[""A""] = ""old""])",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: ""lorem/lipsum.txt"", expected: False)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.ExecCommandInRunningContainer,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.WhenImageNameGetsAssigned(serializable: DockerImageFixtureSerializable { Image = DockerImage { Digest = null, FullName = ""myregistry.azurecr.io/foo/bar/baz:latest"", Platform = null, Registry = ""myregistry.azurecr.io"", Repository = ""foo/bar/baz"", ··· } }, image: ""myregistry.azurecr.io/foo/bar/baz"", fullName: ""myregistry.azurecr.io/foo/bar/baz:latest"")",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.DockerConfigTests+DockerHostConfigurationTests.ReturnsActiveEndpointWhenDockerHostIsEmpty,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.CombineReferenceTypes(oldValue: ""A"", newValue: ""B"", expected: ""B"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+Base64ProviderTest.ShouldGetAuthConfig(jsonDocument: ""{\""auths\"":{\""https://index.docker.io/v1/\"":{\""aut""···, expectedUsername: ""username"", expectedPassword: ""password"", expectedIdentityToken: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerSocketOverrideCustomConfiguration(propertyName: ""TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE"", propertyValue: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.MatchVersion_ReturnsTrue_WhenVersionMatchesPredicate(image: ""foo:2"", major: 2, minor: 0, build: -1, revision: -1)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.OutputConsumer,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerImageNameSubstitutionTest+HubImageNamePrefixIsSet.PrependForObjectConfiguration(hubImageNamePrefix: ""my.proxy.com"", imageName: ""bar:1.0.0"", expectedFullName: ""my.proxy.com/bar:1.0.0"")",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.DockerConfigTests+DockerContextConfigurationTests.ThrowsWhenDockerHostNotFound,100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.WaitStrategy,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetNamedPipeConnectionTimeoutCustomConfiguration(propertyName: ""TESTCONTAINERS_NAMED_PIPE_CONNECTION_TIMEOUT"", propertyValue: ""-00:00:00.001"", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetRyukContainerImageCustomConfiguration(propertyName: """", propertyValue: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetRyukDisabledCustomConfiguration(propertyName: """", propertyValue: """", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerCertPathCustomConfiguration(configuration: ""docker.cert.path=/home/docker/.docker/certs"", expected: ""/home/docker/.docker/certs"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: ""lorem/lipsum.config"", expected: True)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.GuardTest+StringPreconditions+DoNotThrowException.IfEmpty,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+CredsHelperProviderTest.ShouldGetAuthConfig(credHelperName: ""token"", expectedUsername: null, expectedPassword: null, expectedIdentityToken: ""identitytoken"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: ""README-secret.md"", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerEndpointAuthenticationProviderTest.AuthProviderShouldBeApplicable(authProvider: EnvironmentEndpointAuthenticationProvider { LastException = null }, isApplicable: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.ImageFromDockerfileTest.BuildsDockerAlpineImage(dockerfile: "".\\Dockerfile"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+Base64ProviderTest.ResolvePartialDockerRegistry(jsonDocument: ""{\""auths\"":{\""ghcr.io\"":{}}}"", hostname: ""ghcr.io"", expectedResult: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetWaitStrategyTimeoutCustomConfiguration(propertyName: ""TESTCONTAINERS_WAIT_STRATEGY_TIMEOUT"", propertyValue: ""00:00:01"", expected: ""00:00:01"")",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.ImageFromDockerfileTest.IgnoredDockerfileIsCopiedToTarball,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetWaitStrategyTimeoutCustomConfiguration(configuration: ""wait.strategy.timeout=-00:00:00.001"", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.HostnameShouldMatchDockerGatewayAddress(expectedHostname: ""1.1.1.1"", endpoint: ""tcp://1.1.1.1"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerImageNameSubstitutionTest+HubImageNamePrefixIsSet.PrependForStringConfiguration(hubImageNamePrefix: ""my.proxy.com"", imageName: ""bar:1.0.0"", expectedFullName: ""my.proxy.com/bar:1.0.0"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerImageNameSubstitutionTest+HubImageNamePrefixIsSet.PrependForObjectConfiguration(hubImageNamePrefix: ""my.proxy.com/my-path"", imageName: ""bar:1.0.0"", expectedFullName: ""my.proxy.com/my-path/bar:1.0.0"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerTlsCustomConfiguration(propertyName: ""DOCKER_TLS"", propertyValue: ""1"", expected: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.ShouldNotThrowArgumentExceptionIfImageTagHasUppercaseCharacters(image: ""foo/bar:LATEST"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerImageNameSubstitutionTest+HubImageNamePrefixIsSet.PrependForObjectConfiguration(hubImageNamePrefix: ""my.proxy.com"", imageName: ""foo/bar:1.0.0"", expectedFullName: ""my.proxy.com/foo/bar:1.0.0"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerEndpointAuthenticationProviderTest.AuthProviderShouldBeApplicable(authProvider: UnixEndpointAuthenticationProvider { LastException = null }, isApplicable: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.AppendDictionaryCompose(oldValue: [[""A""] = ""old""], newValue: [[""B""] = ""new""], expected: [[""A""] = ""old"", [""B""] = ""new""])",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.MatchVersion_ReturnsFalse_WhenVersionDoesNotMatchPredicate,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerSocketOverrideCustomConfiguration(propertyName: """", propertyValue: """", expected: null)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.ResourcePropertiesTest.QueryImageInformationOfNotCreatedImage,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.MatchVersion_ReturnsTrue_WhenVersionMatchesPredicate(image: ""foo:2.3-variant"", major: 2, minor: 3, build: -1, revision: -1)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainerNetworkBuilderTest.CreateNetworkAssignsLabels,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.OverwriteEnumerableCompose(oldValue: [], newValue: [], expected: [])",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+CredsStoreProviderTest.ShouldGetNull(jsonDocument: ""{\""credsStore\"":\""\""}"", isApplicable: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerSocketOverrideCustomConfiguration(configuration: ""docker.socket.override=/var/run/docker.sock"", expected: ""/var/run/docker.sock"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerTlsVerifyCustomConfiguration(propertyName: ""DOCKER_TLS_VERIFY"", propertyValue: ""1"", expected: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+Base64ProviderTest.ResolvePartialDockerRegistry(jsonDocument: ""{\""auths\"":{\""registry.example.com:5000\"":{}}}"", hostname: ""registry.example.com"", expectedResult: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: ""lorem/lipsum/lipsum.config"", expected: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerImageNameSubstitutionTest+HubImageNamePrefixIsSet.PrependForStringConfiguration(hubImageNamePrefix: ""my.proxy.com/my-path"", imageName: ""bar:1.0.0"", expectedFullName: ""my.proxy.com/my-path/bar:1.0.0"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+Base64ProviderTest.ResolvePartialDockerRegistry(jsonDocument: ""{\""auths\"":{\""https://registry.example.com/v2\"":{}""···, hostname: ""registry.example.com"", expectedResult: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerCertPathCustomConfiguration(propertyName: ""DOCKER_CERT_PATH"", propertyValue: """", expected: null)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.ImageFromDockerfileTest.DockerfileArchiveTar,100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.BuildContextTest.CreateImageShouldSucceedWhenContextContainsRequiredFiles,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetNamedPipeConnectionTimeoutCustomConfiguration(propertyName: ""TESTCONTAINERS_NAMED_PIPE_CONNECTION_TIMEOUT"", propertyValue: ""00:00:01"", expected: ""00:00:01"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerImageNameSubstitutionTest+HubImageNamePrefixIsSet.PrependForStringConfiguration(hubImageNamePrefix: ""my.proxy.com"", imageName: ""myregistry.azurecr.io:443/foo/bar:1.0.0"", expectedFullName: ""myregistry.azurecr.io:443/foo/bar:1.0.0"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerEndpointAuthenticationProviderTest.AuthProviderShouldBeApplicable(authProvider: TlsEndpointAuthenticationProvider { LastException = null }, isApplicable: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerEndpointAuthenticationProviderTest.AuthConfigShouldGetDockerClientEndpoint(authConfig: DotNet.Testcontainers.Configurations.DockerEndpointAuthenticationConfiguration, dockerClientEndpoint: npipe://./pipe/docker_engine)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerContextCustomConfiguration(configuration: ""docker.context="", expected: null)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.WaitUntilContainerIsHealthyTest.ContainerHealthCheckShouldBeUnhealthy,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerEndpointAuthenticationProviderTest.AuthProviderShouldBeApplicable(authProvider: TestcontainersEndpointAuthenticationProvider { LastException = null }, isApplicable: False)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersWaitStrategyTest+Timeout.After100MsUntil,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: ""lipsum/lorem/temp"", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.CombineEnumerables(oldValue: null, newValue: null, expected: [])",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetWaitStrategyTimeoutCustomConfiguration(propertyName: ""TESTCONTAINERS_WAIT_STRATEGY_TIMEOUT"", propertyValue: ""-00:00:00.001"", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.HostnameShouldMatchDockerGatewayAddress(expectedHostname: ""docker"", endpoint: ""https://docker"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.ImageFromDockerfileTest.BuildsDockerAlpineImage(dockerfile: ""./Dockerfile"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.OverwriteEnumerableCompose(oldValue: [], newValue: [""new""], expected: [""new""])",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetWaitStrategyRetriesCustomConfiguration(propertyName: """", propertyValue: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+Base64ProviderTest.ShouldGetNull(jsonDocument: ""{\""auths\"":{}}"", isApplicable: False, logMessage: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerTlsCustomConfiguration(propertyName: ""DOCKER_TLS"", propertyValue: ""true"", expected: True)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.UnboundPortBindingThrowsException,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerImageNameSubstitutionTest+HubImageNamePrefixIsSet.PrependForObjectConfiguration(hubImageNamePrefix: ""my.proxy.com"", imageName: ""myregistry.azurecr.io/foo/bar:1.0.0"", expectedFullName: ""myregistry.azurecr.io/foo/bar:1.0.0"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: ""lipsum/lorem/temp"", expected: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetRyukContainerImageCustomConfiguration(configuration: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+Base64ProviderTest.ResolvePartialDockerRegistry(jsonDocument: ""{\""auths\"":{\""https://registry.example.com:5000\"":""···, hostname: ""registry.example.com:5000"", expectedResult: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerConfigCustomConfiguration(propertyName: """", propertyValue: """", expected: null)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.ContainerConfigurationConverterTest+ExposedPorts.ShouldAddTcpPortSuffix,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.CombineReadOnlyDictionaries(oldValue: null, newValue: null, expected: [])",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+CredsStoreProviderTest.ShouldGetNull(jsonDocument: ""{\""credsStore\"":\""script.sh\""}"", isApplicable: True)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.OperatingSystemTest+UnixTest.NormalizePath,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.Platform_PlatformSpecified_ReturnsPlatform(platform: ""linux/arm64"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.OverwriteDictionaryCompose(oldValue: [[""A""] = ""old"", [""B""] = ""ignore""], newValue: [[""A""] = ""new"", [""C""] = ""keep""], expected: [[""A""] = ""new"", [""C""] = ""keep""])",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.ShouldThrowArgumentNullExceptionWhenInstantiateDockerImage,100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.AutoRemoveFalseShouldNotRemoveContainer,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerTlsCustomConfiguration(configuration: ""docker.tls=0"", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: ""lipsum.config"", expected: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.AppendEnumerableCompose(oldValue: [""1"", ""2""], newValue: [""3"", ""4""], expected: [""1"", ""2"", ""3"", ""4""])",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetRyukContainerImageCustomConfiguration(configuration: ""ryuk.container.image=alpine:latest"", expected: ""alpine:latest"")",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersContainerCancellationTest+Cancel.Start,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: ""src/lorem/temp"", expected: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerContextCustomConfiguration(configuration: ""docker.context=default"", expected: ""default"")",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.ResourcePropertiesTest.QueryContainerInformationOfNotCreatedContainer,100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.ExecCommandInRunningContainerWithStdout,100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.PullPolicyNever,100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.GuardTest+NullPreconditions+DoNotThrowException.ThrowIf,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetRyukDisabledCustomConfiguration(configuration: ""ryuk.disabled="", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetWaitStrategyTimeoutCustomConfiguration(configuration: ""wait.strategy.timeout=00:00:01"", expected: ""00:00:01"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: ""src/lipsum.config"", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerImageNameSubstitutionTest+HubImageNamePrefixIsSet.PrependForObjectConfiguration(hubImageNamePrefix: ""my.proxy.com:443"", imageName: ""bar:1.0.0"", expectedFullName: ""my.proxy.com:443/bar:1.0.0"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.ShouldThrowArgumentExceptionIfImageNameHasUppercaseCharacters(image: ""Foo/bar"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.Platform_PlatformSpecified_ReturnsPlatform(platform: ""linux/amd64"")",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersNetworkTest.PingContainer,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetNamedPipeConnectionTimeoutCustomConfiguration(configuration: ""named.pipe.connection.timeout=-00:00:00.001"", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+Base64ProviderTest.ShouldGetAuthConfig(jsonDocument: ""{\""auths\"":{\""https://index.docker.io/v1/\"":{\""ide""···, expectedUsername: null, expectedPassword: null, expectedIdentityToken: ""identitytoken"")",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.GuardTest+NullPreconditions+ThrowArgumentException.ThrowIf,100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.MacAddress,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerTlsVerifyCustomConfiguration(propertyName: """", propertyValue: """", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest.GetHostnameFromHubImageNamePrefix(repository: ""baz/foo/bar"", tag: ""1.0.0"")",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.DockerImageNameSubstitutionTest+HubImageNamePrefixIsNotSet.DoNotPrependForStringConfiguration,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+CredsHelperProviderTest.ShouldGetNull(jsonDocument: ""{\""credHelpers\"":null}"", isApplicable: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerCertPathCustomConfiguration(configuration: """", expected: null)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.RandomTcpPortBinding,100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.Platform_NoPlatformSpecified_ReturnsNull,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.ShouldThrowArgumentExceptionIfImageNameHasUppercaseCharacters(image: ""Foo/Bar"")",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.StaticPortBinding,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.CombineEnumerables(oldValue: [""1""], newValue: [""2""], expected: [""1"", ""2""])",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.ResourcePropertiesTest.QueryNetworkInformationOfNotCreatedNetwork,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.ContainerConfigurationConverterTest+PortBindings.ShouldKeepPortSuffix(portSuffix: ""UDP"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerHostCustomConfiguration(propertyName: """", propertyValue: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetRyukDisabledCustomConfiguration(propertyName: ""TESTCONTAINERS_RYUK_DISABLED"", propertyValue: ""true"", expected: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.CombineComposableEnumerables(oldValue: [···], newValue: [···], expected: [""1"", ""2"", ""3"", ""4"", ""5""])",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.BuildContextTest.CreateImageShouldFailWhenContextDoesNotContainRequiredFiles,100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.OperatingSystemTest+WindowsTest.NormalizePath,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+Base64ProviderTest.ResolvePartialDockerRegistry(jsonDocument: ""{\""auths\"":{\""ghcr.io\"":{}}}"", hostname: ""ghcr"", expectedResult: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.ShouldThrowArgumentExceptionIfImageIsInvalidReferenceFormat(image: ""baz/:foo/bar:1.0.0"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest.GetHostnameFromDockerImage(dockerImageName: ""foo/bar"", hostname: null)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.ResourcePropertiesTest.QueryNotExistingDockerImageById,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+Base64ProviderTest.ResolvePartialDockerRegistry(jsonDocument: ""{\""auths\"":{\""http://localhost:8080\"":{}}}"", hostname: ""localhost:8080"", expectedResult: True)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.ResourcePropertiesTest.QueryContainerInformationOfCreatedContainer,100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.ContainerConfigurationConverterTest+PortBindings.ShouldAddTcpPortSuffix,100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.ExecCommandInRunningContainerWithStderr,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetWaitStrategyIntervalCustomConfiguration(propertyName: ""TESTCONTAINERS_WAIT_STRATEGY_INTERVAL"", propertyValue: ""00:00:01"", expected: ""00:00:01"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetHubImageNamePrefixCustomConfiguration(propertyName: ""TESTCONTAINERS_HUB_IMAGE_NAME_PREFIX"", propertyValue: ""my.proxy.com"", expected: ""my.proxy.com"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+Base64ProviderTest.ResolvePartialDockerRegistry(jsonDocument: ""{\""auths\"":{\""us-docker.pkg.dev\"":{}}}"", hostname: ""us-docker.pkg.dev"", expectedResult: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerSocketOverrideCustomConfiguration(configuration: """", expected: null)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.WaitUntilHttpRequestIsSucceededTest.HttpWaitStrategySendsHeaders,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetHubImageNamePrefixCustomConfiguration(configuration: """", expected: null)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.DockerEndpoint,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: ""lorem/lipsum/lorem/lipsum.txt"", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: ""src/.vs/../v17/../lipsum.log"", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerApiVersionCustomConfiguration(propertyName: """", propertyValue: """", expected: null)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.ReadFileFromContainerTest.AccessDirectoryThrowsInvalidOperationException,100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.DockerImageNameSubstitutionTest+ImageNameSubstitutionIsSet.SubstitutesImageNameForStringConfiguration,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetWaitStrategyRetriesCustomConfiguration(configuration: ""wait.strategy.retries="", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+Base64ProviderTest.ShouldGetNull(jsonDocument: ""{\""auths\"":{\""https://index.docker.io/v1/\"":{}}}"", isApplicable: True, logMessage: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerAuthConfigCustomConfiguration(configuration: ""docker.auth.config={jsonReaderException}"", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+Base64ProviderTest.ResolvePartialDockerRegistry(jsonDocument: ""{\""auths\"":{\""docker.io\"":{}}}"", hostname: ""docker.io"", expectedResult: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerAuthConfigCustomConfiguration(propertyName: ""DOCKER_AUTH_CONFIG"", propertyValue: ""{jsonReaderException}"", expected: null)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.ImageFromDockerfileTest.DockerfileArchiveGetBaseImages,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetRyukContainerImageCustomConfiguration(configuration: ""ryuk.container.image="", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerHostOverrideCustomConfiguration(configuration: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+Base64ProviderTest.ResolvePartialDockerRegistry(jsonDocument: ""{\""auths\"":{\""registry.k8s.io\"":{}}}"", hostname: ""registry.k8s.io"", expectedResult: True)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.AutoRemoveTrueShouldRemoveContainer,100,97,3,flaky
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest.GetHostnameFromDockerImage(dockerImageName: ""bar:1.0.0"", hostname: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.ShouldNotThrowArgumentExceptionIfImageTagHasUppercaseCharacters(image: ""bar:LATEST"")",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.WorkingDirectory,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.CombineReadOnlyLists(oldValue: [""1""], newValue: null, expected: [""1""])",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.CopyFileToRunningContainer,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerContextCustomConfiguration(configuration: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.ContainerConfigurationConverterTest+ExposedPorts.ShouldKeepPortSuffix(portSuffix: ""TCP"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.ShouldThrowArgumentExceptionIfImageNameHasUppercaseCharacters(image: ""Foo/Bar:latest"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+Base64ProviderTest.ResolvePartialDockerRegistry(jsonDocument: ""{\""auths\"":{\""localhost:5000\"":{}}}"", hostname: ""localhost:5000"", expectedResult: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerTlsVerifyCustomConfiguration(propertyName: ""DOCKER_TLS_VERIFY"", propertyValue: ""false"", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest.GetHostnameFromDockerImage(dockerImageName: ""myregistryhost:5000/httpd:version1.0"", hostname: ""myregistryhost:5000"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetWaitStrategyRetriesCustomConfiguration(configuration: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetRyukContainerPrivilegedCustomConfiguration(configuration: ""ryuk.container.privileged="", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.HostnameShouldMatchDockerGatewayAddress(expectedHostname: ""1.1.1.1"", endpoint: ""http://1.1.1.1"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+Base64ProviderTest.ResolvePartialDockerRegistry(jsonDocument: ""{\""auths\"":{\""gcr.io\"":{}}}"", hostname: ""gcr.io"", expectedResult: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetHubImageNamePrefixCustomConfiguration(propertyName: """", propertyValue: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerAuthConfigCustomConfiguration(propertyName: """", propertyValue: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.CombineReadOnlyDictionaries(oldValue: [[""A""] = ""old"", [""B""] = ""B""], newValue: [[""A""] = ""new""], expected: [[""A""] = ""new"", [""B""] = ""B""])",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.SpecifiedContainerName,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetWaitStrategyRetriesCustomConfiguration(configuration: ""wait.strategy.retries=1"", expected: 1)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.ContainerConfigurationConverterTest+ExposedPorts.ShouldKeepPortSuffix(portSuffix: ""SCTP"")",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.RandomUdpPortBinding,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetRyukDisabledCustomConfiguration(configuration: """", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.AppendDictionaryCompose(oldValue: [], newValue: [[""B""] = ""new""], expected: [[""B""] = ""new""])",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.DockerImageNameSubstitutionTest+ImageNameSubstitutionIsSet.SubstitutesImageNameBeforeHubImageNamePrefix,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.OverwriteEnumerableCompose(oldValue: [""old""], newValue: [], expected: [])",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerHostCustomConfiguration(propertyName: ""DOCKER_HOST"", propertyValue: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerImageNameSubstitutionTest+HubImageNamePrefixIsSet.PrependForStringConfiguration(hubImageNamePrefix: ""my.proxy.com"", imageName: ""bar"", expectedFullName: ""my.proxy.com/bar:latest"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.WhenImageNameGetsAssigned(serializable: DockerImageFixtureSerializable { Image = DockerImage { Digest = null, FullName = ""foo/bar/baz:latest"", Platform = null, Registry = null, Repository = ""foo/bar/baz"", ··· } }, image: ""foo/bar/baz"", fullName: ""foo/bar/baz:latest"")",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.ImageFromDockerfileTest.ThrowsDockerfileDoesNotExist,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: ""src/lorem/lipsum/lipsum.config"", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+CredsHelperProviderTest.ShouldGetNull(jsonDocument: ""{\""credHelpers\"":{\""ghcr.io\"":{}}}"", isApplicable: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerAuthConfigCustomConfiguration(propertyName: ""DOCKER_AUTH_CONFIG"", propertyValue: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+Base64ProviderTest.ResolvePartialDockerRegistry(jsonDocument: ""{\""auths\"":{\""registry.example.com:5000\"":{}}}"", hostname: ""registry.example.com:5000"", expectedResult: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.CombineComposableEnumerables(oldValue: null, newValue: [···], expected: [""2""])",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: "".gitignore"", expected: True)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.ResourcePropertiesTest.QueryNotExistingDockerContainerById,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetNamedPipeConnectionTimeoutCustomConfiguration(configuration: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest.GetHostnameFromDockerImage(dockerImageName: ""fedora/httpd:version1.0.test"", hostname: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerImageNameSubstitutionTest+HubImageNamePrefixIsSet.PrependForStringConfiguration(hubImageNamePrefix: ""my.proxy.com:443/my-path"", imageName: ""foo/bar:1.0.0"", expectedFullName: ""my.proxy.com:443/my-path/foo/bar:1.0.0"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: ""temp12"", expected: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerTlsCustomConfiguration(configuration: ""docker.tls=TRUE"", expected: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerHostOverrideCustomConfiguration(propertyName: ""TESTCONTAINERS_HOST_OVERRIDE"", propertyValue: ""docker.svc.local"", expected: ""docker.svc.local"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerImageNameSubstitutionTest+HubImageNamePrefixIsSet.PrependForStringConfiguration(hubImageNamePrefix: ""my.proxy.com:443"", imageName: ""bar:1.0.0"", expectedFullName: ""my.proxy.com:443/bar:1.0.0"")",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.DockerConfigTests+DockerContextConfigurationTests.ThrowsWhenDockerContextNotFound,100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.DockerImageNameSubstitutionTest+ImageNameSubstitutionIsSet.KeepsOriginalImageWhenSubstitutionReturnsNull,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerSocketOverrideCustomConfiguration(propertyName: ""TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE"", propertyValue: ""/var/run/docker.sock"", expected: ""/var/run/docker.sock"")",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.GetContainerLogsTest.GetLogsShouldBeEmptyWhenUntilIsOutOfDateRage,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest.GetHostnameFromDockerImage(dockerImageName: ""foo/bar:latest"", hostname: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetWaitStrategyIntervalCustomConfiguration(configuration: ""wait.strategy.interval=-00:00:00.001"", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+Base64ProviderTest.ResolvePartialDockerRegistry(jsonDocument: ""{\""auths\"":{\""http://ghcr.io\"":{}}}"", hostname: ""ghcr.io"", expectedResult: True)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerTlsVerifyCustomConfiguration(propertyName: ""DOCKER_TLS_VERIFY"", propertyValue: """", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerTlsVerifyCustomConfiguration(configuration: """", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerImageNameSubstitutionTest+HubImageNamePrefixIsSet.PrependForObjectConfiguration(hubImageNamePrefix: ""my.proxy.com"", imageName: ""bar"", expectedFullName: ""my.proxy.com/bar:latest"")",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.GuardTest+NullPreconditions+ThrowArgumentException.IfNotNull,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerApiVersionCustomConfiguration(configuration: ""docker.api.version=1.52"", expected: ""1.52"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerConfigCustomConfiguration(propertyName: ""DOCKER_CONFIG"", propertyValue: ""~/.docker/"", expected: ""~/.docker/"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.WhenImageNameGetsAssigned(serializable: DockerImageFixtureSerializable { Image = DockerImage { Digest = null, FullName = ""myregistry:5000/fedora/httpd:version1.0"", Platform = null, Registry = ""myregistry:5000"", Repository = ""fedora/httpd"", ··· } }, image: ""myregistry:5000/fedora/httpd:version1.0"", fullName: ""myregistry:5000/fedora/httpd:version1.0"")",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.ImageFromDockerfileTest.BuildFailureIncludesDetailedErrorMessage,100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.ImageFromDockerfileTest.BuildsDockerScratchImage,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+Base64ProviderTest.ShouldGetNull(jsonDocument: ""{\""auths\"":{\""ghcr.io\"":{}}}"", isApplicable: False, logMessage: null)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersVolumeTest.WithTmpfsVolumeMount,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.WhenImageNameGetsAssigned(serializable: DockerImageFixtureSerializable { Image = DockerImage { Digest = null, FullName = ""fedora/httpd:version1.0"", Platform = null, Registry = null, Repository = ""fedora/httpd"", ··· } }, image: ""fedora/httpd:version1.0"", fullName: ""fedora/httpd:version1.0"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerApiVersionCustomConfiguration(configuration: ""docker.api.version=version"", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.MatchVersion_ReturnsTrue_WhenVersionMatchesPredicate(image: ""foo:2-variant"", major: 2, minor: 0, build: -1, revision: -1)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.ParameterModifiers,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerImageNameSubstitutionTest+HubImageNamePrefixIsSet.PrependForStringConfiguration(hubImageNamePrefix: ""my.proxy.com"", imageName: ""bar:latest"", expectedFullName: ""my.proxy.com/bar:latest"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerImageNameSubstitutionTest+HubImageNamePrefixIsSet.PrependForStringConfiguration(hubImageNamePrefix: ""my.proxy.com"", imageName: ""foo/bar:1.0.0"", expectedFullName: ""my.proxy.com/foo/bar:1.0.0"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersContainerTest+WithConfiguration.HostnameShouldMatchDockerGatewayAddress(expectedHostname: ""127.0.0.1"", endpoint: ""npipe://./pipe/docker_engine"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.WhenImageNameGetsAssigned(serializable: DockerImageFixtureSerializable { Image = DockerImage { Digest = null, FullName = ""foo/bar/baz:latest"", Platform = null, Registry = null, Repository = ""foo/bar/baz"", ··· } }, image: ""foo/bar/baz:latest"", fullName: ""foo/bar/baz:latest"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.BuildConfigurationTest.OverwriteDictionaryCompose(oldValue: [[""A""] = ""old""], newValue: [], expected: [])",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerTlsCustomConfiguration(propertyName: ""DOCKER_TLS"", propertyValue: ""false"", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.TestcontainersImageTest.WhenImageNameGetsAssigned(serializable: DockerImageFixtureSerializable { Image = DockerImage { Digest = null, FullName = ""myregistry.azurecr.io/foo/bar/baz:latest"", Platform = null, Registry = ""myregistry.azurecr.io"", Repository = ""foo/bar/baz"", ··· } }, image: ""myregistry.azurecr.io/foo/bar/baz:latest"", fullName: ""myregistry.azurecr.io/foo/bar/baz:latest"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerAuthConfigCustomConfiguration(propertyName: ""DOCKER_AUTH_CONFIG"", propertyValue: ""{\""auths\"":null}"", expected: ""{\""auths\"":null}"")",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetDockerCertPathCustomConfiguration(propertyName: """", propertyValue: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetHubImageNamePrefixCustomConfiguration(configuration: ""hub.image.name.prefix="", expected: null)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersVolumeBuilderTest.CreateVolumeAssignsLabels,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: ""temp1"", expected: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+EnvironmentConfigurationTest.GetWaitStrategyTimeoutCustomConfiguration(propertyName: """", propertyValue: """", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerApiVersionCustomConfiguration(configuration: ""docker.api.version="", expected: null)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+Base64ProviderTest.ResolvePartialDockerRegistry(jsonDocument: ""{\""auths\"":{\""https://index.docker.io/v1/\"":{}}}"", hostname: ""index.docker.io"", expectedResult: True)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersWaitStrategyTest+Rethrow.RethrowUntil,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.IgnoreFileTest.AcceptOrDenyNonRecursivePatterns(ignoreFile: IgnoreFile { }, path: ""lorem/lipsum/lorem.txt"", expected: False)",100,100,0,stable
+DotNet.Testcontainers.Tests.Unit.TestcontainersWaitStrategyTest+Finish.ImmediatelyWhile,100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.DockerRegistryAuthenticationProviderTest+CredsStoreProviderTest.ShouldGetNull(jsonDocument: ""{}"", isApplicable: False)",100,100,0,stable
+"DotNet.Testcontainers.Tests.Unit.CustomConfigurationTest+PropertiesFileConfigurationTest.GetDockerTlsVerifyCustomConfiguration(configuration: ""docker.tls.verify=false"", expected: False)",100,100,0,stable

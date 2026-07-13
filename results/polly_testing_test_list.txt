@@ -1,0 +1,16 @@
+﻿  Determinando os projetos a serem restaurados...
+  Todos os projetos est├úo atualizados para restaura├º├úo.
+  Polly.Core -> C:\Users\nns\flaky-csharp\repos\Polly\artifacts\bin\Polly.Core\debug_net8.0\Polly.Core.dll
+  Polly.RateLimiting -> C:\Users\nns\flaky-csharp\repos\Polly\artifacts\bin\Polly.RateLimiting\debug_net8.0\Polly.RateLimiting.dll
+  Polly.Testing -> C:\Users\nns\flaky-csharp\repos\Polly\artifacts\bin\Polly.Testing\debug_net8.0\Polly.Testing.dll
+  Polly.Extensions -> C:\Users\nns\flaky-csharp\repos\Polly\artifacts\bin\Polly.Extensions\debug_net8.0\Polly.Extensions.dll
+  Polly.Testing.Tests -> C:\Users\nns\flaky-csharp\repos\Polly\artifacts\bin\Polly.Testing.Tests\debug_net8.0\Polly.Testing.Tests.dll
+Execu├º├úo de teste para C:\Users\nns\flaky-csharp\repos\Polly\artifacts\bin\Polly.Testing.Tests\debug_net8.0\Polly.Testing.Tests.dll (.NETCoreApp,Version=v8.0)
+Os Testes a seguir est├úo dispon├¡veis:
+    Polly.Tests.StrongNameTests.Tests_Are_Strong_Named
+    Polly.Testing.Tests.ResiliencePipelineExtensionsTests.GetPipelineDescriptor_Throws_If_Pipeline_Null
+    Polly.Testing.Tests.ResiliencePipelineExtensionsTests.GetPipelineDescriptor_Generic_Ok
+    Polly.Testing.Tests.ResiliencePipelineExtensionsTests.GetPipelineDescriptor_NonGeneric_Ok
+    Polly.Testing.Tests.ResiliencePipelineExtensionsTests.GetPipelineDescriptor_SingleStrategy_Ok
+    Polly.Testing.Tests.ResiliencePipelineExtensionsTests.GetPipelineDescriptor_Reloadable_Ok
+    Polly.Testing.Tests.ResiliencePipelineExtensionsTests.GetPipelineDescriptor_InnerPipeline_Ok

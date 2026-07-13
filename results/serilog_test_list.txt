@@ -1,0 +1,758 @@
+﻿  Determinando os projetos a serem restaurados...
+  Todos os projetos est├úo atualizados para restaura├º├úo.
+  Serilog -> C:\Users\nns\flaky-csharp\repos\serilog\src\Serilog\bin\Debug\net8.0\Serilog.dll
+  Serilog -> C:\Users\nns\flaky-csharp\repos\serilog\src\Serilog\bin\Debug\netstandard2.0\Serilog.dll
+  TestDummies -> C:\Users\nns\flaky-csharp\repos\serilog\test\TestDummies\bin\Debug\netstandard2.0\TestDummies.dll
+  Serilog.Tests -> C:\Users\nns\flaky-csharp\repos\serilog\test\Serilog.Tests\bin\Debug\net8.0\Serilog.Tests.dll
+Execu├º├úo de teste para C:\Users\nns\flaky-csharp\repos\serilog\test\Serilog.Tests\bin\Debug\net8.0\Serilog.Tests.dll (.NETCoreApp,Version=v8.0)
+Os Testes a seguir est├úo dispon├¡veis:
+    Serilog.Core.Tests.BatchingSinkTests.WhenAnEventIsEnqueuedItIsWrittenToABatchOnDispose
+    Serilog.Core.Tests.BatchingSinkTests.WhenAnEventIsEnqueuedItIsWrittenToABatchOnDisposeAsync
+    Serilog.Core.Tests.BatchingSinkTests.WhenAnEventIsEnqueuedItIsWrittenToABatchOnTimer
+    Serilog.Core.Tests.BatchingSinkTests.WhenAnEventIsEnqueuedItIsWrittenToABatchOnDisposeWhileRunning
+    Serilog.Core.Tests.BatchingSinkTests.ExecutionContextDoesNotFlowToBatchedSink
+    Serilog.Core.Tests.BatchingSinkTests.EagerlyEmitFirstEventCausesQuickInitialBatch(eagerlyEmit: True)
+    Serilog.Core.Tests.BatchingSinkTests.EagerlyEmitFirstEventCausesQuickInitialBatch(eagerlyEmit: False)
+    Serilog.Core.Tests.FailureAwareBatchSchedulerTests.WhenNoFailuresHaveOccurredTheInitialIntervalIsUsed
+    Serilog.Core.Tests.FailureAwareBatchSchedulerTests.WhenOneFailureHasOccurredTheInitialIntervalIsUsed
+    Serilog.Core.Tests.FailureAwareBatchSchedulerTests.WhenTwoFailuresHaveOccurredTheIntervalBacksOff
+    Serilog.Core.Tests.FailureAwareBatchSchedulerTests.WhenABatchSucceedsTheStatusResets
+    Serilog.Core.Tests.FailureAwareBatchSchedulerTests.WhenThreeFailuresHaveOccurredTheIntervalBacksOff
+    Serilog.Core.Tests.FailureAwareBatchSchedulerTests.WhenRetryTimeLimitHasElapsedTheBatchIsDropped
+    Serilog.Core.Tests.FailureAwareBatchSchedulerTests.WhenTenConsecutiveBatchesAreDroppedTheQueueIsDropped
+    Serilog.Tests.ArgumentNullTests.Run
+    Serilog.Tests.LogTests.TheUninitializedLoggerIsSilent
+    Serilog.Tests.LogTests.CloseAndFlushDisposesTheLogger
+    Serilog.Tests.LogTests.CloseAndFlushResetsLoggerToSilentLogger
+    Serilog.Tests.LogTests.CloseAndFlushAsyncDisposesTheLogger
+    Serilog.Tests.LogTests.CloseAndFlushAsyncDisposesTheLoggerEvenWhenItIsNotAsyncDisposable
+    Serilog.Tests.LogTests.CloseAndFlushAsyncResetsLoggerToSilentLogger
+    Serilog.Tests.MethodOverloadConventionTests.ILoggerDefaultMethodsShouldBeInSyncWithLogger
+    Serilog.Tests.MethodOverloadConventionTests.ILoggerValidateConventions(setName: "Write")
+    Serilog.Tests.MethodOverloadConventionTests.ILoggerValidateConventions(setName: "Verbose")
+    Serilog.Tests.MethodOverloadConventionTests.ILoggerValidateConventions(setName: "Debug")
+    Serilog.Tests.MethodOverloadConventionTests.ILoggerValidateConventions(setName: "Information")
+    Serilog.Tests.MethodOverloadConventionTests.ILoggerValidateConventions(setName: "Warning")
+    Serilog.Tests.MethodOverloadConventionTests.ILoggerValidateConventions(setName: "Error")
+    Serilog.Tests.MethodOverloadConventionTests.ILoggerValidateConventions(setName: "Fatal")
+    Serilog.Tests.MethodOverloadConventionTests.LoggerValidateConventions(setName: "Write")
+    Serilog.Tests.MethodOverloadConventionTests.LoggerValidateConventions(setName: "Verbose")
+    Serilog.Tests.MethodOverloadConventionTests.LoggerValidateConventions(setName: "Debug")
+    Serilog.Tests.MethodOverloadConventionTests.LoggerValidateConventions(setName: "Information")
+    Serilog.Tests.MethodOverloadConventionTests.LoggerValidateConventions(setName: "Warning")
+    Serilog.Tests.MethodOverloadConventionTests.LoggerValidateConventions(setName: "Error")
+    Serilog.Tests.MethodOverloadConventionTests.LoggerValidateConventions(setName: "Fatal")
+    Serilog.Tests.MethodOverloadConventionTests.LogValidateConventions(setName: "Write")
+    Serilog.Tests.MethodOverloadConventionTests.LogValidateConventions(setName: "Verbose")
+    Serilog.Tests.MethodOverloadConventionTests.LogValidateConventions(setName: "Debug")
+    Serilog.Tests.MethodOverloadConventionTests.LogValidateConventions(setName: "Information")
+    Serilog.Tests.MethodOverloadConventionTests.LogValidateConventions(setName: "Warning")
+    Serilog.Tests.MethodOverloadConventionTests.LogValidateConventions(setName: "Error")
+    Serilog.Tests.MethodOverloadConventionTests.LogValidateConventions(setName: "Fatal")
+    Serilog.Tests.MethodOverloadConventionTests.SilentLoggerValidateConventions(setName: "Write")
+    Serilog.Tests.MethodOverloadConventionTests.SilentLoggerValidateConventions(setName: "Verbose")
+    Serilog.Tests.MethodOverloadConventionTests.SilentLoggerValidateConventions(setName: "Debug")
+    Serilog.Tests.MethodOverloadConventionTests.SilentLoggerValidateConventions(setName: "Information")
+    Serilog.Tests.MethodOverloadConventionTests.SilentLoggerValidateConventions(setName: "Warning")
+    Serilog.Tests.MethodOverloadConventionTests.SilentLoggerValidateConventions(setName: "Error")
+    Serilog.Tests.MethodOverloadConventionTests.SilentLoggerValidateConventions(setName: "Fatal")
+    Serilog.Tests.MethodOverloadConventionTests.ValidateWriteEventLogMethods(loggerType: typeof(Serilog.Core.Pipeline.SilentLogger))
+    Serilog.Tests.MethodOverloadConventionTests.ValidateWriteEventLogMethods(loggerType: typeof(Serilog.Core.Logger))
+    Serilog.Tests.MethodOverloadConventionTests.ValidateWriteEventLogMethods(loggerType: typeof(Serilog.Log))
+    Serilog.Tests.MethodOverloadConventionTests.ValidateWriteEventLogMethods(loggerType: typeof(Serilog.ILogger))
+    Serilog.Tests.MethodOverloadConventionTests.ValidateForContextMethods(loggerType: typeof(Serilog.Core.Pipeline.SilentLogger))
+    Serilog.Tests.MethodOverloadConventionTests.ValidateForContextMethods(loggerType: typeof(Serilog.Core.Logger))
+    Serilog.Tests.MethodOverloadConventionTests.ValidateForContextMethods(loggerType: typeof(Serilog.Log))
+    Serilog.Tests.MethodOverloadConventionTests.ValidateForContextMethods(loggerType: typeof(Serilog.ILogger))
+    Serilog.Tests.MethodOverloadConventionTests.ValidateBindMessageTemplateMethods(loggerType: typeof(Serilog.Core.Pipeline.SilentLogger))
+    Serilog.Tests.MethodOverloadConventionTests.ValidateBindMessageTemplateMethods(loggerType: typeof(Serilog.Core.Logger))
+    Serilog.Tests.MethodOverloadConventionTests.ValidateBindMessageTemplateMethods(loggerType: typeof(Serilog.Log))
+    Serilog.Tests.MethodOverloadConventionTests.ValidateBindMessageTemplateMethods(loggerType: typeof(Serilog.ILogger))
+    Serilog.Tests.MethodOverloadConventionTests.ValidateBindPropertyMethods(loggerType: typeof(Serilog.Core.Pipeline.SilentLogger))
+    Serilog.Tests.MethodOverloadConventionTests.ValidateBindPropertyMethods(loggerType: typeof(Serilog.Core.Logger))
+    Serilog.Tests.MethodOverloadConventionTests.ValidateBindPropertyMethods(loggerType: typeof(Serilog.Log))
+    Serilog.Tests.MethodOverloadConventionTests.ValidateBindPropertyMethods(loggerType: typeof(Serilog.ILogger))
+    Serilog.Tests.MethodOverloadConventionTests.ValidateIsEnabledMethods(loggerType: typeof(Serilog.Core.Pipeline.SilentLogger))
+    Serilog.Tests.MethodOverloadConventionTests.ValidateIsEnabledMethods(loggerType: typeof(Serilog.Core.Logger))
+    Serilog.Tests.MethodOverloadConventionTests.ValidateIsEnabledMethods(loggerType: typeof(Serilog.Log))
+    Serilog.Tests.MethodOverloadConventionTests.ValidateIsEnabledMethods(loggerType: typeof(Serilog.ILogger))
+    Serilog.Tests.VersioningTests.AssemblyIsExplicitlyVersioned
+    Serilog.Tests.VersioningTests.AssemblySubordinateVersionPartsAreZero
+    Serilog.Tests.VersioningTests.AssemblyIsSigned
+    Serilog.Tests.Support.LogEventPropertyStructuralEqualityComparerTests.HandlesNullAsNotEqual
+    Serilog.Tests.Support.LogEventPropertyStructuralEqualityComparerTests.LogEventPropertyStructuralEqualityComparerWorksForSequences
+    Serilog.Tests.Support.LogEventPropertyStructuralEqualityComparerTests.LogEventPropertyStructuralEqualityComparerWorksForScalars
+    Serilog.Tests.Settings.CallableConfigurationMethodFinderTests.FindsSinkSpecificConfigurationMethods
+    Serilog.Tests.Settings.CallableConfigurationMethodFinderTests.FindsAuditSinkSpecificConfigurationMethods
+    Serilog.Tests.Settings.CallableConfigurationMethodFinderTests.FindsEnricherSpecificConfigurationMethods
+    Serilog.Tests.Settings.CallableConfigurationMethodFinderTests.FindsDestructureSpecificConfigurationMethods
+    Serilog.Tests.Settings.CallableConfigurationMethodFinderTests.FindsFilterSpecificConfigurationMethods
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.LastValueIsTakenWhenKeysAreDuplicate
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.FindsConfigurationAssemblies
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.PropertyEnrichmentIsApplied
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.CallableMethodsAreSelected
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.MethodsAreSelectedBasedOnCountOfMatchedArguments
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.SinksAreConfigured
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.AuditSinksAreConfigured
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.TestMinimumLevelOverrides
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.LoggingLevelSwitchNameValidityScenarios(switchName: "$switchName", expectedValid: True)
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.LoggingLevelSwitchNameValidityScenarios(switchName: "$SwitchName", expectedValid: True)
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.LoggingLevelSwitchNameValidityScenarios(switchName: "$switch1", expectedValid: True)
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.LoggingLevelSwitchNameValidityScenarios(switchName: "$sw1tch0", expectedValid: True)
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.LoggingLevelSwitchNameValidityScenarios(switchName: "$SWITCHNAME", expectedValid: True)
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.LoggingLevelSwitchNameValidityScenarios(switchName: "$$switchname", expectedValid: False)
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.LoggingLevelSwitchNameValidityScenarios(switchName: "$switchname$", expectedValid: False)
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.LoggingLevelSwitchNameValidityScenarios(switchName: "switch$name", expectedValid: False)
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.LoggingLevelSwitchNameValidityScenarios(switchName: "$", expectedValid: False)
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.LoggingLevelSwitchNameValidityScenarios(switchName: "", expectedValid: False)
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.LoggingLevelSwitchNameValidityScenarios(switchName: " ", expectedValid: False)
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.LoggingLevelSwitchNameValidityScenarios(switchName: "$1switch", expectedValid: False)
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.LoggingLevelSwitchNameValidityScenarios(switchName: "$switch_name", expectedValid: False)
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.LoggingLevelSwitchWithInvalidNameThrowsFormatException
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.LoggingLevelSwitchIsConfigured
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.SettingMinimumLevelControlledByToAnUndeclaredSwitchThrows
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.LoggingLevelSwitchIsPassedToSinks
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.ReferencingAnUndeclaredSwitchInSinkThrows
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.LoggingLevelSwitchCanBeUsedForMinimumLevelOverrides
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.SinksWithAbstractParamsAreConfiguredWithTypeName
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.SinksAreConfiguredWithStaticMember
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.DestructuringToMaximumDepthIsApplied
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.DestructuringToMaximumStringLengthIsApplied
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.DestructuringToMaximumCollectionCountIsApplied
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.DestructuringWithCustomExtensionMethodIsApplied
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.DestructuringAsScalarIsAppliedWithShortTypeName
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.DestructuringAsScalarIsAppliedWithAssemblyQualifiedName
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.DestructuringWithIsAppliedWithCustomDestructuringPolicy
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.WriteToSinkIsAppliedWithCustomSink
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.WriteToSinkIsAppliedWithCustomSinkAndMinimumLevel
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.WriteToSinkIsAppliedWithCustomSinkAndLevelSwitch
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.AuditToSinkIsAppliedWithCustomSink
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.AuditToSinkIsAppliedWithCustomSinkAndMinimumLevel
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.AuditToSinkIsAppliedWithCustomSinkAndLevelSwitch
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.EnrichWithIsAppliedWithCustomEnricher
+    Serilog.Tests.Settings.KeyValuePairSettingsTests.FilterWithIsAppliedWithCustomFilter
+    Serilog.Tests.Settings.SettingValueConversionsTests.ConvertibleValuesConvertToTIfTargetIsNullable
+    Serilog.Tests.Settings.SettingValueConversionsTests.EmptyStringValuesConvertToNullIfTargetIsNullable
+    Serilog.Tests.Settings.SettingValueConversionsTests.ValuesConvertToNullableTimeSpan
+    Serilog.Tests.Settings.SettingValueConversionsTests.ValuesConvertToEnumMembers
+    Serilog.Tests.Settings.SettingValueConversionsTests.ValuesConvertToStringArray
+    Serilog.Tests.Settings.SettingValueConversionsTests.ValuesConvertToStringArrayEmpty
+    Serilog.Tests.Settings.SettingValueConversionsTests.ValuesConvertToIntArray
+    Serilog.Tests.Settings.SettingValueConversionsTests.ValuesConvertToIntArrayEmpty
+    Serilog.Tests.Settings.SettingValueConversionsTests.ValuesConvertToTypeFromQualifiedName
+    Serilog.Tests.Settings.SettingValueConversionsTests.ValuesConvertToTypeFromAssemblyQualifiedName
+    Serilog.Tests.Settings.SettingValueConversionsTests.StringValuesConvertToDefaultInstancesIfTargetIsInterface
+    Serilog.Tests.Settings.SettingValueConversionsTests.StringValuesConvertToDefaultInstancesIfTargetIsAbstractClass
+    Serilog.Tests.Settings.SettingValueConversionsTests.StringValuesThrowsWhenMissingDefaultConstructorIfTargetIsAbstractClass
+    Serilog.Tests.Settings.SettingValueConversionsTests.TimeSpanValuesCanBeParsed(input: "3.14:21:18.986", expDays: 3, expHours: 14, expMin: 21, expSec: 18, expMs: 986)
+    Serilog.Tests.Settings.SettingValueConversionsTests.TimeSpanValuesCanBeParsed(input: "4", expDays: 4, expHours: 0, expMin: 0, expSec: 0, expMs: 0)
+    Serilog.Tests.Settings.SettingValueConversionsTests.TimeSpanValuesCanBeParsed(input: "2:0", expDays: 0, expHours: 2, expMin: 0, expSec: 0, expMs: 0)
+    Serilog.Tests.Settings.SettingValueConversionsTests.TimeSpanValuesCanBeParsed(input: "0:5", expDays: 0, expHours: 0, expMin: 5, expSec: 0, expMs: 0)
+    Serilog.Tests.Settings.SettingValueConversionsTests.TimeSpanValuesCanBeParsed(input: "0:0:7", expDays: 0, expHours: 0, expMin: 0, expSec: 7, expMs: 0)
+    Serilog.Tests.Settings.SettingValueConversionsTests.TimeSpanValuesCanBeParsed(input: "0:0:0.2", expDays: 0, expHours: 0, expMin: 0, expSec: 0, expMs: 200)
+    Serilog.Tests.Settings.SettingValueConversionsTests.TryParseStaticMemberAccessorReturnsExpectedResults(input: "My.NameSpace.Class+InnerClass::Member", expectedAccessorType: "My.NameSpace.Class+InnerClass", expectedPropertyName: "Member")
+    Serilog.Tests.Settings.SettingValueConversionsTests.TryParseStaticMemberAccessorReturnsExpectedResults(input: "  TrimMe.NameSpace.Class::NeedsTrimming  ", expectedAccessorType: "TrimMe.NameSpace.Class", expectedPropertyName: "NeedsTrimming")
+    Serilog.Tests.Settings.SettingValueConversionsTests.TryParseStaticMemberAccessorReturnsExpectedResults(input: "My.NameSpace.Class::Member", expectedAccessorType: "My.NameSpace.Class", expectedPropertyName: "Member")
+    Serilog.Tests.Settings.SettingValueConversionsTests.TryParseStaticMemberAccessorReturnsExpectedResults(input: "My.NameSpace.Class::Member, MyAssembly", expectedAccessorType: "My.NameSpace.Class, MyAssembly", expectedPropertyName: "Member")
+    Serilog.Tests.Settings.SettingValueConversionsTests.TryParseStaticMemberAccessorReturnsExpectedResults(input: "My.NameSpace.Class::Member, MyAssembly, Version=4."┬À┬À┬À, expectedAccessorType: "My.NameSpace.Class, MyAssembly, Version=4.0.0.0, C"┬À┬À┬À, expectedPropertyName: "Member")
+    Serilog.Tests.Settings.SettingValueConversionsTests.TryParseStaticMemberAccessorReturnsExpectedResults(input: "Just a random string with :: in it", expectedAccessorType: null, expectedPropertyName: null)
+    Serilog.Tests.Settings.SettingValueConversionsTests.TryParseStaticMemberAccessorReturnsExpectedResults(input: "Its::a::trapWithColonsAppearingTwice", expectedAccessorType: null, expectedPropertyName: null)
+    Serilog.Tests.Settings.SettingValueConversionsTests.TryParseStaticMemberAccessorReturnsExpectedResults(input: "ThereIsNoMemberHere::", expectedAccessorType: null, expectedPropertyName: null)
+    Serilog.Tests.Settings.SettingValueConversionsTests.TryParseStaticMemberAccessorReturnsExpectedResults(input: " ", expectedAccessorType: null, expectedPropertyName: null)
+    Serilog.Tests.Settings.SettingValueConversionsTests.TryParseStaticMemberAccessorReturnsExpectedResults(input: "My.NameSpace.Class, MyAssembly, Version=4.0.0.0, C"┬À┬À┬À, expectedAccessorType: null, expectedPropertyName: null)
+    Serilog.Tests.Settings.SettingValueConversionsTests.StaticMembersAccessorsCanBeUsedForReferenceTypes(input: "Serilog.Tests.Support.ClassWithStaticAccessors::In"┬À┬À┬À, targetType: typeof(Serilog.Tests.Support.IAmAnInterface))
+    Serilog.Tests.Settings.SettingValueConversionsTests.StaticMembersAccessorsCanBeUsedForReferenceTypes(input: "Serilog.Tests.Support.ClassWithStaticAccessors::Ab"┬À┬À┬À, targetType: typeof(Serilog.Tests.Support.AnAbstractClass))
+    Serilog.Tests.Settings.SettingValueConversionsTests.StaticMembersAccessorsCanBeUsedForReferenceTypes(input: "Serilog.Tests.Support.ClassWithStaticAccessors::In"┬À┬À┬À, targetType: typeof(Serilog.Tests.Support.IAmAnInterface))
+    Serilog.Tests.Settings.SettingValueConversionsTests.StaticMembersAccessorsCanBeUsedForReferenceTypes(input: "Serilog.Tests.Support.ClassWithStaticAccessors::Ab"┬À┬À┬À, targetType: typeof(Serilog.Tests.Support.AnAbstractClass))
+    Serilog.Tests.Settings.SettingValueConversionsTests.StaticAccessorOnUnknownTypeThrowsTypeLoadException(input: "Namespace.ThisIsNotAKnownType::InterfaceProperty, "┬À┬À┬À, targetType: typeof(Serilog.Tests.Support.IAmAnInterface))
+    Serilog.Tests.Settings.SettingValueConversionsTests.StaticAccessorOnUnknownTypeThrowsTypeLoadException(input: "Random.Namespace.ClassWithStaticAccessors::Interfa"┬À┬À┬À, targetType: typeof(Serilog.Tests.Support.IAmAnInterface))
+    Serilog.Tests.Settings.SettingValueConversionsTests.StaticAccessorOnUnknownTypeThrowsTypeLoadException(input: "Serilog.Tests.Support.ClassWithStaticAccessors::In"┬À┬À┬À, targetType: typeof(Serilog.Tests.Support.IAmAnInterface))
+    Serilog.Tests.Settings.SettingValueConversionsTests.StaticAccessorOnUnknownTypeThrowsTypeLoadException(input: "Serilog.Tests.Support.ClassWithStaticAccessors::In"┬À┬À┬À, targetType: typeof(Serilog.Tests.Support.IAmAnInterface))
+    Serilog.Tests.Settings.SettingValueConversionsTests.StaticAccessorWithInvalidMemberThrowsInvalidOperationException(input: "Serilog.Tests.Support.ClassWithStaticAccessors::Un"┬À┬À┬À, targetType: typeof(Serilog.Tests.Support.IAmAnInterface))
+    Serilog.Tests.Settings.SettingValueConversionsTests.StaticAccessorWithInvalidMemberThrowsInvalidOperationException(input: "Serilog.Tests.Support.ClassWithStaticAccessors::Pr"┬À┬À┬À, targetType: typeof(Serilog.Tests.Support.IAmAnInterface))
+    Serilog.Tests.Settings.SettingValueConversionsTests.StaticAccessorWithInvalidMemberThrowsInvalidOperationException(input: "Serilog.Tests.Support.ClassWithStaticAccessors::Pr"┬À┬À┬À, targetType: typeof(Serilog.Tests.Support.IAmAnInterface))
+    Serilog.Tests.Settings.SettingValueConversionsTests.StaticAccessorWithInvalidMemberThrowsInvalidOperationException(input: "Serilog.Tests.Support.ClassWithStaticAccessors::In"┬À┬À┬À, targetType: typeof(Serilog.Tests.Support.IAmAnInterface))
+    Serilog.Tests.Settings.SettingValueConversionsTests.StaticAccessorWithInvalidMemberThrowsInvalidOperationException(input: "Serilog.Tests.Support.ClassWithStaticAccessors::In"┬À┬À┬À, targetType: typeof(Serilog.Tests.Support.IAmAnInterface))
+    Serilog.Tests.Rendering.MessageTemplateRendererTests.PropertyTokenFormatsAreApplied(template: "{Number}", appliedFormat: null, expected: "16")
+    Serilog.Tests.Rendering.MessageTemplateRendererTests.PropertyTokenFormatsAreApplied(template: "{Number:X8}", appliedFormat: null, expected: "00000010")
+    Serilog.Tests.Rendering.MessageTemplateRendererTests.PropertyTokenFormatsAreApplied(template: "{Number}", appliedFormat: "j", expected: "16")
+    Serilog.Tests.Rendering.MessageTemplateRendererTests.PropertyTokenFormatsAreApplied(template: "{Number:X8}", appliedFormat: "j", expected: "00000010")
+    Serilog.Tests.Rendering.ReusableStringWriterTests.OnlyBelowMaximumCapacityStringBuilderIsReused(capacity: 0, expectReuse: True)
+    Serilog.Tests.Rendering.ReusableStringWriterTests.OnlyBelowMaximumCapacityStringBuilderIsReused(capacity: 1, expectReuse: True)
+    Serilog.Tests.Rendering.ReusableStringWriterTests.OnlyBelowMaximumCapacityStringBuilderIsReused(capacity: 32767, expectReuse: True)
+    Serilog.Tests.Rendering.ReusableStringWriterTests.OnlyBelowMaximumCapacityStringBuilderIsReused(capacity: 32768, expectReuse: True)
+    Serilog.Tests.Rendering.ReusableStringWriterTests.OnlyBelowMaximumCapacityStringBuilderIsReused(capacity: 32769, expectReuse: False)
+    Serilog.Tests.Rendering.ReusableStringWriterTests.NoReuseOccursWhenFormatProvidersDiffer
+    Serilog.Tests.Rendering.ReusableStringWriterTests.NoReuseOccursWhenFormatProvidersDifferCase2
+    Serilog.Tests.Rendering.ReusableStringWriterTests.ReuseIsPossibleWithIdenticalFormatProvider
+    Serilog.Tests.Parsing.MessageTemplateParserTests.MessageTemplateIsRequired
+    Serilog.Tests.Parsing.MessageTemplateParserTests.AnEmptyMessageIsASingleTextToken
+    Serilog.Tests.Parsing.MessageTemplateParserTests.AnEmptyPropertyIsIsParsedAsText
+    Serilog.Tests.Parsing.MessageTemplateParserTests.AMessageWithoutPropertiesIsASingleTextToken
+    Serilog.Tests.Parsing.MessageTemplateParserTests.AMessageWithPropertyOnlyIsASinglePropertyToken
+    Serilog.Tests.Parsing.MessageTemplateParserTests.DoubledLeftBracketsAreParsedAsASingleBracket
+    Serilog.Tests.Parsing.MessageTemplateParserTests.DoubledLeftBracketsAreParsedAsASingleBracketInsideText
+    Serilog.Tests.Parsing.MessageTemplateParserTests.DoubledRightBracketsAreParsedAsASingleBracket
+    Serilog.Tests.Parsing.MessageTemplateParserTests.DoubledRightBracketsAfterOneLeftIsParsedAPropertyTokenAndATextToken
+    Serilog.Tests.Parsing.MessageTemplateParserTests.DoubledBracketsAreParsedAsASingleBracket
+    Serilog.Tests.Parsing.MessageTemplateParserTests.DashedAndDottedNamesAreAccepted(template: "{test.name}")
+    Serilog.Tests.Parsing.MessageTemplateParserTests.DashedAndDottedNamesAreAccepted(template: "{te.st.na.me}")
+    Serilog.Tests.Parsing.MessageTemplateParserTests.AMalformedPropertyTagIsParsedAsText(template: "{0 space}")
+    Serilog.Tests.Parsing.MessageTemplateParserTests.AMalformedPropertyTagIsParsedAsText(template: "{0 space")
+    Serilog.Tests.Parsing.MessageTemplateParserTests.AMalformedPropertyTagIsParsedAsText(template: "{0_space")
+    Serilog.Tests.Parsing.MessageTemplateParserTests.AMalformedPropertyTagIsParsedAsText(template: "{0_{{space}")
+    Serilog.Tests.Parsing.MessageTemplateParserTests.AMalformedPropertyTagIsParsedAsText(template: "{0_{{space")
+    Serilog.Tests.Parsing.MessageTemplateParserTests.AMalformedPropertyTagIsParsedAsText(template: "{.testname}")
+    Serilog.Tests.Parsing.MessageTemplateParserTests.AMalformedPropertyTagIsParsedAsText(template: "{testname.}")
+    Serilog.Tests.Parsing.MessageTemplateParserTests.AMalformedPropertyTagIsParsedAsText(template: "{.}")
+    Serilog.Tests.Parsing.MessageTemplateParserTests.AMalformedPropertyTagIsParsedAsText(template: "{..}")
+    Serilog.Tests.Parsing.MessageTemplateParserTests.AMalformedPropertyTagIsParsedAsText(template: "{test..name}")
+    Serilog.Tests.Parsing.MessageTemplateParserTests.AMalformedPropertyTagIsParsedAsText(template: "{10.name}")
+    Serilog.Tests.Parsing.MessageTemplateParserTests.AMalformedPropertyTagIsParsedAsText(template: "{0_}")
+    Serilog.Tests.Parsing.MessageTemplateParserTests.AMalformedPropertyTagIsParsedAsText(template: "{0a}")
+    Serilog.Tests.Parsing.MessageTemplateParserTests.ATrailingUnmatchedBracketIsParsedAsText
+    Serilog.Tests.Parsing.MessageTemplateParserTests.AMessageWithAMalformedPropertyTagIsParsedAsManyTextTokens
+    Serilog.Tests.Parsing.MessageTemplateParserTests.ASingleIntegerPropertyNameIsParsedAsPositionalProperty
+    Serilog.Tests.Parsing.MessageTemplateParserTests.ManyIntegerPropertyNameIsParsedAsPositionalProperty
+    Serilog.Tests.Parsing.MessageTemplateParserTests.InvalidIntegerPropertyNameIsParsedAsText
+    Serilog.Tests.Parsing.MessageTemplateParserTests.FormatsCanContainColons
+    Serilog.Tests.Parsing.MessageTemplateParserTests.FormatsCanContainSymbolsAndOperators
+    Serilog.Tests.Parsing.MessageTemplateParserTests.PropertiesCanHaveLeftAlignment
+    Serilog.Tests.Parsing.MessageTemplateParserTests.PropertiesCanHaveRightAlignment
+    Serilog.Tests.Parsing.MessageTemplateParserTests.PropertiesCanHaveAlignmentAndFormat
+    Serilog.Tests.Parsing.MessageTemplateParserTests.FormatInFrontOfAlignmentWillHaveTheAlignmentBeConsideredPartOfTheFormat
+    Serilog.Tests.Parsing.MessageTemplateParserTests.ZeroValuesAlignmentIsParsedAsProperty
+    Serilog.Tests.Parsing.MessageTemplateParserTests.AlignmentWithPositiveSignParsedAsText
+    Serilog.Tests.Parsing.MessageTemplateParserTests.NonNumberAlignmentIsParsedAsText
+    Serilog.Tests.Parsing.MessageTemplateParserTests.EmptyAlignmentIsParsedAsText
+    Serilog.Tests.Parsing.MessageTemplateParserTests.MultipleTokensHasCorrectIndexes
+    Serilog.Tests.Parsing.MessageTemplateParserTests.MissingRightBracketIsParsedAsText
+    Serilog.Tests.Parsing.MessageTemplateParserTests.DestructureHintIsParsedCorrectly
+    Serilog.Tests.Parsing.MessageTemplateParserTests.StringifyHintIsParsedCorrectly
+    Serilog.Tests.Parsing.MessageTemplateParserTests.DestructureWithInvalidHintsIsParsedAsText
+    Serilog.Tests.Parsing.MessageTemplateParserTests.DestructuringWithEmptyPropertyNameIsParsedAsText
+    Serilog.Tests.Parsing.MessageTemplateParserTests.UnderscoresAreValidInPropertyNames
+    Serilog.Tests.Parsing.MessageTemplateParserTests.IndexOutOfRangeExceptionBugHasNotRegressed
+    Serilog.Tests.Parsing.MessageTemplateParserTests.FormatCanContainMultipleSections
+    Serilog.Tests.Parsing.MessageTemplateParserTests.FormatCanContainPlusSign
+    Serilog.Tests.Formatting.Json.JsonFormatterTests.JsonFormattedEventsIncludeTimestamp
+    Serilog.Tests.Formatting.Json.JsonFormatterTests.JsonFormattedDateOnly
+    Serilog.Tests.Formatting.Json.JsonFormatterTests.JsonFormattedTimeOnly
+    Serilog.Tests.Formatting.Json.JsonFormatterTests.AnIntegerPropertySerializesAsIntegerValue
+    Serilog.Tests.Formatting.Json.JsonFormatterTests.ABooleanPropertySerializesAsBooleanValue
+    Serilog.Tests.Formatting.Json.JsonFormatterTests.ACharPropertySerializesAsStringValue
+    Serilog.Tests.Formatting.Json.JsonFormatterTests.ADecimalSerializesAsNumericValue
+    Serilog.Tests.Formatting.Json.JsonFormatterTests.ASequencePropertySerializesAsArrayValue
+    Serilog.Tests.Formatting.Json.JsonFormatterTests.AStructureSerializesAsAnObject
+    Serilog.Tests.Formatting.Json.JsonFormatterTests.ADictionaryWithScalarKeySerializesAsAnObject
+    Serilog.Tests.Formatting.Json.JsonFormatterTests.DictionariesAreDestructuredViaDictionaryValue
+    Serilog.Tests.Formatting.Json.JsonFormatterTests.ReadonlyDictionariesAreDestructuredViaDictionaryValue
+    Serilog.Tests.Formatting.Json.JsonFormatterTests.CustomDictionariesAreDestructuredViaDictionaryValue_When_AsDictionary_Applied
+    Serilog.Tests.Formatting.Json.JsonFormatterTests.PropertyTokensWithFormatStringsAreIncludedAsRenderings
+    Serilog.Tests.Formatting.Json.JsonFormatterTests.PropertyTokensWithoutFormatStringsAreNotIncludedAsRenderings
+    Serilog.Tests.Formatting.Json.JsonFormatterTests.SequencesOfSequencesAreSerialized
+    Serilog.Tests.Formatting.Json.JsonFormatterTests.RenderedMessageIsIncludedCorrectlyWhenRequired
+    Serilog.Tests.Formatting.Json.JsonFormatterTests.TraceAndSpanAreIgnoredWhenAbsent
+    Serilog.Tests.Formatting.Json.JsonFormatterTests.TraceAndSpanAreIncludedWhenPresent
+    Serilog.Tests.Formatting.Json.JsonFormatterTests.TraceIdIsFormattedAsValidJsonString
+    Serilog.Tests.Formatting.Json.JsonFormatterTests.SpanIdIsFormattedAsValidJsonString
+    Serilog.Tests.Formatting.Json.JsonFormatterTests.TraceIdAndSpanIdProduceValidJson
+    Serilog.Tests.Formatting.Json.JsonFormatterTests.TraceIdContainsOnlyHexCharacters
+    Serilog.Tests.Formatting.Json.JsonFormatterTests.SpanIdContainsOnlyHexCharacters
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.JsonLiteralTypesAreFormatted(value: 0, expectedJson: "0")
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.JsonLiteralTypesAreFormatted(value: "a\nb", expectedJson: "\"a\\nb\"")
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.JsonLiteralTypesAreFormatted(value: "\x01", expectedJson: "\"\\u0001\"")
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.JsonLiteralTypesAreFormatted(value: "­ƒñÀÔÇì", expectedJson: "\"­ƒñÀÔÇì\"")
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.JsonLiteralTypesAreFormatted(value: "\\\"\t\r\n\f", expectedJson: "\"\\\\\\\"\\t\\r\\n\\f\"")
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.JsonLiteralTypesAreFormatted(value: False, expectedJson: "false")
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.JsonLiteralTypesAreFormatted(value: True, expectedJson: "true")
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.JsonLiteralTypesAreFormatted(value: "Hello, world!", expectedJson: "\"Hello, world!\"")
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.JsonLiteralTypesAreFormatted(value: "", expectedJson: "\"\"")
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.JsonLiteralTypesAreFormatted(value: '\0', expectedJson: "\"\\u0000\"")
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.JsonLiteralTypesAreFormatted(value: '\t', expectedJson: "\"\\t\"")
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.JsonLiteralTypesAreFormatted(value: '├®', expectedJson: "\"├®\"")
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.JsonLiteralTypesAreFormatted(value: 'c', expectedJson: "\"c\"")
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.JsonLiteralTypesAreFormatted(value: -123, expectedJson: "-123")
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.JsonLiteralTypesAreFormatted(value: 123, expectedJson: "123")
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.JsonLiteralTypesAreFormatted(value: -123, expectedJson: "-123")
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.JsonLiteralTypesAreFormatted(value: 123, expectedJson: "123")
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.JsonLiteralTypesAreFormatted(value: '\n', expectedJson: "\"\\n\"")
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.JsonLiteralTypesAreFormatted(value: null, expectedJson: "null")
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.DateTimesFormatAsIso8601
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.DateOnly
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.TimeOnly
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.DoubleFormatsAsNumber
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.DoubleSpecialsFormatAsString
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.FloatFormatsAsNumber
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.FloatSpecialsFormatAsString
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.DecimalFormatsAsNumber
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.TimeSpanFormatsAsString
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.GuidFormatsAsString
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.ObjectsAreFormattedAsJsonStringViaToString
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.ObjectsAreFormattedAsExceptionStringsInJsonWhenToStringThrows
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.ScalarPropertiesFormatAsLiteralValues
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.SequencePropertiesFormatAsArrayValue
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.StructuresFormatAsAnObject
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.DictionaryWithScalarKeyFormatsAsAnObject
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.SequencesOfSequencesAreFormatted
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.TypeTagCanBeOverridden
+    Serilog.Tests.Formatting.Json.JsonValueFormatterTests.WhenNullNoTypeTagIsWritten
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.UsesFormatProvider
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.MessageTemplatesContainingFormatStringPropertiesRenderCorrectly
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.UppercaseFormatSpecifierIsSupportedForStrings
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.LowercaseFormatSpecifierIsSupportedForStrings
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.RendersTimestampFormatsOfDifferentLengths(length: 16)
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.RendersTimestampFormatsOfDifferentLengths(length: 100)
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Verbose, width: 1, expected: "V")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Information, width: 12, expected: "Information")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Error, width: 1, expected: "E")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Error, width: 2, expected: "Er")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Error, width: 3, expected: "Err")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Error, width: 4, expected: "Eror")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Error, width: 5, expected: "Error")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Error, width: 6, expected: "Error")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Fatal, width: 1, expected: "F")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Fatal, width: 2, expected: "Fa")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Fatal, width: 3, expected: "Ftl")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Fatal, width: 4, expected: "Fatl")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Fatal, width: 5, expected: "Fatal")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Fatal, width: 6, expected: "Fatal")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Warning, width: 1, expected: "W")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Warning, width: 2, expected: "Wn")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Warning, width: 3, expected: "Wrn")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Warning, width: 4, expected: "Warn")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Warning, width: 5, expected: "Warni")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Warning, width: 6, expected: "Warnin")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Information, width: 11, expected: "Information")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Information, width: 10, expected: "Informatio")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Information, width: 9, expected: "Informati")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Information, width: 8, expected: "Informat")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Verbose, width: 2, expected: "Vb")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Verbose, width: 3, expected: "Vrb")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Verbose, width: 4, expected: "Verb")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Verbose, width: 5, expected: "Verbo")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Verbose, width: 6, expected: "Verbos")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Verbose, width: 7, expected: "Verbose")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Verbose, width: 8, expected: "Verbose")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Debug, width: 1, expected: "D")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Debug, width: 2, expected: "De")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Warning, width: 7, expected: "Warning")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Debug, width: 3, expected: "Dbg")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Debug, width: 5, expected: "Debug")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Debug, width: 6, expected: "Debug")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Information, width: 1, expected: "I")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Information, width: 2, expected: "In")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Information, width: 3, expected: "Inf")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Information, width: 4, expected: "Info")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Information, width: 5, expected: "Infor")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Information, width: 6, expected: "Inform")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Information, width: 7, expected: "Informa")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Debug, width: 4, expected: "Dbug")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelIsSupported(level: Warning, width: 8, expected: "Warning")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelSupportsUpperCasing
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FixedLengthLevelSupportsLowerCasing
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.DefaultLevelLengthIsFullText
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.AlignmentAndWidthCanBeCombined
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.AppliesCustomFormatterToEnums
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.NonMessagePropertiesAreRendered
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.NonMessagePositionalPropertiesAreRendered
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.DoNotDuplicatePropertiesAlreadyRenderedInOutputTemplate
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.AppliesLiteralFormattingToMessageStringsWhenSpecified(format: "", expected: "Hello, \"World\"!")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.AppliesLiteralFormattingToMessageStringsWhenSpecified(format: ":j", expected: "Hello, \"World\"!")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.AppliesLiteralFormattingToMessageStringsWhenSpecified(format: ":l", expected: "Hello, World!")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.AppliesLiteralFormattingToMessageStringsWhenSpecified(format: ":lj", expected: "Hello, World!")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.AppliesLiteralFormattingToMessageStringsWhenSpecified(format: ":jl", expected: "Hello, World!")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.AppliesJsonFormattingToMessageStructuresWhenSpecified(format: "", expected: "{ Name: \"World\" }")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.AppliesJsonFormattingToMessageStructuresWhenSpecified(format: ":j", expected: "{\"Name\":\"World\"}")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.AppliesJsonFormattingToMessageStructuresWhenSpecified(format: ":lj", expected: "{\"Name\":\"World\"}")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.AppliesJsonFormattingToMessageStructuresWhenSpecified(format: ":jl", expected: "{\"Name\":\"World\"}")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.AppliesJsonFormattingToPropertiesTokenWhenSpecified(format: "", expected: "{ Name: \"World\" }")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.AppliesJsonFormattingToPropertiesTokenWhenSpecified(format: ":j", expected: "{\"Name\":\"World\"}")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.AppliesJsonFormattingToPropertiesTokenWhenSpecified(format: ":lj", expected: "{\"Name\":\"World\"}")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.AppliesJsonFormattingToPropertiesTokenWhenSpecified(format: ":jl", expected: "{\"Name\":\"World\"}")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.AnEmptyPropertiesTokenIsAnEmptyStructureValueWithDefaultFormatting
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FormatProviderWithScalarProperties(format: "", shouldUseCustomFormatter: True)
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FormatProviderWithScalarProperties(format: ":lj", shouldUseCustomFormatter: False)
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FormatProviderWithScalarProperties(format: ":jl", shouldUseCustomFormatter: False)
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FormatProviderWithScalarProperties(format: ":j", shouldUseCustomFormatter: False)
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FormatProviderWithScalarProperties(format: ":l", shouldUseCustomFormatter: True)
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FormatProviderWithDestructuredProperties(format: "", shouldUseCustomFormatter: True)
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FormatProviderWithDestructuredProperties(format: ":lj", shouldUseCustomFormatter: False)
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FormatProviderWithDestructuredProperties(format: ":jl", shouldUseCustomFormatter: False)
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FormatProviderWithDestructuredProperties(format: ":j", shouldUseCustomFormatter: False)
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.FormatProviderWithDestructuredProperties(format: ":l", shouldUseCustomFormatter: True)
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.PaddingIsApplied(n: 15, format: "", expected: "15")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.PaddingIsApplied(n: 15, format: ",5", expected: "   15")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.PaddingIsApplied(n: 15, format: ",-5", expected: "15   ")
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.TraceAndSpanAreEmptyWhenAbsent
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.TraceAndSpanAreIncludedWhenPresent
+    Serilog.Tests.Formatting.Display.MessageTemplateTextFormatterTests.UtcTimestampOutputsCorrectValue
+    Serilog.Tests.Filters.MatchingTests.EventsCanBeExcludedBySource
+    Serilog.Tests.Filters.MatchingTests.EventsCanBeExcludedByPredicate
+    Serilog.Tests.Filters.MatchingTests.SourceFiltersWorkOnNamespaces
+    Serilog.Tests.Filters.MatchingTests.SourceFiltersSkipNonNamespaces
+    Serilog.Tests.Events.DictionaryValueTests.ADictionaryValueRendersAsMappingOfKeysToValues
+    Serilog.Tests.Events.LogEventPropertyValueTests.AnEnumIsConvertedToANonStringScalarValue
+    Serilog.Tests.Events.LogEventPropertyValueTests.AScalarValueToStringRendersTheValue
+    Serilog.Tests.Events.LogEventPropertyValueTests.AScalarValueToStringRendersTheValueUsingFormat
+    Serilog.Tests.Events.LogEventPropertyValueTests.AScalarValueToStringRendersTheValueUsingFormatProvider
+    Serilog.Tests.Events.LogEventPropertyValueTests.WhenDestructuringAKnownLiteralTypeIsScalar
+    Serilog.Tests.Events.LogEventTests.CopiedLogEventsPropagateTraceAndSpan
+    Serilog.Tests.Events.LogEventTests.UnstableAssembleFromPartsDoesNotAllocateDictionary
+    Serilog.Tests.Debugging.SelfLogTests.MessagesAreWrittenWhenOutputIsSet
+    Serilog.Tests.Debugging.SelfLogTests.SelfLogReportsErrorWhenPositionalParameterCountIsMismatched
+    Serilog.Tests.Debugging.SelfLogTests.SelfLogDoesNotReportErrorWhenPositionalParameterIsRepeated
+    Serilog.Tests.Debugging.SelfLogTests.WritingToUndeclaredSinkWritesToSelfLog
+    Serilog.Tests.Data.LogEventPropertyValueRewriterTests.StatePropagatesAndNestedStructuresAreRewritten
+    Serilog.Tests.Data.LogEventPropertyValueRewriterTests.WhenNoRewritingTakesPlaceAllElementsAreUnchanged
+    Serilog.Tests.Core.AuditSinkTests.ExceptionsThrownByAuditSinksArePropagated
+    Serilog.Tests.Core.AuditSinkTests.ExceptionsThrownByFiltersArePropagatedIfAuditingEnabled
+    Serilog.Tests.Core.AuditSinkTests.ExceptionsThrownByAuditSinksArePropagatedFromChildLoggers
+    Serilog.Tests.Core.AuditSinkTests.ExceptionsThrownByDestructuringPoliciesArePropagatedIfAuditingEnabled
+    Serilog.Tests.Core.AuditSinkTests.ExceptionsThrownByPropertyAccessorsAreNotPropagated
+    Serilog.Tests.Core.AuditSinkTests.ExceptionsThrownByPropertyAccessorsArePropagatedIfAuditingEnabled
+    Serilog.Tests.Core.AuditSinkTests.SinkIsDisposedWhenLoggerDisposed
+    Serilog.Tests.Core.ChildLoggerDisposalTests.ByDefaultChildLoggerIsNotDisposedOnOuterDisposal
+    Serilog.Tests.Core.ChildLoggerDisposalTests.ViaLegacyOverloadChildLoggerIsNotDisposedOnOuterDisposal
+    Serilog.Tests.Core.ChildLoggerDisposalTests.WhenExplicitlyConfiguredChildLoggerShouldBeDisposedAccordingToConfiguration(attemptDispose: True)
+    Serilog.Tests.Core.ChildLoggerDisposalTests.WhenExplicitlyConfiguredChildLoggerShouldBeDisposedAccordingToConfiguration(attemptDispose: False)
+    Serilog.Tests.Core.ChildLoggerDisposalTests.ByDefaultChildLoggerIsNotAsyncDisposedOnOuterDisposal
+    Serilog.Tests.Core.ChildLoggerDisposalTests.ViaLegacyOverloadChildLoggerIsNotAsyncDisposedOnOuterDisposal
+    Serilog.Tests.Core.ChildLoggerDisposalTests.WhenExplicitlyConfiguredChildLoggerShouldBeAsyncDisposedAccordingToConfiguration(attemptDispose: True)
+    Serilog.Tests.Core.ChildLoggerDisposalTests.WhenExplicitlyConfiguredChildLoggerShouldBeAsyncDisposedAccordingToConfiguration(attemptDispose: False)
+    Serilog.Tests.Core.ChildLoggerKnownLimitationsTests.SpecifyingMinimumLevelOverridesInWriteToLoggerWithConfigCallBackWritesWarningToSelfLog
+    Serilog.Tests.Core.ChildLoggerKnownLimitationsTests.SpecifyingMinimumLevelOverridesInWriteToLoggerWritesWarningToSelfLog
+    Serilog.Tests.Core.ChildLoggerKnownLimitationsTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceNotSupportedScenarios(rootOverrideSource: null, rootOverrideLevelIncrement: 0, childOverrideSource: "Root", childOverrideLevelIncrement: 1)
+    Serilog.Tests.Core.ChildLoggerKnownLimitationsTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceNotSupportedScenarios(rootOverrideSource: null, rootOverrideLevelIncrement: 0, childOverrideSource: "Root.N1", childOverrideLevelIncrement: 1)
+    Serilog.Tests.Core.ChildLoggerKnownLimitationsTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceNotSupportedScenarios(rootOverrideSource: null, rootOverrideLevelIncrement: 0, childOverrideSource: "Root.N1.N2", childOverrideLevelIncrement: 1)
+    Serilog.Tests.Core.ChildLoggerKnownLimitationsTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceNotSupportedScenarios(rootOverrideSource: "Root", rootOverrideLevelIncrement: 0, childOverrideSource: "Root", childOverrideLevelIncrement: 1)
+    Serilog.Tests.Core.ChildLoggerKnownLimitationsTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceNotSupportedScenarios(rootOverrideSource: "Root.N1", rootOverrideLevelIncrement: 0, childOverrideSource: "Root", childOverrideLevelIncrement: 1)
+    Serilog.Tests.Core.ChildLoggerKnownLimitationsTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceNotSupportedScenarios(rootOverrideSource: "Root.N1.N2", rootOverrideLevelIncrement: 0, childOverrideSource: "Root", childOverrideLevelIncrement: 1)
+    Serilog.Tests.Core.ChildLoggerKnownLimitationsTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceNotSupportedScenarios(rootOverrideSource: "Root", rootOverrideLevelIncrement: 0, childOverrideSource: "Root.N1", childOverrideLevelIncrement: 1)
+    Serilog.Tests.Core.ChildLoggerKnownLimitationsTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceNotSupportedScenarios(rootOverrideSource: "Root.N1", rootOverrideLevelIncrement: 0, childOverrideSource: "Root.N1", childOverrideLevelIncrement: 1)
+    Serilog.Tests.Core.ChildLoggerKnownLimitationsTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceNotSupportedScenarios(rootOverrideSource: "Root.N1.N2", rootOverrideLevelIncrement: 0, childOverrideSource: "Root.N1", childOverrideLevelIncrement: 1)
+    Serilog.Tests.Core.ChildLoggerKnownLimitationsTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceNotSupportedScenarios(rootOverrideSource: "Root", rootOverrideLevelIncrement: 0, childOverrideSource: "Root.N1.N2", childOverrideLevelIncrement: 1)
+    Serilog.Tests.Core.ChildLoggerKnownLimitationsTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceNotSupportedScenarios(rootOverrideSource: "Root.N1", rootOverrideLevelIncrement: 0, childOverrideSource: "Root.N1.N2", childOverrideLevelIncrement: 1)
+    Serilog.Tests.Core.ChildLoggerKnownLimitationsTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceNotSupportedScenarios(rootOverrideSource: "Root.N1.N2", rootOverrideLevelIncrement: 0, childOverrideSource: "Root.N1.N2", childOverrideLevelIncrement: 1)
+    Serilog.Tests.Core.ChildLoggerKnownLimitationsTests.WriteToLoggerMinimumLevelOverrideInheritanceNotSupportedScenarios(rootOverrideSource: null, rootOverrideLevelIncrement: 0, childOverrideSource: "Root", childOverrideLevelIncrement: 1)
+    Serilog.Tests.Core.ChildLoggerKnownLimitationsTests.WriteToLoggerMinimumLevelOverrideInheritanceNotSupportedScenarios(rootOverrideSource: null, rootOverrideLevelIncrement: 0, childOverrideSource: "Root.N1", childOverrideLevelIncrement: 1)
+    Serilog.Tests.Core.ChildLoggerKnownLimitationsTests.WriteToLoggerMinimumLevelOverrideInheritanceNotSupportedScenarios(rootOverrideSource: null, rootOverrideLevelIncrement: 0, childOverrideSource: "Root.N1.N2", childOverrideLevelIncrement: 1)
+    Serilog.Tests.Core.ChildLoggerKnownLimitationsTests.WriteToLoggerMinimumLevelOverrideInheritanceNotSupportedScenarios(rootOverrideSource: "Root", rootOverrideLevelIncrement: 0, childOverrideSource: "Root", childOverrideLevelIncrement: 1)
+    Serilog.Tests.Core.ChildLoggerKnownLimitationsTests.WriteToLoggerMinimumLevelOverrideInheritanceNotSupportedScenarios(rootOverrideSource: "Root.N1", rootOverrideLevelIncrement: 0, childOverrideSource: "Root", childOverrideLevelIncrement: 1)
+    Serilog.Tests.Core.ChildLoggerKnownLimitationsTests.WriteToLoggerMinimumLevelOverrideInheritanceNotSupportedScenarios(rootOverrideSource: "Root.N1.N2", rootOverrideLevelIncrement: 0, childOverrideSource: "Root", childOverrideLevelIncrement: 1)
+    Serilog.Tests.Core.ChildLoggerKnownLimitationsTests.WriteToLoggerMinimumLevelOverrideInheritanceNotSupportedScenarios(rootOverrideSource: "Root", rootOverrideLevelIncrement: 0, childOverrideSource: "Root.N1", childOverrideLevelIncrement: 1)
+    Serilog.Tests.Core.ChildLoggerKnownLimitationsTests.WriteToLoggerMinimumLevelOverrideInheritanceNotSupportedScenarios(rootOverrideSource: "Root.N1", rootOverrideLevelIncrement: 0, childOverrideSource: "Root.N1", childOverrideLevelIncrement: 1)
+    Serilog.Tests.Core.ChildLoggerKnownLimitationsTests.WriteToLoggerMinimumLevelOverrideInheritanceNotSupportedScenarios(rootOverrideSource: "Root.N1.N2", rootOverrideLevelIncrement: 0, childOverrideSource: "Root.N1", childOverrideLevelIncrement: 1)
+    Serilog.Tests.Core.ChildLoggerKnownLimitationsTests.WriteToLoggerMinimumLevelOverrideInheritanceNotSupportedScenarios(rootOverrideSource: "Root", rootOverrideLevelIncrement: 0, childOverrideSource: "Root.N1.N2", childOverrideLevelIncrement: 1)
+    Serilog.Tests.Core.ChildLoggerKnownLimitationsTests.WriteToLoggerMinimumLevelOverrideInheritanceNotSupportedScenarios(rootOverrideSource: "Root.N1", rootOverrideLevelIncrement: 0, childOverrideSource: "Root.N1.N2", childOverrideLevelIncrement: 1)
+    Serilog.Tests.Core.ChildLoggerKnownLimitationsTests.WriteToLoggerMinimumLevelOverrideInheritanceNotSupportedScenarios(rootOverrideSource: "Root.N1.N2", rootOverrideLevelIncrement: 0, childOverrideSource: "Root.N1.N2", childOverrideLevelIncrement: 1)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelInheritanceScenarios(eventLevel: Verbose, rootMinimumLevelIncrement: null, sinkRestrictedToIncrement: null, childMinimumLevelIncrement: null, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelInheritanceScenarios(eventLevel: Debug, rootMinimumLevelIncrement: null, sinkRestrictedToIncrement: null, childMinimumLevelIncrement: null, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelInheritanceScenarios(eventLevel: Information, rootMinimumLevelIncrement: null, sinkRestrictedToIncrement: null, childMinimumLevelIncrement: null, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelInheritanceScenarios(eventLevel: Warning, rootMinimumLevelIncrement: null, sinkRestrictedToIncrement: null, childMinimumLevelIncrement: null, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelInheritanceScenarios(eventLevel: Error, rootMinimumLevelIncrement: null, sinkRestrictedToIncrement: null, childMinimumLevelIncrement: null, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelInheritanceScenarios(eventLevel: Fatal, rootMinimumLevelIncrement: null, sinkRestrictedToIncrement: null, childMinimumLevelIncrement: null, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelInheritanceScenarios(eventLevel: Verbose, rootMinimumLevelIncrement: 0, sinkRestrictedToIncrement: 0, childMinimumLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelInheritanceScenarios(eventLevel: Debug, rootMinimumLevelIncrement: 0, sinkRestrictedToIncrement: 0, childMinimumLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelInheritanceScenarios(eventLevel: Information, rootMinimumLevelIncrement: 0, sinkRestrictedToIncrement: 0, childMinimumLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelInheritanceScenarios(eventLevel: Warning, rootMinimumLevelIncrement: 0, sinkRestrictedToIncrement: 0, childMinimumLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelInheritanceScenarios(eventLevel: Error, rootMinimumLevelIncrement: 0, sinkRestrictedToIncrement: 0, childMinimumLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelInheritanceScenarios(eventLevel: Fatal, rootMinimumLevelIncrement: 0, sinkRestrictedToIncrement: 0, childMinimumLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelInheritanceScenarios(eventLevel: Verbose, rootMinimumLevelIncrement: 1, sinkRestrictedToIncrement: 0, childMinimumLevelIncrement: 0, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelInheritanceScenarios(eventLevel: Debug, rootMinimumLevelIncrement: 1, sinkRestrictedToIncrement: 0, childMinimumLevelIncrement: 0, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelInheritanceScenarios(eventLevel: Information, rootMinimumLevelIncrement: 1, sinkRestrictedToIncrement: 0, childMinimumLevelIncrement: 0, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelInheritanceScenarios(eventLevel: Warning, rootMinimumLevelIncrement: 1, sinkRestrictedToIncrement: 0, childMinimumLevelIncrement: 0, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelInheritanceScenarios(eventLevel: Error, rootMinimumLevelIncrement: 1, sinkRestrictedToIncrement: 0, childMinimumLevelIncrement: 0, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelInheritanceScenarios(eventLevel: Verbose, rootMinimumLevelIncrement: 0, sinkRestrictedToIncrement: 1, childMinimumLevelIncrement: 0, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelInheritanceScenarios(eventLevel: Debug, rootMinimumLevelIncrement: 0, sinkRestrictedToIncrement: 1, childMinimumLevelIncrement: 0, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelInheritanceScenarios(eventLevel: Information, rootMinimumLevelIncrement: 0, sinkRestrictedToIncrement: 1, childMinimumLevelIncrement: 0, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelInheritanceScenarios(eventLevel: Warning, rootMinimumLevelIncrement: 0, sinkRestrictedToIncrement: 1, childMinimumLevelIncrement: 0, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelInheritanceScenarios(eventLevel: Error, rootMinimumLevelIncrement: 0, sinkRestrictedToIncrement: 1, childMinimumLevelIncrement: 0, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelInheritanceScenarios(eventLevel: Verbose, rootMinimumLevelIncrement: 0, sinkRestrictedToIncrement: 0, childMinimumLevelIncrement: 1, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelInheritanceScenarios(eventLevel: Debug, rootMinimumLevelIncrement: 0, sinkRestrictedToIncrement: 0, childMinimumLevelIncrement: 1, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelInheritanceScenarios(eventLevel: Information, rootMinimumLevelIncrement: 0, sinkRestrictedToIncrement: 0, childMinimumLevelIncrement: 1, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelInheritanceScenarios(eventLevel: Warning, rootMinimumLevelIncrement: 0, sinkRestrictedToIncrement: 0, childMinimumLevelIncrement: 1, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelInheritanceScenarios(eventLevel: Error, rootMinimumLevelIncrement: 0, sinkRestrictedToIncrement: 0, childMinimumLevelIncrement: 1, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelInheritanceScenarios(eventLevel: Verbose, rootMinimumLevelIncrement: null, sinkRestrictedToIncrement: null, childMinimumLevelIncrement: null, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelInheritanceScenarios(eventLevel: Debug, rootMinimumLevelIncrement: null, sinkRestrictedToIncrement: null, childMinimumLevelIncrement: null, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelInheritanceScenarios(eventLevel: Information, rootMinimumLevelIncrement: null, sinkRestrictedToIncrement: null, childMinimumLevelIncrement: null, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelInheritanceScenarios(eventLevel: Warning, rootMinimumLevelIncrement: null, sinkRestrictedToIncrement: null, childMinimumLevelIncrement: null, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelInheritanceScenarios(eventLevel: Error, rootMinimumLevelIncrement: null, sinkRestrictedToIncrement: null, childMinimumLevelIncrement: null, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelInheritanceScenarios(eventLevel: Fatal, rootMinimumLevelIncrement: null, sinkRestrictedToIncrement: null, childMinimumLevelIncrement: null, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelInheritanceScenarios(eventLevel: Verbose, rootMinimumLevelIncrement: 0, sinkRestrictedToIncrement: 0, childMinimumLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelInheritanceScenarios(eventLevel: Debug, rootMinimumLevelIncrement: 0, sinkRestrictedToIncrement: 0, childMinimumLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelInheritanceScenarios(eventLevel: Information, rootMinimumLevelIncrement: 0, sinkRestrictedToIncrement: 0, childMinimumLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelInheritanceScenarios(eventLevel: Warning, rootMinimumLevelIncrement: 0, sinkRestrictedToIncrement: 0, childMinimumLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelInheritanceScenarios(eventLevel: Error, rootMinimumLevelIncrement: 0, sinkRestrictedToIncrement: 0, childMinimumLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelInheritanceScenarios(eventLevel: Fatal, rootMinimumLevelIncrement: 0, sinkRestrictedToIncrement: 0, childMinimumLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelInheritanceScenarios(eventLevel: Verbose, rootMinimumLevelIncrement: 1, sinkRestrictedToIncrement: 0, childMinimumLevelIncrement: 0, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelInheritanceScenarios(eventLevel: Debug, rootMinimumLevelIncrement: 1, sinkRestrictedToIncrement: 0, childMinimumLevelIncrement: 0, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelInheritanceScenarios(eventLevel: Information, rootMinimumLevelIncrement: 1, sinkRestrictedToIncrement: 0, childMinimumLevelIncrement: 0, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelInheritanceScenarios(eventLevel: Warning, rootMinimumLevelIncrement: 1, sinkRestrictedToIncrement: 0, childMinimumLevelIncrement: 0, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelInheritanceScenarios(eventLevel: Error, rootMinimumLevelIncrement: 1, sinkRestrictedToIncrement: 0, childMinimumLevelIncrement: 0, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelInheritanceScenarios(eventLevel: Verbose, rootMinimumLevelIncrement: 0, sinkRestrictedToIncrement: 1, childMinimumLevelIncrement: 0, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelInheritanceScenarios(eventLevel: Debug, rootMinimumLevelIncrement: 0, sinkRestrictedToIncrement: 1, childMinimumLevelIncrement: 0, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelInheritanceScenarios(eventLevel: Information, rootMinimumLevelIncrement: 0, sinkRestrictedToIncrement: 1, childMinimumLevelIncrement: 0, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelInheritanceScenarios(eventLevel: Warning, rootMinimumLevelIncrement: 0, sinkRestrictedToIncrement: 1, childMinimumLevelIncrement: 0, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelInheritanceScenarios(eventLevel: Error, rootMinimumLevelIncrement: 0, sinkRestrictedToIncrement: 1, childMinimumLevelIncrement: 0, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelInheritanceScenarios(eventLevel: Verbose, rootMinimumLevelIncrement: 0, sinkRestrictedToIncrement: 0, childMinimumLevelIncrement: 1, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelInheritanceScenarios(eventLevel: Debug, rootMinimumLevelIncrement: 0, sinkRestrictedToIncrement: 0, childMinimumLevelIncrement: 1, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelInheritanceScenarios(eventLevel: Information, rootMinimumLevelIncrement: 0, sinkRestrictedToIncrement: 0, childMinimumLevelIncrement: 1, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelInheritanceScenarios(eventLevel: Warning, rootMinimumLevelIncrement: 0, sinkRestrictedToIncrement: 0, childMinimumLevelIncrement: 1, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelInheritanceScenarios(eventLevel: Error, rootMinimumLevelIncrement: 0, sinkRestrictedToIncrement: 0, childMinimumLevelIncrement: 1, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: null, rootOverrideLevelIncrement: 0, childOverrideSource: null, childOverrideLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: "Root", rootOverrideLevelIncrement: 0, childOverrideSource: null, childOverrideLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: "Root", rootOverrideLevelIncrement: -1, childOverrideSource: null, childOverrideLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Fatal, rootOverrideSource: "Root", rootOverrideLevelIncrement: -1, childOverrideSource: null, childOverrideLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: "Root.N1", rootOverrideLevelIncrement: 0, childOverrideSource: null, childOverrideLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: "Root.N1", rootOverrideLevelIncrement: -1, childOverrideSource: null, childOverrideLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Fatal, rootOverrideSource: "Root.N1", rootOverrideLevelIncrement: -1, childOverrideSource: null, childOverrideLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: "Root.N1.N2", rootOverrideLevelIncrement: 0, childOverrideSource: null, childOverrideLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: "Root.N1.N2", rootOverrideLevelIncrement: -1, childOverrideSource: null, childOverrideLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Fatal, rootOverrideSource: "Root.N1.N2", rootOverrideLevelIncrement: -1, childOverrideSource: null, childOverrideLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: "xx", rootOverrideLevelIncrement: 1, childOverrideSource: null, childOverrideLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: "Root.xx", rootOverrideLevelIncrement: 1, childOverrideSource: null, childOverrideLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: "Root.N1.xx", rootOverrideLevelIncrement: 1, childOverrideSource: null, childOverrideLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: null, rootOverrideLevelIncrement: 0, childOverrideSource: "xx", childOverrideLevelIncrement: 1, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: null, rootOverrideLevelIncrement: 0, childOverrideSource: "Root.xx", childOverrideLevelIncrement: 1, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: null, rootOverrideLevelIncrement: 1, childOverrideSource: "Root.N1.xx", childOverrideLevelIncrement: 1, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: "Root", rootOverrideLevelIncrement: 1, childOverrideSource: null, childOverrideLevelIncrement: 0, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: "Root", rootOverrideLevelIncrement: 1, childOverrideSource: "Root", childOverrideLevelIncrement: 0, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: "Root.N1", rootOverrideLevelIncrement: 1, childOverrideSource: null, childOverrideLevelIncrement: 0, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: "Root.N1", rootOverrideLevelIncrement: 1, childOverrideSource: "Root.N1", childOverrideLevelIncrement: 0, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: "Root.N1.N2", rootOverrideLevelIncrement: 1, childOverrideSource: null, childOverrideLevelIncrement: 0, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerWithConfigCallbackMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: "Root.N1.N2", rootOverrideLevelIncrement: 1, childOverrideSource: "Root.N1.N2", childOverrideLevelIncrement: 0, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: null, rootOverrideLevelIncrement: 0, childOverrideSource: null, childOverrideLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: "Root", rootOverrideLevelIncrement: 0, childOverrideSource: null, childOverrideLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: "Root", rootOverrideLevelIncrement: -1, childOverrideSource: null, childOverrideLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Fatal, rootOverrideSource: "Root", rootOverrideLevelIncrement: -1, childOverrideSource: null, childOverrideLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: "Root.N1", rootOverrideLevelIncrement: 0, childOverrideSource: null, childOverrideLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: "Root.N1", rootOverrideLevelIncrement: -1, childOverrideSource: null, childOverrideLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Fatal, rootOverrideSource: "Root.N1", rootOverrideLevelIncrement: -1, childOverrideSource: null, childOverrideLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: "Root.N1.N2", rootOverrideLevelIncrement: 0, childOverrideSource: null, childOverrideLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: "Root.N1.N2", rootOverrideLevelIncrement: -1, childOverrideSource: null, childOverrideLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Fatal, rootOverrideSource: "Root.N1.N2", rootOverrideLevelIncrement: -1, childOverrideSource: null, childOverrideLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: "xx", rootOverrideLevelIncrement: 1, childOverrideSource: null, childOverrideLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: "Root.xx", rootOverrideLevelIncrement: 1, childOverrideSource: null, childOverrideLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: "Root.N1.xx", rootOverrideLevelIncrement: 1, childOverrideSource: null, childOverrideLevelIncrement: 0, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: null, rootOverrideLevelIncrement: 0, childOverrideSource: "xx", childOverrideLevelIncrement: 1, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: null, rootOverrideLevelIncrement: 0, childOverrideSource: "Root.xx", childOverrideLevelIncrement: 1, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: null, rootOverrideLevelIncrement: 1, childOverrideSource: "Root.N1.xx", childOverrideLevelIncrement: 1, eventShouldGetToChild: True)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: "Root", rootOverrideLevelIncrement: 1, childOverrideSource: null, childOverrideLevelIncrement: 0, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: "Root", rootOverrideLevelIncrement: 1, childOverrideSource: "Root", childOverrideLevelIncrement: 0, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: "Root.N1", rootOverrideLevelIncrement: 1, childOverrideSource: null, childOverrideLevelIncrement: 0, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: "Root.N1", rootOverrideLevelIncrement: 1, childOverrideSource: "Root.N1", childOverrideLevelIncrement: 0, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: "Root.N1.N2", rootOverrideLevelIncrement: 1, childOverrideSource: null, childOverrideLevelIncrement: 0, eventShouldGetToChild: False)
+    Serilog.Tests.Core.ChildLoggerTests.WriteToLoggerMinimumLevelOverrideInheritanceScenarios(defaultRootLevel: Verbose, rootOverrideSource: "Root.N1.N2", rootOverrideLevelIncrement: 1, childOverrideSource: "Root.N1.N2", childOverrideLevelIncrement: 0, eventShouldGetToChild: False)
+    Serilog.Tests.Core.FailureListenerTests.ThrownExceptionsAreSynchronouslyReportedAsFailures
+    Serilog.Tests.Core.FailureListenerTests.RestrictedToMinimumLevelAllowsFailureListenerPropagation
+    Serilog.Tests.Core.FailureListenerTests.DefaultLevelAllowsFailureListenerPropagation
+    Serilog.Tests.Core.FailureListenerTests.ShallowFallbackChainsAreEffective
+    Serilog.Tests.Core.LevelOverrideMapTests.OverrideScenarios(context: "Serilog", overrideExpected: False, expected: Verbose)
+    Serilog.Tests.Core.LevelOverrideMapTests.OverrideScenarios(context: "MyApp", overrideExpected: True, expected: Debug)
+    Serilog.Tests.Core.LevelOverrideMapTests.OverrideScenarios(context: "MyAppSomething", overrideExpected: False, expected: Verbose)
+    Serilog.Tests.Core.LevelOverrideMapTests.OverrideScenarios(context: "MyOtherApp", overrideExpected: False, expected: Verbose)
+    Serilog.Tests.Core.LevelOverrideMapTests.OverrideScenarios(context: "MyApp.Something", overrideExpected: True, expected: Debug)
+    Serilog.Tests.Core.LevelOverrideMapTests.OverrideScenarios(context: "MyApp.Api.Models.Person", overrideExpected: True, expected: Error)
+    Serilog.Tests.Core.LevelOverrideMapTests.OverrideScenarios(context: "MyApp.Api.Controllers.AboutController", overrideExpected: True, expected: Information)
+    Serilog.Tests.Core.LevelOverrideMapTests.OverrideScenarios(context: "MyApp.Api.Controllers.HomeController", overrideExpected: True, expected: Warning)
+    Serilog.Tests.Core.LevelOverrideMapTests.OverrideScenarios(context: "Api.Controllers.HomeController", overrideExpected: False, expected: Verbose)
+    Serilog.Tests.Core.LevelOverrideMapTests.OverrideScenarios(context: "serilog", overrideExpected: False, expected: Verbose)
+    Serilog.Tests.Core.LevelOverrideMapTests.OverrideScenarios(context: "myapp", overrideExpected: True, expected: Debug)
+    Serilog.Tests.Core.LevelOverrideMapTests.OverrideScenarios(context: "myappsomething", overrideExpected: False, expected: Verbose)
+    Serilog.Tests.Core.LogEventPropertyCapturingTests.CapturingANamedScalarStringWorks
+    Serilog.Tests.Core.LogEventPropertyCapturingTests.CapturingAPositionalScalarStringWorks
+    Serilog.Tests.Core.LogEventPropertyCapturingTests.CapturingMixedPositionalAndNamedScalarsWorksUsingNames
+    Serilog.Tests.Core.LogEventPropertyCapturingTests.WillCaptureAnonObjectsAsToStringedScalarsWhenAdditionalNamedPropsNotInTemplate
+    Serilog.Tests.Core.LogEventPropertyCapturingTests.CapturingTheSameNamedPropertyMatchesValuesCorrectly
+    Serilog.Tests.Core.LogEventPropertyCapturingTests.ProvidingLessParametersThanNamedPropertiesInTheTemplateWorksAndSelfLogs
+    Serilog.Tests.Core.LogEventPropertyCapturingTests.WillCaptureSequenceOfScalarsWhenAdditionalNamedPropsNotInTemplateAreArrays
+    Serilog.Tests.Core.LogEventPropertyCapturingTests.WillCaptureAdditionalNamedPropsNotInTemplateUsingUnderscoreIndex
+    Serilog.Tests.Core.LogEventPropertyCapturingTests.CapturingIntArrayAsScalarSequenceValuesWorks
+    Serilog.Tests.Core.LogEventPropertyCapturingTests.CapturingDestructuredStringArrayAsScalarSequenceValuesWorks
+    Serilog.Tests.Core.LogEventPropertyCapturingTests.ProvidingMoreParametersThanNamedPropertiesInTheTemplateWillSelfLog
+    Serilog.Tests.Core.LogEventPropertyCapturingTests.ProvidingParametersWhenTemplateHasNoPropertiesWillSelfLog
+    Serilog.Tests.Core.LogEventPropertyCapturingTests.WillCaptureProvidedPositionalValuesEvenIfSomeAreMissing
+    Serilog.Tests.Core.LogEventPropertyCapturingTests.WillCaptureProvidedNamedValuesEvenIfSomeAreMissing
+    Serilog.Tests.Core.LoggerExtensionsTests.ShouldEnrichLogEventWhenLevelIsSameOrHigherThanMinLevel(logMinLevel: Debug, propertyLogLevel: Debug)
+    Serilog.Tests.Core.LoggerExtensionsTests.ShouldEnrichLogEventWhenLevelIsSameOrHigherThanMinLevel(logMinLevel: Debug, propertyLogLevel: Information)
+    Serilog.Tests.Core.LoggerExtensionsTests.ShouldEnrichLogEventWhenLevelIsSameOrHigherThanMinLevel(logMinLevel: Debug, propertyLogLevel: Error)
+    Serilog.Tests.Core.LoggerExtensionsTests.ShouldEnrichLogEventWhenLevelIsSameOrHigherThanMinLevel(logMinLevel: Debug, propertyLogLevel: Fatal)
+    Serilog.Tests.Core.LoggerExtensionsTests.ShouldEnrichLogEventWhenLevelIsSameOrHigherThanMinLevel(logMinLevel: Debug, propertyLogLevel: Warning)
+    Serilog.Tests.Core.LoggerExtensionsTests.ShouldNotEnrichLogEventsWhenMinLevelIsHigherThanProvidedLogLevel(logMinLevel: Debug, propertyLogLevel: Verbose)
+    Serilog.Tests.Core.LoggerExtensionsTests.ShouldNotEnrichLogEventsWhenMinLevelIsHigherThanProvidedLogLevel(logMinLevel: Information, propertyLogLevel: Debug)
+    Serilog.Tests.Core.LoggerExtensionsTests.ShouldNotEnrichLogEventsWhenMinLevelIsHigherThanProvidedLogLevel(logMinLevel: Warning, propertyLogLevel: Information)
+    Serilog.Tests.Core.LoggerExtensionsTests.ShouldNotEnrichLogEventsWhenMinLevelIsHigherThanProvidedLogLevel(logMinLevel: Error, propertyLogLevel: Warning)
+    Serilog.Tests.Core.LoggerExtensionsTests.ShouldNotEnrichLogEventsWhenMinLevelIsHigherThanProvidedLogLevel(logMinLevel: Fatal, propertyLogLevel: Error)
+    Serilog.Tests.Core.LoggerTests.AnExceptionThrownByAnEnricherIsNotPropagated(loggerType: typeof(Serilog.Core.Logger))
+    Serilog.Tests.Core.LoggerTests.AnExceptionThrownByAnEnricherIsNotPropagated(loggerType: typeof(Serilog.Tests.Support.DelegatingLogger))
+    Serilog.Tests.Core.LoggerTests.AContextualLoggerAddsTheSourceTypeName
+    Serilog.Tests.Core.LoggerTests.PropertiesInANestedContextOverrideParentContextValues
+    Serilog.Tests.Core.LoggerTests.ParametersForAnEmptyTemplateAreIgnored
+    Serilog.Tests.Core.LoggerTests.LoggingLevelSwitchDynamicallyChangesLevel(loggerType: typeof(Serilog.Core.Logger))
+    Serilog.Tests.Core.LoggerTests.LoggingLevelSwitchDynamicallyChangesLevel(loggerType: typeof(Serilog.Tests.Support.DelegatingLogger))
+    Serilog.Tests.Core.LoggerTests.MessageTemplatesCanBeBound(loggerType: typeof(Serilog.Core.Logger))
+    Serilog.Tests.Core.LoggerTests.MessageTemplatesCanBeBound(loggerType: typeof(Serilog.Tests.Support.DelegatingLogger))
+    Serilog.Tests.Core.LoggerTests.PropertiesCanBeBound(loggerType: typeof(Serilog.Core.Logger))
+    Serilog.Tests.Core.LoggerTests.PropertiesCanBeBound(loggerType: typeof(Serilog.Tests.Support.DelegatingLogger))
+    Serilog.Tests.Core.LoggerTests.TheNoneLoggerIsSilent
+    Serilog.Tests.Core.LoggerTests.TheNoneLoggerIsAConstant
+    Serilog.Tests.Core.LoggerTests.TheNoneLoggerIsSingleton
+    Serilog.Tests.Core.LoggerTests.DelegatingLoggerShouldDelegateCallsToInnerLogger
+    Serilog.Tests.Core.LoggerTests.ASingleSinkIsDisposedWhenLoggerIsDisposed
+    Serilog.Tests.Core.LoggerTests.AggregatedSinksAreDisposedWhenLoggerIsDisposed
+    Serilog.Tests.Core.LoggerTests.WrappedSinksAreDisposedWhenLoggerIsDisposed
+    Serilog.Tests.Core.LoggerTests.WrappedAggregatedSinksAreDisposedWhenLoggerIsDisposed
+    Serilog.Tests.Core.LoggerTests.CurrentActivityIsCapturedAtLogEventCreation
+    Serilog.Tests.Core.LoggerTests.NullMessageTemplateParametersDoNotBreakBinding
+    Serilog.Tests.Core.LoggerTests.TwoDimensionalArrayShouldBeLoggedAsSequence
+    Serilog.Tests.Core.LoggerTests.ThreeDimensionalArrayShouldBeLoggedAsSequence
+    Serilog.Tests.Core.LoggerTests.FourDimensionalArrayShouldBeLoggedAsSequence
+    Serilog.Tests.Core.LoggerTests.EmptyMultiDimensionalArraysShouldBeSerializedProperly
+    Serilog.Tests.Core.LoggerTests.JaggedArrayShouldRespectMaximumCollectionCount
+    Serilog.Tests.Core.LoggerTests.MultiDimensionalArrayShouldRespectMaximumCollectionCount
+    Serilog.Tests.Core.LoggerTests.ASingleSinkIsDisposedWhenLoggerIsDisposedAsync
+    Serilog.Tests.Core.LoggerTests.ASingleAsyncSinkIsDisposedWhenLoggerIsDisposed
+    Serilog.Tests.Core.LoggerTests.ASingleAsyncSinkIsDisposedWhenLoggerIsDisposedAsync
+    Serilog.Tests.Core.LoggerTests.AggregatedSinksAreDisposedWhenLoggerIsDisposedAsync
+    Serilog.Tests.Core.LoggerTests.AggregatedAsyncSinksAreDisposedWhenLoggerIsDisposedAsync
+    Serilog.Tests.Core.LoggerTests.WrappedSinksAreDisposedWhenLoggerIsDisposedAsync
+    Serilog.Tests.Core.LoggerTests.WrappedAsyncSinksAreDisposedWhenLoggerIsDisposedAsync
+    Serilog.Tests.Core.LoggerTests.WrappedAggregatedAsyncSinksAreDisposedWhenLoggerIsDisposedAsync
+    Serilog.Tests.Core.LoggerTests.RestrictedSinksAreDisposedAsyncWhenLoggerIsDisposedAsync
+    Serilog.Tests.Core.LoggingLevekSwitchTests.MinimumLevelChanged_Should_Work
+    Serilog.Tests.Core.MessageTemplateTests.AnObjectIsRenderedInSimpleNotation
+    Serilog.Tests.Core.MessageTemplateTests.AnObjectIsRenderedInSimpleNotationUsingFormatProvider
+    Serilog.Tests.Core.MessageTemplateTests.AnAnonymousObjectIsRenderedInSimpleNotationWithoutType
+    Serilog.Tests.Core.MessageTemplateTests.AnAnonymousObjectIsRenderedInSimpleNotationWithoutTypeUsingFormatProvider
+    Serilog.Tests.Core.MessageTemplateTests.AnObjectWithDefaultDestructuringIsRenderedAsAStringLiteral
+    Serilog.Tests.Core.MessageTemplateTests.AnObjectWithStringifyDestructuringIsRenderedAsAString
+    Serilog.Tests.Core.MessageTemplateTests.MultiplePropertiesAreRenderedInOrder
+    Serilog.Tests.Core.MessageTemplateTests.MultiplePropertiesUseFormatProvider
+    Serilog.Tests.Core.MessageTemplateTests.FormatStringsArePropagated
+    Serilog.Tests.Core.MessageTemplateTests.AlignmentStringsArePropagated(value: "Welcome, customer #{CustomerId,-10}, pleasure to s"┬À┬À┬À, expected: "Welcome, customer #1234      , pleasure to see you")
+    Serilog.Tests.Core.MessageTemplateTests.AlignmentStringsArePropagated(value: "Welcome, customer #{CustomerId,-10:000000}, pleasu"┬À┬À┬À, expected: "Welcome, customer #001234    , pleasure to see you")
+    Serilog.Tests.Core.MessageTemplateTests.AlignmentStringsArePropagated(value: "Welcome, customer #{CustomerId,10}, pleasure to se"┬À┬À┬À, expected: "Welcome, customer #      1234, pleasure to see you")
+    Serilog.Tests.Core.MessageTemplateTests.AlignmentStringsArePropagated(value: "Welcome, customer #{CustomerId,10:000000}, pleasur"┬À┬À┬À, expected: "Welcome, customer #    001234, pleasure to see you")
+    Serilog.Tests.Core.MessageTemplateTests.AlignmentStringsArePropagated(value: "Welcome, customer #{CustomerId,10:0,0}, pleasure t"┬À┬À┬À, expected: "Welcome, customer #     1,234, pleasure to see you")
+    Serilog.Tests.Core.MessageTemplateTests.AlignmentStringsArePropagated(value: "Welcome, customer #{CustomerId:0,0}, pleasure to s"┬À┬À┬À, expected: "Welcome, customer #1,234, pleasure to see you")
+    Serilog.Tests.Core.MessageTemplateTests.FormatProviderIsUsed
+    Serilog.Tests.Core.MessageTemplateTests.ATemplateWithOnlyPositionalPropertiesIsAnalyzedAndRenderedPositionally
+    Serilog.Tests.Core.MessageTemplateTests.ATemplateWithOnlyPositionalPropertiesUsesFormatProvider
+    Serilog.Tests.Core.MessageTemplateTests.ATemplateWithNamesAndPositionalsUsesNamesForAllValues
+    Serilog.Tests.Core.MessageTemplateTests.MissingPositionalParametersRenderAsTextLikeStandardFormats
+    Serilog.Tests.Core.MessageTemplateTests.AnonymousTypeShouldBeRendered
+    Serilog.Tests.Core.MessageTemplateTests.EnumerableOfAnonymousTypeShouldBeRendered
+    Serilog.Tests.Core.MessageTemplateTests.DictionaryOfAnonymousTypeAsValueShouldBeRendered
+    Serilog.Tests.Core.MessageTemplateTests.DictionaryOfAnonymousTypeAsKeyShouldBeRendered
+    Serilog.Tests.Core.SafeAggregateSinkTests.AnExceptionThrownByASinkIsNotPropagated
+    Serilog.Tests.Core.SafeAggregateSinkTests.WhenASinkThrowsOtherSinksAreStillInvoked
+    Serilog.Tests.Core.SecondaryLoggerSinkTests.ModifyingCopiesPassedThroughTheSinkPreservesOriginal
+    Serilog.Tests.Core.SecondaryLoggerSinkTests.WhenOwnedByCallerSecondaryLoggerIsNotDisposed
+    Serilog.Tests.Core.SecondaryLoggerSinkTests.WhenOwnedByPrimaryLoggerSecondaryIsDisposed
+    Serilog.Tests.Core.SecondaryLoggerSinkTests.SecondaryLoggerInheritsPrimaryLevelByDefault
+    Serilog.Tests.Core.SecondaryLoggerSinkTests.SecondaryLoggerCanOverrideInheritedLevel
+    Serilog.Tests.Core.SecondaryLoggerSinkTests.OwnedSecondaryLoggerIsDisposedAsyncWhenPrimaryIsDisposedAsync
+    Serilog.Tests.Core.SecondaryLoggerSinkTests.IndependentChildLoggerIsNotDisposedWhenPrimaryIsDisposedAsync
+    Serilog.Tests.Context.LogContextTests.PushedSpanPropertiesAreAvailableToLoggers
+    Serilog.Tests.Context.LogContextTests.PushedArrayPropertiesAreAvailableToLoggers
+    Serilog.Tests.Context.LogContextTests.PushedEnumerablePropertiesAreAvailableToLoggers
+    Serilog.Tests.Context.LogContextTests.PushedPropertiesAreAvailableToLoggers
+    Serilog.Tests.Context.LogContextTests.LogContextCanBeCloned
+    Serilog.Tests.Context.LogContextTests.ClonedLogContextCanSharedAcrossThreads
+    Serilog.Tests.Context.LogContextTests.MoreNestedPropertiesOverrideLessNestedOnes
+    Serilog.Tests.Context.LogContextTests.MultipleNestedPropertiesOverrideLessNestedOnes
+    Serilog.Tests.Context.LogContextTests.ContextPropertiesCrossAsyncCalls
+    Serilog.Tests.Context.LogContextTests.ContextEnrichersInAsyncScopeCanBeCleared
+    Serilog.Tests.Context.LogContextTests.ContextEnrichersCanBeTemporarilyCleared
+    Serilog.Tests.Configuration.LoggerConfigurationTests.LoggerShouldNotReferenceToItsConfigurationAfterBeingCreated
+    Serilog.Tests.Configuration.LoggerConfigurationTests.CreateLoggerThrowsIfCalledMoreThanOnce
+    Serilog.Tests.Configuration.LoggerConfigurationTests.DisposableSinksAreDisposedAlongWithRootLogger
+    Serilog.Tests.Configuration.LoggerConfigurationTests.DisposableSinksAreNotDisposedAlongWithContextualLoggers
+    Serilog.Tests.Configuration.LoggerConfigurationTests.AFilterPreventsMatchedEventsFromPassingToTheSink
+    Serilog.Tests.Configuration.LoggerConfigurationTests.SpecifyingThatATypeIsScalarCausesItToBeLoggedAsScalarEvenWhenDestructuring
+    Serilog.Tests.Configuration.LoggerConfigurationTests.DestructuringSystemTypeGivesScalarByDefault
+    Serilog.Tests.Configuration.LoggerConfigurationTests.DestructuringIsPossibleForSystemTypeDerivedProperties
+    Serilog.Tests.Configuration.LoggerConfigurationTests.TransformationsAreAppliedToEventProperties
+    Serilog.Tests.Configuration.LoggerConfigurationTests.WritingToALoggerWritesToSubLogger
+    Serilog.Tests.Configuration.LoggerConfigurationTests.SubLoggerRestrictsFilter
+    Serilog.Tests.Configuration.LoggerConfigurationTests.EnrichersExecuteInConfigurationOrder
+    Serilog.Tests.Configuration.LoggerConfigurationTests.EnrichersWithPropertyFactoryExecuteInConfigurationOrder
+    Serilog.Tests.Configuration.LoggerConfigurationTests.MaximumDestructuringDepthDefaultIsEffective
+    Serilog.Tests.Configuration.LoggerConfigurationTests.MaximumDestructuringDepthIsEffective
+    Serilog.Tests.Configuration.LoggerConfigurationTests.MaximumStringLengthThrowsForLimitLowerThan2
+    Serilog.Tests.Configuration.LoggerConfigurationTests.MaximumStringLengthNOTEffectiveForString
+    Serilog.Tests.Configuration.LoggerConfigurationTests.MaximumStringLengthEffectiveForCapturedString
+    Serilog.Tests.Configuration.LoggerConfigurationTests.MaximumStringLengthEffectiveForStringifiedString
+    Serilog.Tests.Configuration.LoggerConfigurationTests.MaximumStringLengthEffectiveForCapturedObject(text: "1234", textAfter: "12ÔÇª", limit: 3)
+    Serilog.Tests.Configuration.LoggerConfigurationTests.MaximumStringLengthEffectiveForCapturedObject(text: "123", textAfter: "123", limit: 3)
+    Serilog.Tests.Configuration.LoggerConfigurationTests.MaximumStringLengthEffectiveForStringifiedObject
+    Serilog.Tests.Configuration.LoggerConfigurationTests.MaximumStringLengthNOTEffectiveForObject
+    Serilog.Tests.Configuration.LoggerConfigurationTests.MaximumStringCollectionThrowsForLimitLowerThan1
+    Serilog.Tests.Configuration.LoggerConfigurationTests.MaximumCollectionCountNotEffectiveForArrayAsLongAsLimit
+    Serilog.Tests.Configuration.LoggerConfigurationTests.MaximumCollectionCountEffectiveForArrayThanLimit
+    Serilog.Tests.Configuration.LoggerConfigurationTests.MaximumCollectionCountEffectiveForDictionaryWithMoreKeysThanLimit
+    Serilog.Tests.Configuration.LoggerConfigurationTests.MaximumCollectionCountNotEffectiveForDictionaryWithAsManyKeysAsLimit
+    Serilog.Tests.Configuration.LoggerConfigurationTests.DynamicallySwitchingSinkRestrictsOutput
+    Serilog.Tests.Configuration.LoggerConfigurationTests.LevelSwitchTakesPrecedenceOverMinimumLevel
+    Serilog.Tests.Configuration.LoggerConfigurationTests.LastMinimumLevelConfigurationWins
+    Serilog.Tests.Configuration.LoggerConfigurationTests.HigherMinimumLevelOverridesArePropagated
+    Serilog.Tests.Configuration.LoggerConfigurationTests.LowerMinimumLevelOverridesArePropagated
+    Serilog.Tests.Configuration.LoggerConfigurationTests.ExceptionsThrownBySinksAreNotPropagated
+    Serilog.Tests.Configuration.LoggerConfigurationTests.ExceptionsThrownBySinksAreNotPropagatedEvenWhenAuditingIsPresent
+    Serilog.Tests.Configuration.LoggerConfigurationTests.ExceptionsThrownByFiltersAreNotPropagated
+    Serilog.Tests.Configuration.LoggerConfigurationTests.ExceptionsThrownByDestructuringPoliciesAreNotPropagated
+    Serilog.Tests.Configuration.LoggerConfigurationTests.ConditionalSinksReceiveEventsMatchingCondition
+    Serilog.Tests.Configuration.LoggerConfigurationTests.ConditionalSinksAreDisposedAsyncWithLogger
+    Serilog.Tests.Configuration.LoggerConfigurationTests.EnrichersCanBeWrapped
+    Serilog.Tests.Configuration.LoggerConfigurationTests.ConditionalEnrichersCheckConditions
+    Serilog.Tests.Configuration.LoggerConfigurationTests.LeveledEnrichersCheckLevels
+    Serilog.Tests.Configuration.LoggerConfigurationTests.LeveledEnrichersCheckLevelSwitch
+    Serilog.Tests.Configuration.LoggerConfigurationTests.EventsAreNotEmittedWhenMinimumLevelIsOff
+    Serilog.Tests.Configuration.LoggerConfigurationTests.EventsAreNotEmittedWhenMinimumLevelOverrideIsOff
+    Serilog.Tests.Configuration.LoggerSinkConfigurationTests.CreateSinkSucceedsWhenNoSinksAreConfigured
+    Serilog.Tests.Configuration.LoggerSinkConfigurationTests.CreateSinkSucceedsWhenOneSinkIsConfigured
+    Serilog.Tests.Configuration.LoggerSinkConfigurationTests.CreateSinkSucceedsWhenManySinksConfigured
+    Serilog.Tests.Configuration.LoggerSinkConfigurationTests.WrapDelegatesToTheEnclosedSink
+    Serilog.Tests.Configuration.LoggerSinkConfigurationTests.WrapPropagatesDisposalToTheEnclosedSink
+    Serilog.Tests.Configuration.LoggerSinkConfigurationTests.WrappingDoesNotPermitEnrichment
+    Serilog.Tests.Configuration.LoggerSinkConfigurationTests.FailureListenersCanTraverseWrappers
+    Serilog.Tests.Capturing.PropertyValueConverterTests.MaximumDepthIsEffectiveAndThreadSafe
+    Serilog.Tests.Capturing.PropertyValueConverterTests.UnderDestructuringAByteArrayIsAScalarValue
+    Serilog.Tests.Capturing.PropertyValueConverterTests.UnderDestructuringABooleanIsAScalarValue
+    Serilog.Tests.Capturing.PropertyValueConverterTests.UnderDestructuringAnIntegerArrayIsASequenceValue
+    Serilog.Tests.Capturing.PropertyValueConverterTests.ByDefaultADestructuredNullNullableIsAScalarNull
+    Serilog.Tests.Capturing.PropertyValueConverterTests.ByDefaultADestructuredNonNullNullableIsItsValue
+    Serilog.Tests.Capturing.PropertyValueConverterTests.DestructuringACyclicStructureDoesNotStackOverflow
+    Serilog.Tests.Capturing.PropertyValueConverterTests.CollectionsAndCustomPoliciesInCyclesDoNotStackOverflow
+    Serilog.Tests.Capturing.PropertyValueConverterTests.ByDefaultAScalarDictionaryIsADictionaryValue
+    Serilog.Tests.Capturing.PropertyValueConverterTests.ByDefaultANonScalarDictionaryIsASequenceValue
+    Serilog.Tests.Capturing.PropertyValueConverterTests.DelegatesAreConvertedToScalarStringsWhenDestructuring
+    Serilog.Tests.Capturing.PropertyValueConverterTests.ByteArraysAreConvertedToStrings
+    Serilog.Tests.Capturing.PropertyValueConverterTests.ByteArraysLargerThan1kAreLimitedAndConvertedToStrings
+    Serilog.Tests.Capturing.PropertyValueConverterTests.ByteSpansAreConvertedToStrings
+    Serilog.Tests.Capturing.PropertyValueConverterTests.ByteSpansLargerThan1kAreLimitedAndConvertedToStrings
+    Serilog.Tests.Capturing.PropertyValueConverterTests.ByteSpansAreConvertedToTheSameStringsAsArrays(length: 10)
+    Serilog.Tests.Capturing.PropertyValueConverterTests.ByteSpansAreConvertedToTheSameStringsAsArrays(length: 1000)
+    Serilog.Tests.Capturing.PropertyValueConverterTests.ByteSpansAreConvertedToTheSameStringsAsArrays(length: 10000)
+    Serilog.Tests.Capturing.PropertyValueConverterTests.FailsGracefullyWhenAccessingPropertiesViaReflectionThrows
+    Serilog.Tests.Capturing.PropertyValueConverterTests.FailsGracefullyWhenGettersThrow
+    Serilog.Tests.Capturing.PropertyValueConverterTests.SurvivesDestructuringASystemType
+    Serilog.Tests.Capturing.PropertyValueConverterTests.SurvivesDestructuringMethodBase
+    Serilog.Tests.Capturing.PropertyValueConverterTests.NewAndInheritedPropertiesAppearOnlyOnce
+    Serilog.Tests.Capturing.PropertyValueConverterTests.IndexerPropertiesAreIgnoredWhenDestructuring
+    Serilog.Tests.Capturing.PropertyValueConverterTests.ItemPropertiesNotAreIgnoredWhenDestructuring
+    Serilog.Tests.Capturing.PropertyValueConverterTests.CSharpAnonymousTypesAreRecognizedWhenDestructuring
+    Serilog.Tests.Capturing.PropertyValueConverterTests.ValueTuplesAreRecognizedWhenDestructuring
+    Serilog.Tests.Capturing.PropertyValueConverterTests.AllTupleLengthsUpToSevenAreSupportedForCapturing
+    Serilog.Tests.Capturing.PropertyValueConverterTests.EightPlusValueTupleElementsAreSupportedForCapturing
+    Serilog.Tests.Capturing.PropertyValueConverterTests.ValueTupleDestructuringIsTransitivelyApplied
+    Serilog.Tests.Capturing.PropertyValueConverterTests.StructureConversionYieldsEmptyStructureOnNoProperties
+    Serilog.Tests.Capturing.PropertyValueConverterTests.TypeTagIsComputed
+    Serilog.Tests.Capturing.PropertyValueConverterTests.TypeTagIsNotComputedForCompilerGeneratedTypes
+    Serilog.Tests.Capturing.PropertyValueConverterTests.RegularTypesAreNotCompilerGenerated
+    Serilog.Tests.Capturing.PropertyValueConverterTests.CompilerGeneratedTypesAreIdentified
+    Serilog.Tests.Capturing.PropertyValueConverterTests.StructureConversionDoesNotThrowOnWcfProxyTypes
+    Serilog.Tests.Capturing.PropertyValueConverterTests.StructureConversionPrefersMostDerivedDefinition
+    Serilog.Tests.Capturing.PropertyValueConverterTests.StructureConversionPrefersMostDerivedOverride
+    Serilog.Tests.Capturing.PropertyValueConverterTests.PrivateGettersAreIgnoredWhenCapturing

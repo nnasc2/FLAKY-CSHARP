@@ -1,0 +1,44 @@
+﻿  Determinando os projetos a serem restaurados...
+  Todos os projetos est├úo atualizados para restaura├º├úo.
+  Polly.Core -> C:\Users\nns\flaky-csharp\repos\Polly\artifacts\bin\Polly.Core\debug_net8.0\Polly.Core.dll
+  Polly.Testing -> C:\Users\nns\flaky-csharp\repos\Polly\artifacts\bin\Polly.Testing\debug_net8.0\Polly.Testing.dll
+  Polly.RateLimiting -> C:\Users\nns\flaky-csharp\repos\Polly\artifacts\bin\Polly.RateLimiting\debug_net8.0\Polly.RateLimiting.dll
+  Polly.TestUtils -> C:\Users\nns\flaky-csharp\repos\Polly\artifacts\bin\Polly.TestUtils\debug_net8.0\Polly.TestUtils.dll
+  Polly.RateLimiting.Tests -> C:\Users\nns\flaky-csharp\repos\Polly\artifacts\bin\Polly.RateLimiting.Tests\debug_net8.0\Polly.RateLimiting.Tests.dll
+Execu├º├úo de teste para C:\Users\nns\flaky-csharp\repos\Polly\artifacts\bin\Polly.RateLimiting.Tests\debug_net8.0\Polly.RateLimiting.Tests.dll (.NETCoreApp,Version=v8.0)
+Os Testes a seguir est├úo dispon├¡veis:
+    Polly.Tests.StrongNameTests.Tests_Are_Strong_Named
+    Polly.Core.Tests.Utils.ExceptionUtilitiesTests.TrySetStackTrace_Ok
+    Polly.Core.Tests.Utils.ExceptionUtilitiesTests.TrySetStackTrace_AlreadySet_NotOverwritten
+    Polly.Core.Tests.Timeout.RateLimiterRejectedExceptionTests.Ctor_Ok
+    Polly.Core.Tests.Timeout.RateLimiterRejectedExceptionTests.Ctor_RetryAfter_Ok
+    Polly.Core.Tests.Timeout.RateLimiterRejectedExceptionTests.Ctor_Message_Ok
+    Polly.Core.Tests.Timeout.RateLimiterRejectedExceptionTests.Ctor_Message_RetryAfter_Ok
+    Polly.Core.Tests.Timeout.RateLimiterRejectedExceptionTests.Ctor_Message_InnerException_Ok
+    Polly.Core.Tests.Timeout.RateLimiterRejectedExceptionTests.Ctor_Message_RetryAfter_InnerException_Ok
+    Polly.RateLimiting.Tests.OnRateLimiterRejectedArgumentsTests.Ctor_Ok
+    Polly.RateLimiting.Tests.RateLimiterConstantsTests.Ctor_EnsureDefaults
+    Polly.RateLimiting.Tests.RateLimiterResiliencePipelineBuilderExtensionsTests.AddRateLimiter_Extensions_Ok
+    Polly.RateLimiting.Tests.RateLimiterResiliencePipelineBuilderExtensionsTests.AddConcurrencyLimiter_InvalidOptions_Throws
+    Polly.RateLimiting.Tests.RateLimiterResiliencePipelineBuilderExtensionsTests.AddRateLimiter_AllExtensions_Ok
+    Polly.RateLimiting.Tests.RateLimiterResiliencePipelineBuilderExtensionsTests.AddRateLimiter_Ok
+    Polly.RateLimiting.Tests.RateLimiterResiliencePipelineBuilderExtensionsTests.AddRateLimiter_InvalidOptions_Throws
+    Polly.RateLimiting.Tests.RateLimiterResiliencePipelineBuilderExtensionsTests.AddGenericRateLimiter_InvalidOptions_Throws
+    Polly.RateLimiting.Tests.RateLimiterResiliencePipelineBuilderExtensionsTests.AddRateLimiter_Options_Ok
+    Polly.RateLimiting.Tests.RateLimiterResiliencePipelineBuilderExtensionsTests.DisposeRegistry_EnsureRateLimiterDisposed
+    Polly.RateLimiting.Tests.RateLimiterResiliencePipelineBuilderExtensionsTests.TypedBuilder_AddConcurrencyLimiter_BuildsRateLimiterStrategy
+    Polly.RateLimiting.Tests.RateLimiterResiliencePipelineBuilderExtensionsTests.AddRateLimiter_WithNullLimiter_Throws
+    Polly.RateLimiting.Tests.RateLimiterResiliencePipelineBuilderExtensionsTests.AddRateLimiter_WithNullOptions_Throws
+    Polly.RateLimiting.Tests.RateLimiterResiliencePipelineBuilderExtensionsTests.AddConcurrencyLimiter_WithNullOptions_Throws
+    Polly.RateLimiting.Tests.RateLimiterResiliencePipelineBuilderExtensionsTests.RegistryDispose_DoesNotDisposeExternalLimiter
+    Polly.RateLimiting.Tests.RateLimiterResilienceStrategyTests.Ctor_Ok
+    Polly.RateLimiting.Tests.RateLimiterResilienceStrategyTests.Execute_HappyPath
+    Polly.RateLimiting.Tests.RateLimiterResilienceStrategyTests.Execute_LeaseRejected(hasEvents: False, hasRetryAfter: True)
+    Polly.RateLimiting.Tests.RateLimiterResilienceStrategyTests.Execute_LeaseRejected(hasEvents: False, hasRetryAfter: False)
+    Polly.RateLimiting.Tests.RateLimiterResilienceStrategyTests.Execute_LeaseRejected(hasEvents: True, hasRetryAfter: True)
+    Polly.RateLimiting.Tests.RateLimiterResilienceStrategyTests.Execute_LeaseRejected(hasEvents: True, hasRetryAfter: False)
+    Polly.RateLimiting.Tests.RateLimiterResilienceStrategyTests.Dispose_DisposableResourcesShouldBeDisposed(isAsync: True)
+    Polly.RateLimiting.Tests.RateLimiterResilienceStrategyTests.Dispose_DisposableResourcesShouldBeDisposed(isAsync: False)
+    Polly.RateLimiting.Tests.RateLimiterResilienceStrategyTests.Dispose_NoDisposableResources_ShouldNotThrow(isAsync: True)
+    Polly.RateLimiting.Tests.RateLimiterResilienceStrategyTests.Dispose_NoDisposableResources_ShouldNotThrow(isAsync: False)
+    Polly.RateLimiting.Tests.RateLimiterStrategyOptionsTests.Ctor_EnsureDefaults

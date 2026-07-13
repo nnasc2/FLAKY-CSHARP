@@ -1,0 +1,35 @@
+﻿  Determinando os projetos a serem restaurados...
+C:\Users\nns\flaky-csharp\repos\AutoMapper.Collection\src\AutoMapper.Collection\AutoMapper.Collection.csproj : warning NU1903: O pacote 'AutoMapper' 15.0.1 tem uma alta vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-rvv3-g6hj-g44x [C:\Users\nns\flaky-csharp\repos\AutoMapper.Collection\src\AutoMapper.Collection.Tests\AutoMapper.Collection.Tests.csproj]
+  Todos os projetos est├úo atualizados para restaura├º├úo.
+C:\Users\nns\flaky-csharp\repos\AutoMapper.Collection\src\AutoMapper.Collection\AutoMapper.Collection.csproj : warning NU1903: O pacote 'AutoMapper' 15.0.1 tem uma alta vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-rvv3-g6hj-g44x [TargetFramework=net8.0]
+  AutoMapper.Collection -> C:\Users\nns\flaky-csharp\repos\AutoMapper.Collection\src\AutoMapper.Collection\bin\Debug\net8.0\AutoMapper.Collection.dll
+  AutoMapper.Collection.Tests -> C:\Users\nns\flaky-csharp\repos\AutoMapper.Collection\src\AutoMapper.Collection.Tests\bin\Debug\net8.0\AutoMapper.Collection.Tests.dll
+Execu├º├úo de teste para C:\Users\nns\flaky-csharp\repos\AutoMapper.Collection\src\AutoMapper.Collection.Tests\bin\Debug\net8.0\AutoMapper.Collection.Tests.dll (.NETCoreApp,Version=v8.0)
+Os Testes a seguir est├úo dispon├¡veis:
+    AutoMapper.Collection.MapCollectionWithEqualityTests.Should_Keep_Existing_List
+    AutoMapper.Collection.MapCollectionWithEqualityTests.Should_Update_Existing_Item
+    AutoMapper.Collection.MapCollectionWithEqualityTests.Should_Be_Fast_With_Large_Lists
+    AutoMapper.Collection.MapCollectionWithEqualityTests.Should_Be_Fast_With_Large_Reversed_Lists
+    AutoMapper.Collection.MapCollectionWithEqualityTests.Should_Be_Fast_With_Large_Lists_MultiProperty_Mapping
+    AutoMapper.Collection.MapCollectionWithEqualityTests.Should_Be_Fast_With_Large_Lists_MultiProperty_Mapping_Cant_Extract
+    AutoMapper.Collection.MapCollectionWithEqualityTests.Should_Be_Fast_With_Large_Lists_Cant_Extract_Negative
+    AutoMapper.Collection.MapCollectionWithEqualityTests.Should_Be_Fast_With_Large_Lists_MultiProperty_Mapping_Cant_Extract_Negative
+    AutoMapper.Collection.MapCollectionWithEqualityTests.Should_Be_Fast_With_Large_Lists_SubObject
+    AutoMapper.Collection.MapCollectionWithEqualityTests.Should_Be_Fast_With_Large_Lists_SubObject_switch_left_and_right_expression
+    AutoMapper.Collection.MapCollectionWithEqualityTests.Should_Work_With_Conditionals
+    AutoMapper.Collection.MapCollectionWithEqualityTests.Should_Work_With_Null_Destination
+    AutoMapper.Collection.MapCollectionWithEqualityTests.Should_Work_With_Comparing_String_Types
+    AutoMapper.Collection.MapCollectionWithEqualityTests.Should_Be_Instanced_Based
+    AutoMapper.Collection.MapCollectionWithEqualityTests.Parent_Should_Be_Same_As_Root_Object
+    AutoMapper.Collection.NullableIdTests.Should_Work_With_Null_Id
+    AutoMapper.Collection.NullableIdTests.Should_Work_With_Multiple_Null_Id
+    AutoMapper.Collection.OptionsTests.Should_Retain_Options_Passed_In_Map
+    AutoMapper.Collection.ValueTypeTests.MapValueTypes
+    AutoMapper.Collection.InheritanceWithCollectionTests+Include.TypeMap_Should_include_base_types
+    AutoMapper.Collection.InheritanceWithCollectionTests+Include.TypeMap_Should_include_derivied_types
+    AutoMapper.Collection.InheritanceWithCollectionTests+Include.Map_Should_ReturnOnlineOrderEf_When_ListIsOfTypeOrderEf
+    AutoMapper.Collection.InheritanceWithCollectionTests+Include.Map_FromEfToDomain_And_AddAnOnlineOrderInTheDomainObject_And_ThenMapBackToEf_Should_UseTheSameReferenceInTheEfCollection
+    AutoMapper.Collection.InheritanceWithCollectionTests+IncludeBase.TypeMap_Should_include_base_types
+    AutoMapper.Collection.InheritanceWithCollectionTests+IncludeBase.TypeMap_Should_include_derivied_types
+    AutoMapper.Collection.InheritanceWithCollectionTests+IncludeBase.Map_Should_ReturnOnlineOrderEf_When_ListIsOfTypeOrderEf
+    AutoMapper.Collection.InheritanceWithCollectionTests+IncludeBase.Map_FromEfToDomain_And_AddAnOnlineOrderInTheDomainObject_And_ThenMapBackToEf_Should_UseTheSameReferenceInTheEfCollection
